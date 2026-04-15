@@ -1,0 +1,415 @@
+<resources>
+    <string name="app_name">EduQuiz</string>
+    <string name="tagline">Learn. Test. Improve.</string>
+    <string name="enter_name">Enter your name</string>
+    <string name="select_grade">Select your grade level</string>
+    <string name="junior">Junior</string>
+    <string name="senior">Senior</string>
+    <string name="save">Save</string>
+    <string name="welcome_back">Welcome back, %1$s!</string>
+    <string name="grade_label">Grade: %1$s</string>
+    <string name="foundation">Foundation</string>
+    <string name="advanced">Advanced</string>
+    <string name="best_score">Best: %1$d</string>
+    <string name="question_counter">Q%1$d of %2$d</string>
+    <string name="score_label">Score: %1$d</string>
+    <string name="time_left">Time: %1$d</string>
+    <string name="correct">Correct!</string>
+    <string name="wrong">Wrong!</string>
+    <string name="results">Results</string>
+    <string name="try_again">Try Again</string>
+    <string name="change_subject">Change Subject</string>
+    <string name="go_home">Go Home</string>
+    <string name="share_result">Share Result</string>
+    <string name="progress">Progress</string>
+    <string name="settings">Settings</string>
+    <string name="edit_name">Edit Name</string>
+    <string name="sound_effects">Sound Effects</string>
+    <string name="show_explanations">Show Explanations</string>
+    <string name="question_count">Questions per Quiz</string>
+    <string name="reset_progress">Reset All Progress</string>
+    <string name="reset_confirm">Are you sure? All progress will be lost.</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="new_best">New Personal Best!</string>
+    <string name="quit_quiz">Are you sure? Your progress will be lost.</string>
+    <string name="completion">Overall Completion: %1$d%%</string>
+    <string name="still_there">Still there? Your session will end in 10 seconds.</string>
+    <string name="low_battery">Low battery detected. Your progress has been saved.</string>
+    <string name="mathematics">Mathematics</string>
+    <string name="science">Science</string>
+    <string name="english">English</string>
+    <string name="history">History</string>
+    <string name="math_desc">Test your maths skills from basic arithmetic to algebra and geometry.</string>
+    <string name="science_desc">Explore science from states of matter to chemical reactions and physics.</string>
+    <string name="english_desc">Practise grammar, vocabulary, comprehension and literary devices.</string>
+    <string name="history_desc">Revisit key historical events, figures, causes and effects.</string>
+
+    <!-- Mathematics Foundation Questions -->
+    <string-array name="math_foundation_questions">
+        <item>What is 12 + 7?</item>
+        <item>What is 25 - 9?</item>
+        <item>What is 6 × 8?</item>
+        <item>What is 48 ÷ 6?</item>
+        <item>What is 1/2 + 1/4?</item>
+        <item>What is 3/4 as a percentage?</item>
+        <item>What is 20% of 80?</item>
+        <item>Round 4.67 to the nearest whole number.</item>
+        <item>What is the value of 2³?</item>
+        <item>What is the LCM of 4 and 6?</item>
+    </string-array>
+    <string-array name="math_foundation_a">
+        <item>19</item><item>16</item><item>48</item><item>8</item><item>3/4</item>
+        <item>75%</item><item>16</item><item>5</item><item>8</item><item>12</item>
+    </string-array>
+    <string-array name="math_foundation_b">
+        <item>18</item><item>14</item><item>42</item><item>6</item><item>2/3</item>
+        <item>70%</item><item>14</item><item>4</item><item>6</item><item>10</item>
+    </string-array>
+    <string-array name="math_foundation_c">
+        <item>21</item><item>17</item><item>56</item><item>9</item><item>1/3</item>
+        <item>80%</item><item>18</item><item>6</item><item>9</item><item>8</item>
+    </string-array>
+    <string-array name="math_foundation_d">
+        <item>17</item><item>15</item><item>40</item><item>7</item><item>1/4</item>
+        <item>65%</item><item>12</item><item>3</item><item>4</item><item>6</item>
+    </string-array>
+    <integer-array name="math_foundation_answers">
+        <item>0</item><item>0</item><item>0</item><item>0</item><item>0</item>
+        <item>0</item><item>0</item><item>0</item><item>0</item><item>0</item>
+    </integer-array>
+    <string-array name="math_foundation_explanations">
+        <item>12 + 7 = 19. Simple addition.</item>
+        <item>25 - 9 = 16. Simple subtraction.</item>
+        <item>6 × 8 = 48. Multiplication table.</item>
+        <item>48 ÷ 6 = 8. Division.</item>
+        <item>1/2 + 1/4 = 2/4 + 1/4 = 3/4. Common denominator.</item>
+        <item>3/4 = 75%. Multiply numerator by 100 divided by denominator.</item>
+        <item>20% of 80 = (20/100) × 80 = 16.</item>
+        <item>4.67 rounds up to 5 since .67 is above .5.</item>
+        <item>2³ = 2 × 2 × 2 = 8.</item>
+        <item>Multiples of 4: 4,8,12. Multiples of 6: 6,12. LCM = 12.</item>
+    </string-array>
+
+    <!-- Mathematics Advanced Questions -->
+    <string-array name="math_advanced_questions">
+        <item>Solve: 2x + 5 = 13</item>
+        <item>What is the area of a circle with radius 7? (use π ≈ 3.14)</item>
+        <item>Factorise: x² + 5x + 6</item>
+        <item>What is the gradient of the line y = 3x - 2?</item>
+        <item>What is the mean of: 4, 7, 9, 12, 8?</item>
+        <item>What is the Pythagorean theorem?</item>
+        <item>Simplify: (3x²)(2x³)</item>
+        <item>What is the median of: 3, 7, 5, 1, 9?</item>
+        <item>What is the interior angle sum of a hexagon?</item>
+        <item>Solve: x² - 9 = 0</item>
+    </string-array>
+    <string-array name="math_advanced_a">
+        <item>x = 4</item><item>153.86</item><item>(x+2)(x+3)</item><item>3</item><item>8</item>
+        <item>a² + b² = c²</item><item>6x⁵</item><item>5</item><item>720°</item><item>x = 3 or x = -3</item>
+    </string-array>
+    <string-array name="math_advanced_b">
+        <item>x = 3</item><item>140.00</item><item>(x+1)(x+6)</item><item>-2</item><item>9</item>
+        <item>a + b = c</item><item>5x⁵</item><item>7</item><item>540°</item><item>x = 9 or x = -9</item>
+    </string-array>
+    <string-array name="math_advanced_c">
+        <item>x = 6</item><item>163.54</item><item>(x+4)(x+2)</item><item>5</item><item>7</item>
+        <item>a² - b² = c²</item><item>6x⁶</item><item>3</item><item>900°</item><item>x = 4 or x = -4</item>
+    </string-array>
+    <string-array name="math_advanced_d">
+        <item>x = 5</item><item>176.00</item><item>(x+3)(x+3)</item><item>-3</item><item>10</item>
+        <item>a³ + b³ = c³</item><item>5x⁶</item><item>9</item><item>1080°</item><item>x = 6 or x = -6</item>
+    </string-array>
+    <integer-array name="math_advanced_answers">
+        <item>0</item><item>0</item><item>0</item><item>0</item><item>0</item>
+        <item>0</item><item>0</item><item>0</item><item>0</item><item>0</item>
+    </integer-array>
+    <string-array name="math_advanced_explanations">
+        <item>2x + 5 = 13 → 2x = 8 → x = 4.</item>
+        <item>Area = π r² = 3.14 × 49 = 153.86.</item>
+        <item>Find two numbers that multiply to 6 and add to 5: 2 and 3. So (x+2)(x+3).</item>
+        <item>In y = mx + b, m is the gradient. Here m = 3.</item>
+        <item>(4+7+9+12+8) / 5 = 40/5 = 8.</item>
+        <item>Pythagorean theorem: a² + b² = c² for right-angled triangles.</item>
+        <item>Multiply coefficients: 3×2=6. Add exponents: 2+3=5. Result: 6x⁵.</item>
+        <item>Sorted: 1,3,5,7,9. Middle value = 5.</item>
+        <item>Interior angle sum = (n-2)×180 = 4×180 = 720°.</item>
+        <item>x² = 9 → x = ±3.</item>
+    </string-array>
+
+    <!-- Science Foundation Questions -->
+    <string-array name="science_foundation_questions">
+        <item>What are the three states of matter?</item>
+        <item>What force pulls objects towards Earth?</item>
+        <item>What is the unit of force?</item>
+        <item>Which gas do plants absorb during photosynthesis?</item>
+        <item>What is the boiling point of water in Celsius?</item>
+        <item>What organelle controls the cell?</item>
+        <item>What is the freezing point of water?</item>
+        <item>What type of energy does a moving object have?</item>
+        <item>Which planet is closest to the Sun?</item>
+        <item>What is the process plants use to make food?</item>
+    </string-array>
+    <string-array name="science_foundation_a">
+        <item>Solid, liquid, gas</item><item>Gravity</item><item>Newton</item><item>Carbon dioxide</item><item>100°C</item>
+        <item>Nucleus</item><item>0°C</item><item>Kinetic energy</item><item>Mercury</item><item>Photosynthesis</item>
+    </string-array>
+    <string-array name="science_foundation_b">
+        <item>Solid, liquid, plasma</item><item>Magnetism</item><item>Joule</item><item>Oxygen</item><item>90°C</item>
+        <item>Mitochondria</item><item>4°C</item><item>Potential energy</item><item>Venus</item><item>Respiration</item>
+    </string-array>
+    <string-array name="science_foundation_c">
+        <item>Solid, gas, plasma</item><item>Friction</item><item>Watt</item><item>Nitrogen</item><item>110°C</item>
+        <item>Cell membrane</item><item>-10°C</item><item>Thermal energy</item><item>Mars</item><item>Digestion</item>
+    </string-array>
+    <string-array name="science_foundation_d">
+        <item>Liquid, gas, plasma</item><item>Tension</item><item>Pascal</item><item>Hydrogen</item><item>80°C</item>
+        <item>Vacuole</item><item>10°C</item><item>Chemical energy</item><item>Jupiter</item><item>Transpiration</item>
+    </string-array>
+    <integer-array name="science_foundation_answers">
+        <item>0</item><item>0</item><item>0</item><item>0</item><item>0</item>
+        <item>0</item><item>0</item><item>0</item><item>0</item><item>0</item>
+    </integer-array>
+    <string-array name="science_foundation_explanations">
+        <item>The three states of matter are solid, liquid, and gas.</item>
+        <item>Gravity is the force that pulls objects toward Earth.</item>
+        <item>Force is measured in Newtons (N).</item>
+        <item>Plants absorb CO₂ (carbon dioxide) during photosynthesis.</item>
+        <item>Water boils at 100°C at standard pressure.</item>
+        <item>The nucleus controls cell activities and contains DNA.</item>
+        <item>Water freezes at 0°C.</item>
+        <item>Moving objects have kinetic energy.</item>
+        <item>Mercury is the closest planet to the Sun.</item>
+        <item>Photosynthesis is the process plants use to make food using sunlight.</item>
+    </string-array>
+
+    <!-- Science Advanced Questions -->
+    <string-array name="science_advanced_questions">
+        <item>What type of reaction is combustion?</item>
+        <item>What is Newton\'s second law of motion?</item>
+        <item>What is the role of decomposers in an ecosystem?</item>
+        <item>What is the chemical formula for water?</item>
+        <item>What is Ohm\'s Law?</item>
+        <item>What happens to particles when a substance is heated?</item>
+        <item>What is a food chain?</item>
+        <item>What is the difference between speed and velocity?</item>
+        <item>What subatomic particle has a negative charge?</item>
+        <item>What is the law of conservation of energy?</item>
+    </string-array>
+    <string-array name="science_advanced_a">
+        <item>Exothermic</item><item>F = ma</item><item>Break down dead matter</item><item>H₂O</item><item>V = IR</item>
+        <item>Move faster and further apart</item><item>A sequence showing feeding relationships</item><item>Velocity has direction</item><item>Electron</item><item>Energy cannot be created or destroyed</item>
+    </string-array>
+    <string-array name="science_advanced_b">
+        <item>Endothermic</item><item>F = mv</item><item>Produce oxygen</item><item>H₂O₂</item><item>V = I/R</item>
+        <item>Slow down and bond together</item><item>A diagram of an ecosystem</item><item>Speed is faster</item><item>Proton</item><item>Energy is always lost as heat</item>
+    </string-array>
+    <string-array name="science_advanced_c">
+        <item>Neutralisation</item><item>F = m/a</item><item>Produce sunlight</item><item>CO₂</item><item>I = VR</item>
+        <item>Stay the same</item><item>A list of all animals</item><item>Speed has direction</item><item>Neutron</item><item>Energy can be created from matter</item>
+    </string-array>
+    <string-array name="science_advanced_d">
+        <item>Oxidation</item><item>F = v/m</item><item>Absorb carbon dioxide</item><item>O₂</item><item>R = VI</item>
+        <item>Vibrate less</item><item>A group of similar organisms</item><item>They are the same</item><item>Nucleus</item><item>Energy equals mass times speed</item>
+    </string-array>
+    <integer-array name="science_advanced_answers">
+        <item>0</item><item>0</item><item>0</item><item>0</item><item>0</item>
+        <item>0</item><item>0</item><item>0</item><item>0</item><item>0</item>
+    </integer-array>
+    <string-array name="science_advanced_explanations">
+        <item>Combustion releases heat energy — it is an exothermic reaction.</item>
+        <item>Newton\'s 2nd law: Force = mass × acceleration (F = ma).</item>
+        <item>Decomposers break down dead organisms returning nutrients to the soil.</item>
+        <item>Water is H₂O — two hydrogen atoms bonded to one oxygen atom.</item>
+        <item>Ohm\'s Law: Voltage = Current × Resistance (V = IR).</item>
+        <item>Heating causes particles to gain energy, move faster and spread apart.</item>
+        <item>A food chain shows the transfer of energy through feeding relationships.</item>
+        <item>Velocity includes direction; speed does not.</item>
+        <item>Electrons are negatively charged subatomic particles.</item>
+        <item>The law of conservation of energy states energy cannot be created or destroyed.</item>
+    </string-array>
+
+    <!-- English Foundation Questions -->
+    <string-array name="english_foundation_questions">
+        <item>Which sentence uses correct punctuation?</item>
+        <item>What is a noun?</item>
+        <item>What does the word "benevolent" mean?</item>
+        <item>Which is the correct spelling?</item>
+        <item>What is an adjective?</item>
+        <item>What punctuation ends a question?</item>
+        <item>Which word is a verb?</item>
+        <item>What is a synonym of "happy"?</item>
+        <item>What is an antonym of "cold"?</item>
+        <item>How many syllables in "elephant"?</item>
+    </string-array>
+    <string-array name="english_foundation_a">
+        <item>She went to the shop.</item><item>A person, place or thing</item><item>Kind and generous</item><item>Receive</item><item>A word that describes a noun</item>
+        <item>\?</item><item>Run</item><item>Joyful</item><item>Hot</item><item>3</item>
+    </string-array>
+    <string-array name="english_foundation_b">
+        <item>She went to the shop</item><item>An action word</item><item>Cruel and mean</item><item>Recieve</item><item>A word that describes a verb</item>
+        <item>.</item><item>Fast</item><item>Sad</item><item>Icy</item><item>2</item>
+    </string-array>
+    <string-array name="english_foundation_c">
+        <item>she went to the shop.</item><item>A describing word</item><item>Very intelligent</item><item>Receve</item><item>A naming word</item>
+        <item>!</item><item>Quickly</item><item>Angry</item><item>Freezing</item><item>4</item>
+    </string-array>
+    <string-array name="english_foundation_d">
+        <item>She went to the shop?</item><item>A connecting word</item><item>Feeling tired</item><item>Receeve</item><item>An action word</item>
+        <item>,</item><item>Blue</item><item>Tired</item><item>Warm</item><item>1</item>
+    </string-array>
+    <integer-array name="english_foundation_answers">
+        <item>0</item><item>0</item><item>0</item><item>0</item><item>0</item>
+        <item>0</item><item>0</item><item>0</item><item>0</item><item>0</item>
+    </integer-array>
+    <string-array name="english_foundation_explanations">
+        <item>A proper sentence starts with a capital and ends with a full stop.</item>
+        <item>A noun is a person, place, or thing.</item>
+        <item>Benevolent means kind and generous.</item>
+        <item>The correct spelling is "receive" — i before e except after c.</item>
+        <item>An adjective is a word that describes a noun.</item>
+        <item>Questions end with a question mark (?).</item>
+        <item>Run is a verb — it describes an action.</item>
+        <item>Joyful is a synonym of happy — it means the same thing.</item>
+        <item>Hot is the antonym (opposite) of cold.</item>
+        <item>El-e-phant has 3 syllables.</item>
+    </string-array>
+
+    <!-- English Advanced Questions -->
+    <string-array name="english_advanced_questions">
+        <item>What is a metaphor?</item>
+        <item>Identify the literary device: "The wind whispered through the trees."</item>
+        <item>What is the main purpose of a thesis statement?</item>
+        <item>What is dramatic irony?</item>
+        <item>What is the effect of short sentences in writing?</item>
+        <item>What is an inference?</item>
+        <item>What does "omniscient narrator" mean?</item>
+        <item>What is alliteration?</item>
+        <item>Which is an example of a simile?</item>
+        <item>What is the purpose of a topic sentence in a paragraph?</item>
+    </string-array>
+    <string-array name="english_advanced_a">
+        <item>A direct comparison without using "like" or "as"</item><item>Personification</item><item>To state the main argument of an essay</item><item>When audience knows more than characters</item><item>Creates urgency and tension</item>
+        <item>A conclusion drawn from evidence</item><item>A narrator who knows all characters\' thoughts</item><item>Repetition of consonant sounds at word starts</item><item>He ran like a cheetah</item><item>Introduces the main idea of the paragraph</item>
+    </string-array>
+    <string-array name="english_advanced_b">
+        <item>A comparison using "like" or "as"</item><item>Metaphor</item><item>To summarise the conclusion</item><item>When a character says the opposite of what they mean</item><item>Makes writing boring</item>
+        <item>A direct quote from the text</item><item>A narrator who is a character in the story</item><item>Repetition of vowel sounds</item><item>She is a shining star</item><item>Ends the paragraph with evidence</item>
+    </string-array>
+    <string-array name="english_advanced_c">
+        <item>A figure of speech using exaggeration</item><item>Simile</item><item>To introduce characters</item><item>When events turn out opposite to expectations</item><item>Makes writing easier to read</item>
+        <item>A guess with no evidence</item><item>A narrator who is unreliable</item><item>Repetition of a word for emphasis</item><item>The night was a dark blanket</item><item>Provides the concluding sentence</item>
+    </string-array>
+    <string-array name="english_advanced_d">
+        <item>A word that sounds like what it describes</item><item>Onomatopoeia</item><item>To hook the reader\'s attention</item><item>When a character lies to another</item><item>Confuses the reader</item>
+        <item>A prediction about the future</item><item>A narrator who hides information</item><item>Use of rhyme in prose</item><item>Time flew by quickly</item><item>Restates the thesis</item>
+    </string-array>
+    <integer-array name="english_advanced_answers">
+        <item>0</item><item>0</item><item>0</item><item>0</item><item>0</item>
+        <item>0</item><item>0</item><item>0</item><item>0</item><item>0</item>
+    </integer-array>
+    <string-array name="english_advanced_explanations">
+        <item>A metaphor directly compares two things without using "like" or "as".</item>
+        <item>Personification gives human qualities to non-human things — wind cannot truly whisper.</item>
+        <item>A thesis statement presents the main argument of an essay.</item>
+        <item>Dramatic irony is when the audience knows something the characters do not.</item>
+        <item>Short sentences create urgency, tension, and impact in writing.</item>
+        <item>An inference is a logical conclusion drawn from evidence in the text.</item>
+        <item>An omniscient narrator knows the thoughts and feelings of all characters.</item>
+        <item>Alliteration is the repetition of the same consonant sound at the start of nearby words.</item>
+        <item>"He ran like a cheetah" uses "like" — that makes it a simile.</item>
+        <item>A topic sentence introduces what the whole paragraph will be about.</item>
+    </string-array>
+
+    <!-- History Foundation Questions -->
+    <string-array name="history_foundation_questions">
+        <item>In which year did World War II end?</item>
+        <item>Who was the first person to walk on the Moon?</item>
+        <item>What was the Berlin Wall?</item>
+        <item>In which year did World War I begin?</item>
+        <item>Who was Martin Luther King Jr.?</item>
+        <item>What does "empire" mean?</item>
+        <item>What was the Titanic?</item>
+        <item>Which country was Adolf Hitler leader of?</item>
+        <item>What was the Cold War?</item>
+        <item>When did the French Revolution begin?</item>
+    </string-array>
+    <string-array name="history_foundation_a">
+        <item>1945</item><item>Neil Armstrong</item><item>A wall dividing East and West Berlin</item><item>1914</item><item>A civil rights leader in the USA</item>
+        <item>A large territory under one ruler</item><item>A famous ship that sank in 1912</item><item>Germany</item><item>A political tension between the USA and USSR</item><item>1789</item>
+    </string-array>
+    <string-array name="history_foundation_b">
+        <item>1940</item><item>Buzz Aldrin</item><item>A wall around all of Germany</item><item>1918</item><item>A US president</item>
+        <item>A trade agreement between countries</item><item>A warship used in WWI</item><item>Italy</item><item>A trade war between two countries</item><item>1799</item>
+    </string-array>
+    <string-array name="history_foundation_c">
+        <item>1942</item><item>Yuri Gagarin</item><item>A wall between France and Germany</item><item>1910</item><item>A famous scientist</item>
+        <item>A type of government</item><item>A navy submarine</item><item>France</item><item>A military alliance</item><item>1750</item>
+    </string-array>
+    <string-array name="history_foundation_d">
+        <item>1950</item><item>John Glenn</item><item>A wall around Moscow</item><item>1920</item><item>A music artist</item>
+        <item>A set of laws</item><item>A space rocket</item><item>Japan</item><item>An economic agreement</item><item>1815</item>
+    </string-array>
+    <integer-array name="history_foundation_answers">
+        <item>0</item><item>0</item><item>0</item><item>0</item><item>0</item>
+        <item>0</item><item>0</item><item>0</item><item>0</item><item>0</item>
+    </integer-array>
+    <string-array name="history_foundation_explanations">
+        <item>World War II ended in 1945 with Germany\'s surrender in May and Japan\'s in September.</item>
+        <item>Neil Armstrong became the first human to walk on the Moon on July 20, 1969.</item>
+        <item>The Berlin Wall was built in 1961 to divide communist East Berlin from West Berlin.</item>
+        <item>World War I began in 1914 following the assassination of Archduke Franz Ferdinand.</item>
+        <item>Martin Luther King Jr. was a leading figure in the American civil rights movement.</item>
+        <item>An empire is a large territory or group of nations ruled by a single power.</item>
+        <item>The Titanic was a British ocean liner that sank on its maiden voyage in April 1912.</item>
+        <item>Adolf Hitler was the dictator of Nazi Germany from 1933 to 1945.</item>
+        <item>The Cold War was a period of geopolitical tension between the USA and the Soviet Union.</item>
+        <item>The French Revolution began in 1789 with the storming of the Bastille.</item>
+    </string-array>
+
+    <!-- History Advanced Questions -->
+    <string-array name="history_advanced_questions">
+        <item>What was the main cause of World War I?</item>
+        <item>What was the significance of the Magna Carta (1215)?</item>
+        <item>Who was Nelson Mandela?</item>
+        <item>What caused the Great Depression?</item>
+        <item>What was the impact of the Industrial Revolution?</item>
+        <item>Which event triggered the start of World War II?</item>
+        <item>What was apartheid?</item>
+        <item>What was the significance of the Treaty of Versailles?</item>
+        <item>Who led the Russian Revolution of 1917?</item>
+        <item>What was the Holocaust?</item>
+    </string-array>
+    <string-array name="history_advanced_a">
+        <item>Assassination of Archduke Franz Ferdinand</item><item>It limited the power of the king</item><item>First Black president of South Africa</item><item>Stock market crash of 1929</item><item>Shift from farming to industry</item>
+        <item>Germany\'s invasion of Poland</item><item>Racial segregation in South Africa</item><item>Ended WWI and punished Germany</item><item>Vladimir Lenin</item><item>Genocide of 6 million Jews by Nazis</item>
+    </string-array>
+    <string-array name="history_advanced_b">
+        <item>Sinking of the Titanic</item><item>It gave all citizens the right to vote</item><item>First Black president of the USA</item><item>A drought across America</item><item>Shift from monarchy to democracy</item>
+        <item>Bombing of Pearl Harbor</item><item>A political party in Germany</item><item>Ended the Cold War</item><item>Joseph Stalin</item><item>A war in eastern Europe</item>
+    </string-array>
+    <string-array name="history_advanced_c">
+        <item>A trade dispute between France and Germany</item><item>It established the right to free speech</item><item>Leader of the ANC in exile</item><item>A world famine</item><item>Rise of communism in Europe</item>
+        <item>Fall of the Berlin Wall</item><item>A form of slavery in the USA</item><item>Created the United Nations</item><item>Leon Trotsky</item><item>A religious conflict in the Middle East</item>
+    </string-array>
+    <string-array name="history_advanced_d">
+        <item>A border dispute between Russia and Austria</item><item>It abolished slavery in Britain</item><item>A South African athlete</item><item>A collapse in international trade</item><item>Growth of global trade routes</item>
+        <item>Declaration of war by France</item><item>A resistance movement in France</item><item>Redistributed land across Europe</item><item>Karl Marx</item><item>A famine across Europe</item>
+    </string-array>
+    <integer-array name="history_advanced_answers">
+        <item>0</item><item>0</item><item>0</item><item>0</item><item>0</item>
+        <item>0</item><item>0</item><item>0</item><item>0</item><item>0</item>
+    </integer-array>
+    <string-array name="history_advanced_explanations">
+        <item>The assassination of Archduke Franz Ferdinand in Sarajevo triggered a chain of alliances leading to WWI.</item>
+        <item>Magna Carta was a landmark document limiting royal power and establishing rule of law.</item>
+        <item>Nelson Mandela was an anti-apartheid activist who became South Africa\'s first Black president in 1994.</item>
+        <item>The 1929 Wall Street Crash led to bank failures, unemployment, and the Great Depression.</item>
+        <item>The Industrial Revolution transformed societies from agricultural to industrial economies.</item>
+        <item>Germany invaded Poland on 1 September 1939, prompting Britain and France to declare war.</item>
+        <item>Apartheid was a system of institutionalised racial segregation in South Africa (1948–1994).</item>
+        <item>The Treaty of Versailles (1919) formally ended WWI and imposed heavy penalties on Germany.</item>
+        <item>Vladimir Lenin led the Bolshevik Revolution that overthrew the Russian Tsar in 1917.</item>
+        <item>The Holocaust was the systematic genocide of approximately 6 million Jewish people by Nazi Germany.</item>
+    </string-array>
+</resources>

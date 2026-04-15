@@ -42,10 +42,7 @@ public class ProgressActivity extends AppCompatActivity {
         int hF = prefs.getInt("best_" + history + "_foundation", 0);
         int hA = prefs.getInt("best_" + history + "_advanced", 0);
 
-        // 80% of 10 questions * 10 points = 80 points for foundation, 15 for advanced
-        // We just check if score > 0 as "completed" since max score varies
-        // The spec says score >= 80% — we track as percentage of questions * max pts
-        // Simple check: best > 0 means attempted, star if score is high
+
         int completed = 0;
         if (mF >= 80) completed++;
         if (mA >= 80) completed++;

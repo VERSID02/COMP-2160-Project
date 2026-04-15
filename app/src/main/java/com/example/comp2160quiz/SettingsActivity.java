@@ -35,7 +35,6 @@ public class SettingsActivity extends AppCompatActivity {
         Button btnSaveSettings = findViewById(R.id.btnSaveSettings);
         Button btnResetAll = findViewById(R.id.btnResetAll);
 
-        // Load current values
         etNameEdit.setText(prefs.getString("player_name", ""));
         String grade = prefs.getString("player_grade", "Junior");
         if (grade.equals("Senior")) rbSeniorEdit.setChecked(true);
@@ -70,8 +69,7 @@ public class SettingsActivity extends AppCompatActivity {
                     .putBoolean("show_explanations", switchExplanations.isChecked())
                     .putInt("question_count", newCount)
                     .apply();
-
-            // Toggle music based on sound setting
+// sound
             if (switchSound.isChecked()) {
                 startService(new Intent(this, BackgroundMusicService.class));
             } else {

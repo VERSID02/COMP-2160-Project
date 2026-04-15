@@ -29,7 +29,7 @@ public class PlayerSetupActivity extends AppCompatActivity {
         rbSenior = findViewById(R.id.rbSenior);
         btnSave = findViewById(R.id.btnSave);
 
-        // Pre-fill if already saved
+
         SharedPreferences prefs = getSharedPreferences("EduQuizPrefs", MODE_PRIVATE);
         String savedName = prefs.getString("player_name", "");
         String savedGrade = prefs.getString("player_grade", "");

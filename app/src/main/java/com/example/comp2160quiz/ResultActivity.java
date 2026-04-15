@@ -40,7 +40,6 @@ public class ResultActivity extends AppCompatActivity {
 
         tvResultTitle.setText(subject + " - " + tier);
 
-        // Count correct
         int numCorrect = (int) IntStream.range(0, correctAnswers.length).filter(i -> playerAnswers[i] == correctAnswers[i]).count();
         int numWrong = total - numCorrect;
         int percentage = (total == 0) ? 0 : (numCorrect * 100 / total);
@@ -61,7 +60,6 @@ public class ResultActivity extends AppCompatActivity {
         else perfMsg = "Keep practising — review the topics you missed.";
         tvPerformanceMsg.setText(perfMsg);
 
-        // Check personal best
         SharedPreferences prefs = getSharedPreferences("EduQuizPrefs", MODE_PRIVATE);
         String key = "best_" + subject + "_" + tier.toLowerCase();
         int currentBest = prefs.getInt(key, 0);
@@ -71,9 +69,8 @@ public class ResultActivity extends AppCompatActivity {
             tvNewBest.setText(getString(R.string.new_best));
         }
 
-        // Setup review RecyclerView
         List<Question> questions = QuestionBank.getQuestions(this, subject, tier);
-        // restore player answers into question objects
+
         for (int i = 0; i < questions.size() && i < playerAnswers.length; i++) {
             questions.get(i).setPlayerAnswerIndex(playerAnswers[i]);
         }
@@ -81,7 +78,6 @@ public class ResultActivity extends AppCompatActivity {
         rvReview.setLayoutManager(new LinearLayoutManager(this));
         rvReview.setAdapter(adapter);
 
-        // Buttons
         btnTryAgain.setOnClickListener(v -> {
             Intent intent = new Intent(this, QuizActivity.class);
             intent.putExtra("subject", subject);

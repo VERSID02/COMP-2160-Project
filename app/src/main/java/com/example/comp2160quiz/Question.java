@@ -14,10 +14,16 @@ public class Question {
         this.explanation = explanation;
     }
 
-    public String getQuestionText() { return questionText; }
-    public String[] getOptions() { return options; }
-    public int getCorrectIndex() { return correctIndex; }
-    public String getExplanation() { return explanation; }
-    public int getPlayerAnswerIndex() { return playerAnswerIndex; }
-    public void setPlayerAnswerIndex(int index) { this.playerAnswerIndex = index; }
+    public String getQuestionText() {
+        return questionText; }
+    public String[] getOptions() {
+        return options; }
+    public int getCorrectIndex() {
+        return correctIndex; }
+    public String getExplanation() {
+        return explanation; }
+    public int getPlayerAnswerIndex() {
+        return playerAnswerIndex; }
+    public void setPlayerAnswerIndex(int index) {
+        this.playerAnswerIndex = index; }
 }

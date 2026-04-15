@@ -36,7 +36,6 @@ public class QuizActivity extends AppCompatActivity {
     int timeLimit;
     int timeLeft;
 
-    // For idle broadcast detection
     Handler idleHandler = new Handler();
     Runnable idleRunnable;
     BroadcastReceiver idleReceiver;
@@ -76,7 +75,7 @@ public class QuizActivity extends AppCompatActivity {
         timeLimit = tier.equals(getString(R.string.foundation)) ? 25 : 15;
 
         questions = QuestionBank.getQuestions(this, subject, tier);
-        // Limit to questionCount
+
         if (questions.size() > questionCount) {
             questions = questions.subList(0, questionCount);
         }
@@ -126,7 +125,7 @@ public class QuizActivity extends AppCompatActivity {
         if (answered) return;
         answered = true;
         stopTimer();
-        resetIdleTimer(); // cancel idle since user answered
+        resetIdleTimer();
 
         Question q = questions.get(currentIndex);
         q.setPlayerAnswerIndex(selected);
@@ -244,7 +243,6 @@ public class QuizActivity extends AppCompatActivity {
         intent.putExtra("score", score);
         intent.putExtra("total", questions.size());
 
-        // pass player answers and correct answers as int arrays
         int[] playerAnswers = new int[questions.size()];
         int[] correctAnswers = new int[questions.size()];
         for (int i = 0; i < questions.size(); i++) {
@@ -257,7 +255,6 @@ public class QuizActivity extends AppCompatActivity {
         finish();
     }
 
-    // Idle detection
     void setupIdleReceiver() {
         idleReceiver = new BroadcastReceiver() {
             @Override
@@ -270,7 +267,7 @@ public class QuizActivity extends AppCompatActivity {
                 }
             }
         };
-        registerReceiver(idleReceiver, new IntentFilter(ACTION_SESSION_IDLE));
+        registerReceiver(idleReceiver, new IntentFilter(ACTION_SESSION_IDLE), Context.RECEIVER_EXPORTED);
         resetIdleTimer();
     }
 
@@ -284,7 +281,6 @@ public class QuizActivity extends AppCompatActivity {
         batteryReceiver = new BroadcastReceiver() {
             @Override
             public void onReceive(Context context, Intent intent) {
-                // Save current progress
                 getSharedPreferences("EduQuizPrefs", MODE_PRIVATE).edit()
                         .putString("last_subject", subject)
                         .apply();
@@ -315,8 +311,8 @@ public class QuizActivity extends AppCompatActivity {
         outState.putInt("score", score);
     }
 
-    @Override
-    public void onBackPressed() {
+
+    public void onBackPressedDispatcher() {
         new AlertDialog.Builder(this)
                 .setMessage(getString(R.string.quit_quiz))
                 .setPositiveButton(getString(R.string.yes), (d, w) -> {

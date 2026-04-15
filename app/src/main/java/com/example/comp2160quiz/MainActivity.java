@@ -63,7 +63,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
-        // Refresh adapter to update best scores when returning
         RecyclerView rvSubjects = findViewById(R.id.rvSubjects);
         if (rvSubjects.getAdapter() != null) {
             rvSubjects.getAdapter().notifyDataSetChanged();

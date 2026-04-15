@@ -38,6 +38,7 @@ public class BackgroundMusicService extends Service {
 
     @Override
     public IBinder onBind(Intent intent) {
+
         return null;
     }
 }

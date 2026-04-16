@@ -91,15 +91,15 @@
 
     <!-- Math Questions for Advanced -->
     <String name="MQA1"> Solve for 𝑥: 3𝑥 - 7 = 2𝑥 + 9 </String>
-    <String name="MQA2"> What is the value of 𝑥 in the equation 𝑥^2 - 9 = 0 </String>
-    <String name="MQA3"> </String>
-    <String name="MQA4"> </String>
-    <String name="MQA5"> </String>
-    <String name="MQA6"> </String>
-    <String name="MQA7"> </String>
-    <String name="MQA8"> </String>
-    <String name="MQA9"> </String>
-    <String name="MQA10"> </String>
+    <String name="MQA2"> What is the value of 𝑥 in the equation 𝑥² - 9 = 0 </String>
+    <String name="MQA3"> Simplify 2(𝑥 + 5) - 3𝑥 </String>
+    <String name="MQA4"> If 𝑓(𝑥) = 2𝑥², what is 𝑓(3)? </String>
+    <String name="MQA5"> What is the area of a triangle with base 10 cm and height 6 cm? </String>
+    <String name="MQA6"> A rectangle has length 12 cm and width 5 cm. What is its perimeter? </String>
+    <String name="MQA7"> What is the sum of the interior angles of a triangle? </String>
+    <String name="MQA8"> A circle has radius 4 cm. What is its area? </String>
+    <String name="MQA9"> Find the mean of the numbers: 4, 8, 10, 14, 14 </String>
+    <String name="MQA10"> Find the median of the numbers: 3, 7, 9, 12, 15 </String>
 
 
 
@@ -118,53 +118,53 @@
     <String name="MCA2_3"> 3 and -3 </String>
     <String name="MCA2_4"> 9 and -9 </String>
 
-    <!-- Math Choice for question 3 Advanced -->
-    <String name="MCA3_1"> </String>
-    <String name="MCA3_2"> </String>
-    <String name="MCA3_3"> </String>
-    <String name="MCA3_4"> </String>
+    <!-- Math Choice for question 3 Advanced, Answer: -𝑥 + 10 -->
+    <String name="MCA3_1"> -𝑥 + 10 </String>
+    <String name="MCA3_2"> 𝑥 + 10 </String>
+    <String name="MCA3_3"> -𝑥 + 5 </String>
+    <String name="MCA3_4"> 5𝑥 + 3 </String>
 
-    <!-- Math Choice for question 4 Advanced -->
-    <String name="MCA4_1"> </String>
-    <String name="MCA4_2"> </String>
-    <String name="MCA4_3"> </String>
-    <String name="MCA4_4"> </String>
+    <!-- Math Choice for question 4 Advanced, Answer: 18 -->
+    <String name="MCA4_1"> 6 </String>
+    <String name="MCA4_2"> 8 </String>
+    <String name="MCA4_3"> 12 </String>
+    <String name="MCA4_4"> 18 </String>
 
-    <!-- Math Choice for question 5 Advanced -->
-    <String name="MCA5_1"> </String>
-    <String name="MCA5_2"> </String>
-    <String name="MCA5_3"> </String>
-    <String name="MCA5_4"> </String>
+    <!-- Math Choice for question 5 Advanced, Answer: 30 cm² -->
+    <String name="MCA5_1"> 30 cm² </String>
+    <String name="MCA5_2"> 40 cm² </String>
+    <String name="MCA5_3"> 20 cm² </String>
+    <String name="MCA5_4"> 60 cm² </String>
 
-    <!-- Math Choice for question 6 Advanced -->
-    <String name="MCA6_1"> </String>
-    <String name="MCA6_2"> </String>
-    <String name="MCA6_3"> </String>
-    <String name="MCA6_4"> </String>
+    <!-- Math Choice for question 6 Advanced, Answer: 34 cm -->
+    <String name="MCA6_1"> 17 cm </String>
+    <String name="MCA6_2"> 34 cm </String>
+    <String name="MCA6_3"> 60 cm </String>
+    <String name="MCA6_4"> 24 cm </String>
 
-    <!-- Math Choice for question 7 Advanced -->
-    <String name="MCA7_1"> </String>
-    <String name="MCA7_2"> </String>
-    <String name="MCA7_3"> </String>
-    <String name="MCA7_4"> </String>
+    <!-- Math Choice for question 7 Advanced, Answer: 180°  -->
+    <String name="MCA7_1"> 270° </String>
+    <String name="MCA7_2"> 360° </String>
+    <String name="MCA7_3"> 90° </String>
+    <String name="MCA7_4"> 180° </String>
 
-    <!-- Math Choice for question 8 Advanced -->
-    <String name="MCA8_1"> </String>
-    <String name="MCA8_2"> </String>
-    <String name="MCA8_3"> </String>
-    <String name="MCA8_4"> </String>
+    <!-- Math Choice for question 8 Advanced, Answer: 16π cm²  -->
+    <String name="MCA8_1"> 16π cm² </String>
+    <String name="MCA8_2"> 24π cm² </String>
+    <String name="MCA8_3"> 8π cm² </String>
+    <String name="MCA8_4"> 12π cm² </String>
 
-    <!-- Math Choice for question 9 Advanced -->
-    <String name="MCA9_1"> </String>
-    <String name="MCA9_2"> </String>
-    <String name="MCA9_3"> </String>
-    <String name="MCA9_4"> </String>
+    <!-- Math Choice for question 9 Advanced, Answer: 10 -->
+    <String name="MCA9_1"> 9 </String>
+    <String name="MCA9_2"> 10 </String>
+    <String name="MCA9_3"> 11 </String>
+    <String name="MCA9_4"> 12 </String>
 
-    <!-- Math Choice for question 10 Advanced -->
-    <String name="MCA10_1"> </String>
-    <String name="MCA10_2"> </String>
-    <String name="MCA10_3"> </String>
-    <String name="MCA10_4"> </String>
+    <!-- Math Choice for question 10 Advanced, Answer: 9 -->
+    <String name="MCA10_1"> 7 </String>
+    <String name="MCA10_2"> 8 </String>
+    <String name="MCA10_3"> 9 </String>
+    <String name="MCA10_4"> 12 </String>
 
     <!--/////////////////////////////////////////////////////////////////////////////////////////// -->
 

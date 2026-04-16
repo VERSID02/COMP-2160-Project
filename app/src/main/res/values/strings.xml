@@ -1,1 +1,657 @@
+<resources>
+    <string name="app_name">Education Quiz Application</string>
 
+    <!-- Header for score -->
+
+    <!-- Use for multiple time show the result each time  -->
+    <String name="userScore"> Your score </String>
+
+
+    <!-- Header of Subjects-->
+    <String name="Math_Header"> Mathematical </String>
+    <String name="Science_Header"> Science </String>
+    <String name="French_Header"> French Language </String>
+    <String name="History_Header"> History </String>
+
+    <!-- Math Questions for Beginner -->
+    <String name="MQB1"> 1) What's 93 + (2 x 20) - 15? </String>
+    <String name="MQB2"> 2) What's 5/2 * 5 + 75? </String>
+    <String name="MQB3"> </String>
+    <String name="MQB4"> </String>
+    <String name="MQB5"> </String>
+    <String name="MQB6"> </String>
+    <String name="MQB7"> </String>
+    <String name="MQB8"> </String>
+    <String name="MQB9"> </String>
+    <String name="MQB10"> </String>
+
+
+    <!-- Math choices for Beginner -->
+
+    <!-- Math Choices for question 1 Beginner -->
+    <String name="MCB1_1"> </String>
+    <String name="MCB1_2"> </String>
+    <String name="MCB1_3"> </String>
+    <String name="MCB1_4"> </String>
+
+    <!-- Math Choices for question 2 Beginner -->
+    <String name="MCB2_1"> </String>
+    <String name="MCB2_2"> </String>
+    <String name="MCB2_3"> </String>
+    <String name="MCB2_4"> </String>
+
+    <!-- Math Choice for question 3 Beginner -->
+    <String name="MCB3_1"> </String>
+    <String name="MCB3_2"> </String>
+    <String name="MCB3_3"> </String>
+    <String name="MCB3_4"> </String>
+
+    <!-- Math Choice for question 4 Beginner -->
+    <String name="MCB4_1"> </String>
+    <String name="MCB4_2"> </String>
+    <String name="MCB4_3"> </String>
+    <String name="MCB4_4"> </String>
+
+    <!-- Math Choice for question 5 Beginner -->
+    <String name="MCB5_1"> </String>
+    <String name="MCB5_2"> </String>
+    <String name="MCB5_3"> </String>
+    <String name="MCB5_4"> </String>
+
+    <!-- Math Choice for question 6 Beginner -->
+    <String name="MCB6_1"> </String>
+    <String name="MCB6_2"> </String>
+    <String name="MCB6_3"> </String>
+    <String name="MCB6_4"> </String>
+
+    <!-- Math Choice for question 7 Beginner -->
+    <String name="MCB7_1"> </String>
+    <String name="MCB7_2"> </String>
+    <String name="MCB7_3"> </String>
+    <String name="MCB7_4"> </String>
+
+    <!-- Math Choice for question 8 Beginner -->
+    <String name="MCB8_1"> </String>
+    <String name="MCB8_2"> </String>
+    <String name="MCB8_3"> </String>
+    <String name="MCB8_4"> </String>
+
+    <!-- Math Choice for question 9 Beginner -->
+    <String name="MCB9_1"> </String>
+    <String name="MCB9_2"> </String>
+    <String name="MCB9_3"> </String>
+    <String name="MCB9_4"> </String>
+
+    <!-- Math Choice for question 10 Beginner -->
+    <String name="MCB10_1"> </String>
+    <String name="MCB10_2"> </String>
+    <String name="MCB10_3"> </String>
+    <String name="MCB10_4"> </String>
+
+
+    <!-- Math Questions for Advanced -->
+    <String name="MQA1"> </String>
+    <String name="MQA2"> </String>
+    <String name="MQA3"> </String>
+    <String name="MQA4"> </String>
+    <String name="MQA5"> </String>
+    <String name="MQA6"> </String>
+    <String name="MQA7"> </String>
+    <String name="MQA8"> </String>
+    <String name="MQA9"> </String>
+    <String name="MQA10"> </String>
+
+
+
+
+    <!-- Math choices for Advanced -->
+
+    <!-- Math Choice for question 1 Advanced -->
+    <String name="MCA1_1"> </String>
+    <String name="MCA1_2"> </String>
+    <String name="MCA1_3"> </String>
+    <String name="MCA1_4"> </String>
+
+    <!-- Math Choice for question 2 Advanced -->
+    <String name="MCA2_1"> </String>
+    <String name="MCA2_2"> </String>
+    <String name="MCA2_3"> </String>
+    <String name="MCA2_4"> </String>
+
+    <!-- Math Choice for question 3 Advanced -->
+    <String name="MCA3_1"> </String>
+    <String name="MCA3_2"> </String>
+    <String name="MCA3_3"> </String>
+    <String name="MCA3_4"> </String>
+
+    <!-- Math Choice for question 4 Advanced -->
+    <String name="MCA4_1"> </String>
+    <String name="MCA4_2"> </String>
+    <String name="MCA4_3"> </String>
+    <String name="MCA4_4"> </String>
+
+    <!-- Math Choice for question 5 Advanced -->
+    <String name="MCA5_1"> </String>
+    <String name="MCA5_2"> </String>
+    <String name="MCA5_3"> </String>
+    <String name="MCA5_4"> </String>
+
+    <!-- Math Choice for question 6 Advanced -->
+    <String name="MCA6_1"> </String>
+    <String name="MCA6_2"> </String>
+    <String name="MCA6_3"> </String>
+    <String name="MCA6_4"> </String>
+
+    <!-- Math Choice for question 7 Advanced -->
+    <String name="MCA7_1"> </String>
+    <String name="MCA7_2"> </String>
+    <String name="MCA7_3"> </String>
+    <String name="MCA7_4"> </String>
+
+    <!-- Math Choice for question 8 Advanced -->
+    <String name="MCA8_1"> </String>
+    <String name="MCA8_2"> </String>
+    <String name="MCA8_3"> </String>
+    <String name="MCA8_4"> </String>
+
+    <!-- Math Choice for question 9 Advanced -->
+    <String name="MCA9_1"> </String>
+    <String name="MCA9_2"> </String>
+    <String name="MCA9_3"> </String>
+    <String name="MCA9_4"> </String>
+
+    <!-- Math Choice for question 10 Advanced -->
+    <String name="MCA10_1"> </String>
+    <String name="MCA10_2"> </String>
+    <String name="MCA10_3"> </String>
+    <String name="MCA10_4"> </String>
+
+    <!--/////////////////////////////////////////////////////////////////////////////////////////// -->
+
+
+
+    <!-- Science Questions for Beginner -->
+    <String name="SQB1"> </String>
+    <String name="SQB2"> </String>
+    <String name="SQB3"> </String>
+    <String name="SQB4"> </String>
+    <String name="SQB5"> </String>
+    <String name="SQB6"> </String>
+    <String name="SQB7"> </String>
+    <String name="SQB8"> </String>
+    <String name="SQB9"> </String>
+    <String name="SQB10"> </String>
+
+
+
+
+    <!-- Science choices for Beginner -->
+
+    <!-- Science Choice for question 1 Beginner -->
+    <String name="SBC1_1"> </String>
+    <String name="SBC1_2"> </String>
+    <String name="SBC1_3"> </String>
+    <String name="SBC1_4"> </String>
+
+    <!-- Science Choice for question 2 Beginner -->
+    <String name="SBC2_1"> </String>
+    <String name="SBC2_2"> </String>
+    <String name="SBC2_3"> </String>
+    <String name="SBC2_4"> </String>
+
+    <!-- Science Choice for question 3 Beginner -->
+    <String name="SBC3_1"> </String>
+    <String name="SBC3_2"> </String>
+    <String name="SBC3_3"> </String>
+    <String name="SBC3_4"> </String>
+
+    <!-- Science Choice for question 4 Beginner -->
+    <String name="SBC4_1"> </String>
+    <String name="SBC4_2"> </String>
+    <String name="SBC4_3"> </String>
+    <String name="SBC4_4"> </String>
+
+    <!-- Science Choice for question 5 Beginner -->
+    <String name="SBC5_1"> </String>
+    <String name="SBC5_2"> </String>
+    <String name="SBC5_3"> </String>
+    <String name="SBC5_4"> </String>
+
+    <!-- Science Choice for question 6 Beginner -->
+    <String name="SBC6_1"> </String>
+    <String name="SBC6_2"> </String>
+    <String name="SBC6_3"> </String>
+    <String name="SBC6_4"> </String>
+
+    <!-- Science Choice for question 7 Beginner -->
+    <String name="SBC7_1"> </String>
+    <String name="SBC7_2"> </String>
+    <String name="SBC7_3"> </String>
+    <String name="SBC7_4"> </String>
+
+    <!-- Science Choice for question 8 Beginner -->
+    <String name="SBC8_1"> </String>
+    <String name="SBC8_2"> </String>
+    <String name="SBC8_3"> </String>
+    <String name="SBC8_4"> </String>
+
+    <!-- Science Choice for question 9 Beginner -->
+    <String name="SBC9_1"> </String>
+    <String name="SBC9_2"> </String>
+    <String name="SBC9_3"> </String>
+    <String name="SBC9_4"> </String>
+
+    <!-- Science Choice for question 10 Beginner -->
+    <String name="SBC10_1"> </String>
+    <String name="SBC10_2"> </String>
+    <String name="SBC10_3"> </String>
+    <String name="SBC10_4"> </String>
+
+
+    <!-- Science Questions for Advanced -->
+    <String name="SQA1"> </String>
+    <String name="SQA2"> </String>
+    <String name="SQA3"> </String>
+    <String name="SQA4"> </String>
+    <String name="SQA5"> </String>
+    <String name="SQA6"> </String>
+    <String name="SQA7"> </String>
+    <String name="SQA8"> </String>
+    <String name="SQA9"> </String>
+    <String name="SQA10"> </String>
+
+
+
+    <!-- Science choices for Advanced -->
+
+    <!-- Science Choice for question 1 Advanced -->
+    <String name="SCA1_1"> </String>
+    <String name="SCA1_2"> </String>
+    <String name="SCA1_3"> </String>
+    <String name="SCA1_4"> </String>
+
+    <!-- Science Choice for question 2 Advanced -->
+    <String name="SCA2_1"> </String>
+    <String name="SCA2_2"> </String>
+    <String name="SCA2_3"> </String>
+    <String name="SCA2_4"> </String>
+
+    <!-- Science Choice for question 3 Advanced -->
+    <String name="SCA3_1"> </String>
+    <String name="SCA3_2"> </String>
+    <String name="SCA3_3"> </String>
+    <String name="SCA3_4"> </String>
+
+    <!-- Science Choice for question 4 Advanced -->
+    <String name="SCA4_1"> </String>
+    <String name="SCA4_2"> </String>
+    <String name="SCA4_3"> </String>
+    <String name="SCA4_4"> </String>
+
+    <!-- Science Choice for question 5 Advanced -->
+    <String name="SCA5_1"> </String>
+    <String name="SCA5_2"> </String>
+    <String name="SCA5_3"> </String>
+    <String name="SCA5_4"> </String>
+
+    <!-- Science Choice for question 6 Advanced -->
+    <String name="SCA6_1"> </String>
+    <String name="SCA6_2"> </String>
+    <String name="SCA6_3"> </String>
+    <String name="SCA6_4"> </String>
+
+    <!-- Science Choice for question 7 Advanced -->
+    <String name="SCA7_1"> </String>
+    <String name="SCA7_2"> </String>
+    <String name="SCA7_3"> </String>
+    <String name="SCA7_4"> </String>
+
+    <!-- Science Choice for question 8 Advanced -->
+    <String name="SCA8_1"> </String>
+    <String name="SCA8_2"> </String>
+    <String name="SCA8_3"> </String>
+    <String name="SCA8_4"> </String>
+
+    <!-- Science Choice for question 9 Advanced -->
+    <String name="SCA9_1"> </String>
+    <String name="SCA9_2"> </String>
+    <String name="SCA9_3"> </String>
+    <String name="SCA9_4"> </String>
+
+    <!-- Science Choice for question 10 Advanced -->
+    <String name="SCA10_1"> </String>
+    <String name="SCA10_2"> </String>
+    <String name="SCA10_3"> </String>
+    <String name="SCA10_4"> </String>
+
+
+
+
+    <!--/////////////////////////////////////////////////////////////////////////////////////////// -->
+
+
+
+    <!-- French Questions for Beginner -->
+    <String name="FQB1"> </String>
+    <String name="FQB2"> </String>
+    <String name="FQB3"> </String>
+    <String name="FQB4"> </String>
+    <String name="FQB5"> </String>
+    <String name="FQB6"> </String>
+    <String name="FQB7"> </String>
+    <String name="FQB8"> </String>
+    <String name="FQB9"> </String>
+    <String name="FQB10"> </String>
+
+
+
+
+    <!-- French choices for Beginner -->
+
+    <!-- French Choice for question 1 Beginner -->
+    <String name="FCB1_1"> </String>
+    <String name="FCB1_2"> </String>
+    <String name="FCB1_3"> </String>
+    <String name="FCB1_4"> </String>
+
+    <!-- French Choice for question 2 Beginner -->
+    <String name="FCB2_1"> </String>
+    <String name="FCB2_2"> </String>
+    <String name="FCB2_3"> </String>
+    <String name="FCB2_4"> </String>
+
+    <!-- French Choice for question 3 Beginner -->
+    <String name="FCB3_1"> </String>
+    <String name="FCB3_2"> </String>
+    <String name="FCB3_3"> </String>
+    <String name="FCB3_4"> </String>
+
+    <!-- French Choice for question 4 Beginner -->
+    <String name="FCB4_1"> </String>
+    <String name="FCB4_2"> </String>
+    <String name="FCB4_3"> </String>
+    <String name="FCB4_4"> </String>
+
+    <!-- French Choice for question 5 Beginner -->
+    <String name="FCB5_1"> </String>
+    <String name="FCB5_2"> </String>
+    <String name="FCB5_3"> </String>
+    <String name="FCB5_4"> </String>
+
+    <!-- French Choice for question 6 Beginner -->
+    <String name="FCB6_1"> </String>
+    <String name="FCB6_2"> </String>
+    <String name="FCB6_3"> </String>
+    <String name="FCB6_4"> </String>
+
+    <!-- French Choice for question 7 Beginner -->
+    <String name="FCB7_1"> </String>
+    <String name="FCB7_2"> </String>
+    <String name="FCB7_3"> </String>
+    <String name="FCB7_4"> </String>
+
+    <!-- French Choice for question 8 Beginner -->
+    <String name="FCB8_1"> </String>
+    <String name="FCB8_2"> </String>
+    <String name="FCB8_3"> </String>
+    <String name="FCB8_4"> </String>
+
+    <!-- French Choice for question 9 Beginner -->
+    <String name="FCB9_1"> </String>
+    <String name="FCB9_2"> </String>
+    <String name="FCB9_3"> </String>
+    <String name="FCB9_4"> </String>
+
+    <!-- French Choice for question 10 Beginner -->
+    <String name="FCB10_1"> </String>
+    <String name="FCB10_2"> </String>
+    <String name="FCB10_3"> </String>
+    <String name="FCB10_4"> </String>
+
+
+
+
+    <!-- French Questions for Advanced -->
+    <String name="FQA1"> </String>
+    <String name="FQA2"> </String>
+    <String name="FQA3"> </String>
+    <String name="FQA4"> </String>
+    <String name="FQA5"> </String>
+    <String name="FQA6"> </String>
+    <String name="FQA7"> </String>
+    <String name="FQA8"> </String>
+    <String name="FQA9"> </String>
+    <String name="FQA10"> </String>
+
+
+
+
+
+
+    <!-- French choices for Advanced -->
+
+    <!-- French Choice for question 1 Advanced -->
+    <String name="FCA1_1"> </String>
+    <String name="FCA1_2"> </String>
+    <String name="FCA1_3"> </String>
+    <String name="FCA1_4"> </String>
+
+    <!-- French Choice for question 2 Advanced -->
+    <String name="FCA2_1"> </String>
+    <String name="FCA2_2"> </String>
+    <String name="FCA2_3"> </String>
+    <String name="FCA2_4"> </String>
+
+    <!-- French Choice for question 3 Advanced -->
+    <String name="FCA3_1"> </String>
+    <String name="FCA3_2"> </String>
+    <String name="FCA3_3"> </String>
+    <String name="FCA3_4"> </String>
+
+    <!-- French Choice for question 4 Advanced -->
+    <String name="FCA4_1"> </String>
+    <String name="FCA4_2"> </String>
+    <String name="FCA4_3"> </String>
+    <String name="FCA4_4"> </String>
+
+    <!-- French Choice for question 5 Advanced -->
+    <String name="FCA5_1"> </String>
+    <String name="FCA5_2"> </String>
+    <String name="FCA5_3"> </String>
+    <String name="FCA5_4"> </String>
+
+    <!-- French Choice for question 6 Advanced -->
+    <String name="FCA6_1"> </String>
+    <String name="FCA6_2"> </String>
+    <String name="FCA6_3"> </String>
+    <String name="FCA6_4"> </String>
+
+    <!-- French Choice for question 7 Advanced -->
+    <String name="FCA7_1"> </String>
+    <String name="FCA7_2"> </String>
+    <String name="FCA7_3"> </String>
+    <String name="FCA7_4"> </String>
+
+    <!-- French Choice for question 8 Advanced -->
+    <String name="FCA8_1"> </String>
+    <String name="FCA8_2"> </String>
+    <String name="FCA8_3"> </String>
+    <String name="FCA8_4"> </String>
+
+    <!-- French Choice for question 9 Advanced -->
+    <String name="FCA9_1"> </String>
+    <String name="FCA9_2"> </String>
+    <String name="FCA9_3"> </String>
+    <String name="FCA9_4"> </String>
+
+    <!-- French Choice for question 10 Advanced -->
+    <String name="FCA10_1"> </String>
+    <String name="FCA10_2"> </String>
+    <String name="FCA10_3"> </String>
+    <String name="FCA10_4"> </String>
+
+
+
+
+    <!--/////////////////////////////////////////////////////////////////////////////////////////// -->
+
+
+
+    <!-- History Questions for Beginner -->
+    <String name="HQB1"> </String>
+    <String name="HQB2"> </String>
+    <String name="HQB3"> </String>
+    <String name="HQB4"> </String>
+    <String name="HQB5"> </String>
+    <String name="HQB6"> </String>
+    <String name="HQB7"> </String>
+    <String name="HQB8"> </String>
+    <String name="HQB9"> </String>
+    <String name="HQB10"> </String>
+
+
+
+    <!-- History choices for Beginner -->
+
+    <!-- History Choice for question 1 Beginner -->
+    <String name="HCB1_1"> </String>
+    <String name="HCB1_2"> </String>
+    <String name="HCB1_3"> </String>
+    <String name="HCB1_4"> </String>
+
+    <!-- History Choice for question 2 Beginner -->
+    <String name="HCB2_1"> </String>
+    <String name="HCB2_2"> </String>
+    <String name="HCB2_3"> </String>
+    <String name="HCB2_4"> </String>
+
+    <!-- History Choice for question 3 Beginner -->
+    <String name="HCB3_1"> </String>
+    <String name="HCB3_2"> </String>
+    <String name="HCB3_3"> </String>
+    <String name="HCB3_4"> </String>
+
+    <!-- History Choice for question 4 Beginner -->
+    <String name="HCB4_1"> </String>
+    <String name="HCB4_2"> </String>
+    <String name="HCB4_3"> </String>
+    <String name="HCB4_4"> </String>
+
+    <!-- History Choice for question 5 Beginner -->
+    <String name="HCB5_1"> </String>
+    <String name="HCB5_2"> </String>
+    <String name="HCB5_3"> </String>
+    <String name="HCB5_4"> </String>
+
+    <!-- History Choice for question 6 Beginner -->
+    <String name="HCB6_1"> </String>
+    <String name="HCB6_2"> </String>
+    <String name="HCB6_3"> </String>
+    <String name="HCB6_4"> </String>
+
+    <!-- History Choice for question 7 Beginner -->
+    <String name="HCB7_1"> </String>
+    <String name="HCB7_2"> </String>
+    <String name="HCB7_3"> </String>
+    <String name="HCB7_4"> </String>
+
+    <!-- History Choice for question 8 Beginner -->
+    <String name="HCB8_1"> </String>
+    <String name="HCB8_2"> </String>
+    <String name="HCB8_3"> </String>
+    <String name="HCB8_4"> </String>
+
+    <!-- History Choice for question 9 Beginner -->
+    <String name="HCB9_1"> </String>
+    <String name="HCB9_2"> </String>
+    <String name="HCB9_3"> </String>
+    <String name="HCB9_4"> </String>
+
+    <!-- History Choice for question 10 Beginner -->
+    <String name="HCB10_1"> </String>
+    <String name="HCB10_2"> </String>
+    <String name="HCB10_3"> </String>
+    <String name="HCB10_4"> </String>
+
+
+    <!-- History Questions for Advanced -->
+    <String name="HQA1"> </String>
+    <String name="HQA2"> </String>
+    <String name="HQA3"> </String>
+    <String name="HQA4"> </String>
+    <String name="HQA5"> </String>
+    <String name="HQA6"> </String>
+    <String name="HQA7"> </String>
+    <String name="HQA8"> </String>
+    <String name="HQA9"> </String>
+    <String name="HQA10"> </String>
+
+
+
+
+
+    <!-- History choices for Advanced -->
+
+    <!-- History Choice for question 1 Advanced -->
+    <String name="HCA1_1"> </String>
+    <String name="HCA1_2"> </String>
+    <String name="HCA1_3"> </String>
+    <String name="HCA1_4"> </String>
+
+    <!-- History Choice for question 2 Advanced -->
+    <String name="HCA2_1"> </String>
+    <String name="HCA2_2"> </String>
+    <String name="HCA2_3"> </String>
+    <String name="HCA2_4"> </String>
+
+    <!-- History Choice for question 3 Advanced -->
+    <String name="HCA3_1"> </String>
+    <String name="HCA3_2"> </String>
+    <String name="HCA3_3"> </String>
+    <String name="HCA3_4"> </String>
+
+    <!-- History Choice for question 4 Advanced -->
+    <String name="HCA4_1"> </String>
+    <String name="HCA4_2"> </String>
+    <String name="HCA4_3"> </String>
+    <String name="HCA4_4"> </String>
+
+    <!-- History Choice for question 5 Advanced -->
+    <String name="HCA5_1"> </String>
+    <String name="HCA5_2"> </String>
+    <String name="HCA5_3"> </String>
+    <String name="HCA5_4"> </String>
+
+    <!-- History Choice for question 6 Advanced -->
+    <String name="HCA6_1"> </String>
+    <String name="HCA6_2"> </String>
+    <String name="HCA6_3"> </String>
+    <String name="HCA6_4"> </String>
+
+    <!-- History Choice for question 7 Advanced -->
+    <String name="HCA7_1"> </String>
+    <String name="HCA7_2"> </String>
+    <String name="HCA7_3"> </String>
+    <String name="HCA7_4"> </String>
+
+    <!-- History Choice for question 8 Advanced -->
+    <String name="HCA8_1"> </String>
+    <String name="HCA8_2"> </String>
+    <String name="HCA8_3"> </String>
+    <String name="HCA8_4"> </String>
+
+    <!-- History Choice for question 9 Advanced -->
+    <String name="HCA9_1"> </String>
+    <String name="HCA9_2"> </String>
+    <String name="HCA9_3"> </String>
+    <String name="HCA9_4"> </String>
+
+    <!-- History Choice for question 10 Advanced -->
+    <String name="HCA10_1"> </String>
+    <String name="HCA10_2"> </String>
+    <String name="HCA10_3"> </String>
+    <String name="HCA10_4"> </String>
+    <!--/////////////////////////////////////////////////////////////////////////////////////////// -->
+
+
+</resources>

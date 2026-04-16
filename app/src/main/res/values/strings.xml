@@ -15,7 +15,7 @@
 
     <!-- Math Questions for Beginner -->
     <String name="MQB1"> 1) What's 93 + (2 x 20) - 15? </String>
-    <String name="MQB2"> 2) What's 5/2 * 5 + 75? </String>
+    <String name="MQB2"> 2) What's 5/2 x 5 + 75? </String>
     <String name="MQB3"> </String>
     <String name="MQB4"> </String>
     <String name="MQB5"> </String>
@@ -171,16 +171,16 @@
 
 
     <!-- Science Questions for Beginner -->
-    <String name="SQB1"> </String>
-    <String name="SQB2"> </String>
-    <String name="SQB3"> </String>
-    <String name="SQB4"> </String>
-    <String name="SQB5"> </String>
-    <String name="SQB6"> </String>
-    <String name="SQB7"> </String>
-    <String name="SQB8"> </String>
-    <String name="SQB9"> </String>
-    <String name="SQB10"> </String>
+    <String name="SQB1"> Which organ pumps blood through the human body? </String>
+    <String name="SQB2"> What is the chemical formula of water? </String>
+    <String name="SQB3"> Why does a metal spoon feel hotter than a wooden spoon in hot soup? </String>
+    <String name="SQB4"> What is the main job of chlorophyll in plants? </String>
+    <String name="SQB5"> Why does lemon juice taste sour? </String>
+    <String name="SQB6"> Which pH value is considered neutral? </String>
+    <String name="SQB7"> Which material is a good conductor of electricity? </String>
+    <String name="SQB8"> Which layer of the atmosphere protects Earth from most harmful ultraviolet (UV) radiation? </String>
+    <String name="SQB9"> What is the main function of the lungs? </String>
+    <String name="SQB10"> Why does salt help preserve food? </String>
 
 
 
@@ -188,141 +188,141 @@
     <!-- Science choices for Beginner -->
 
     <!-- Science Choice for question 1 Beginner -->
-    <String name="SBC1_1"> </String>
-    <String name="SBC1_2"> </String>
-    <String name="SBC1_3"> </String>
-    <String name="SBC1_4"> </String>
+    <String name="SBC1_1"> Lungs </String>
+    <String name="SBC1_2"> Brain </String>
+    <String name="SBC1_3"> Heart </String>
+    <String name="SBC1_4"> Liver </String>
 
     <!-- Science Choice for question 2 Beginner -->
-    <String name="SBC2_1"> </String>
-    <String name="SBC2_2"> </String>
-    <String name="SBC2_3"> </String>
-    <String name="SBC2_4"> </String>
+    <String name="SBC2_1"> CO2 </String>
+    <String name="SBC2_2"> H2O </String>
+    <String name="SBC2_3"> O2 </String>
+    <String name="SBC2_4"> NaCI </String>
 
     <!-- Science Choice for question 3 Beginner -->
-    <String name="SBC3_1"> </String>
-    <String name="SBC3_2"> </String>
-    <String name="SBC3_3"> </String>
-    <String name="SBC3_4"> </String>
+    <String name="SBC3_1"> Metal is heavier than wood </String>
+    <String name="SBC3_2"> Wood makes the soup colder </String>
+    <String name="SBC3_3"> Metal is a better conductor of heat than wood </String>
+    <String name="SBC3_4"> Metal has no temperature </String>
 
     <!-- Science Choice for question 4 Beginner -->
-    <String name="SBC4_1"> </String>
-    <String name="SBC4_2"> </String>
-    <String name="SBC4_3"> </String>
-    <String name="SBC4_4"> </String>
+    <String name="SBC4_1"> To absorb light energy </String>
+    <String name="SBC4_2"> To absorb soil </String>
+    <String name="SBC4_3"> To make roots longer </String>
+    <String name="SBC4_4"> To store only water </String>
 
     <!-- Science Choice for question 5 Beginner -->
-    <String name="SBC5_1"> </String>
-    <String name="SBC5_2"> </String>
-    <String name="SBC5_3"> </String>
-    <String name="SBC5_4"> </String>
+    <String name="SBC5_1"> It contains oxygen only </String>
+    <String name="SBC5_2"> It contains metal </String>
+    <String name="SBC5_3"> It contains acid </String>
+    <String name="SBC5_4"> It contains protein </String>
 
     <!-- Science Choice for question 6 Beginner -->
-    <String name="SBC6_1"> </String>
-    <String name="SBC6_2"> </String>
-    <String name="SBC6_3"> </String>
-    <String name="SBC6_4"> </String>
+    <String name="SBC6_1"> 0 </String>
+    <String name="SBC6_2"> 7 </String>
+    <String name="SBC6_3"> 10 </String>
+    <String name="SBC6_4"> 14 </String>
 
     <!-- Science Choice for question 7 Beginner -->
-    <String name="SBC7_1"> </String>
-    <String name="SBC7_2"> </String>
-    <String name="SBC7_3"> </String>
-    <String name="SBC7_4"> </String>
+    <String name="SBC7_1"> Plastic </String>
+    <String name="SBC7_2"> Rubber </String>
+    <String name="SBC7_3"> Wood </String>
+    <String name="SBC7_4"> Copper </String>
 
     <!-- Science Choice for question 8 Beginner -->
-    <String name="SBC8_1"> </String>
-    <String name="SBC8_2"> </String>
-    <String name="SBC8_3"> </String>
-    <String name="SBC8_4"> </String>
+    <String name="SBC8_1"> Ozone layer </String>
+    <String name="SBC8_2"> Troposphere </String>
+    <String name="SBC8_3"> Core </String>
+    <String name="SBC8_4"> Mantle </String>
 
     <!-- Science Choice for question 9 Beginner -->
-    <String name="SBC9_1"> </String>
-    <String name="SBC9_2"> </String>
-    <String name="SBC9_3"> </String>
-    <String name="SBC9_4"> </String>
+    <String name="SBC9_1"> To digest food </String>
+    <String name="SBC9_2"> To pump blood </String>
+    <String name="SBC9_3"> To exchange oxygen and carbon dioxide </String>
+    <String name="SBC9_4"> To control body movement </String>
 
     <!-- Science Choice for question 10 Beginner -->
-    <String name="SBC10_1"> </String>
-    <String name="SBC10_2"> </String>
-    <String name="SBC10_3"> </String>
-    <String name="SBC10_4"> </String>
+    <String name="SBC10_1"> It adds more oxygen </String>
+    <String name="SBC10_2"> It removes water that many microbes need to grow </String>
+    <String name="SBC10_3"> It makes food colder </String>
+    <String name="SBC10_4"> It turns food into protein </String>
 
 
     <!-- Science Questions for Advanced -->
-    <String name="SQA1"> </String>
-    <String name="SQA2"> </String>
-    <String name="SQA3"> </String>
-    <String name="SQA4"> </String>
-    <String name="SQA5"> </String>
-    <String name="SQA6"> </String>
-    <String name="SQA7"> </String>
-    <String name="SQA8"> </String>
-    <String name="SQA9"> </String>
-    <String name="SQA10"> </String>
+    <String name="SQA1"> Why can antibiotics kill bacteria but not viruses? </String>
+    <String name="SQA2"> Why does increasing temperature usually speed up a chemical reaction? </String>
+    <String name="SQA3"> Why is black clothing usually hotter than white clothing in sunlight? </String>
+    <String name="SQA4"> During heavy exercise, why does the breathing rate increase? </String>
+    <String name="SQA5"> Why does soap clean oily surfaces better than water alone? </String>
+    <String name="SQA6"> Why can coastal areas have milder temperatures than inland areas? </String>
+    <String name="SQA7"> Why does a pressure cooker cook food faster? </String>
+    <String name="SQA8"> Why can dehydration reduce physical and mental performance? </String>
+    <String name="SQA9"> Why should bleach never be mixed with ammonia-based cleaners? </String>
+    <String name="SQA10"> Why are airbags used together with seatbelts instead of alone? </String>
 
 
 
     <!-- Science choices for Advanced -->
 
     <!-- Science Choice for question 1 Advanced -->
-    <String name="SCA1_1"> </String>
-    <String name="SCA1_2"> </String>
-    <String name="SCA1_3"> </String>
-    <String name="SCA1_4"> </String>
+    <String name="SCA1_1"> Viruses are larger than bacteria </String>
+    <String name="SCA1_2"> Viruses do not have the cellular structures that antibiotics target </String>
+    <String name="SCA1_3"> Antibiotics only work in cold temperatures </String>
+    <String name="SCA1_4"> Bacteria are not living things </String>
 
     <!-- Science Choice for question 2 Advanced -->
-    <String name="SCA2_1"> </String>
-    <String name="SCA2_2"> </String>
-    <String name="SCA2_3"> </String>
-    <String name="SCA2_4"> </String>
+    <String name="SCA2_1"> Molecules move faster and collide more often with enough energy </String>
+    <String name="SCA2_2"> Heat turns all reactants into catalysts </String>
+    <String name="SCA2_3"> Temperature removes the activation energy completely </String>
+    <String name="SCA2_4"> Molecules stop moving in hot conditions </String>
 
     <!-- Science Choice for question 3 Advanced -->
-    <String name="SCA3_1"> </String>
-    <String name="SCA3_2"> </String>
-    <String name="SCA3_3"> </String>
-    <String name="SCA3_4"> </String>
+    <String name="SCA3_1"> Black clothing creates heat by itself </String>
+    <String name="SCA3_2"> Black surfaces absorb more electromagnetic radiation </String>
+    <String name="SCA3_3"> White clothing has a higher mass </String>
+    <String name="SCA3_4"> White surfaces reflect sound waves </String>
 
     <!-- Science Choice for question 4 Advanced -->
-    <String name="SCA4_1"> </String>
-    <String name="SCA4_2"> </String>
-    <String name="SCA4_3"> </String>
-    <String name="SCA4_4"> </String>
+    <String name="SCA4_1"> To cool the bones </String>
+    <String name="SCA4_2"> To deliver more oxygen and remove more carbon dioxide </String>
+    <String name="SCA4_3"> To slow down the heartbeat </String>
+    <String name="SCA4_4"> To stop muscle contraction </String>
 
     <!-- Science Choice for question 5 Advanced -->
-    <String name="SCA5_1"> </String>
-    <String name="SCA5_2"> </String>
-    <String name="SCA5_3"> </String>
-    <String name="SCA5_4"> </String>
+    <String name="SCA5_1"> Soap increases the temperature of the oil </String>
+    <String name="SCA5_2"> Soap molecules have both hydrophilic and hydrophobic ends </String>
+    <String name="SCA5_3"> Soap destroys all bacteria instantly </String>
+    <String name="SCA5_4"> Soap changes oil into salt </String>
 
     <!-- Science Choice for question 6 Advanced -->
-    <String name="SCA6_1"> </String>
-    <String name="SCA6_2"> </String>
-    <String name="SCA6_3"> </String>
-    <String name="SCA6_4"> </String>
+    <String name="SCA6_1"> The Moon protects coastal cities  </String>
+    <String name="SCA6_2"> Land reflects more sunlight than water </String>
+    <String name="SCA6_3"> Wind does not move near oceans </String>
+    <String name="SCA6_4"> Ocean water heats and cools more slowly than land </String>
 
     <!-- Science Choice for question 7 Advanced -->
-    <String name="SCA7_1"> </String>
-    <String name="SCA7_2"> </String>
-    <String name="SCA7_3"> </String>
-    <String name="SCA7_4"> </String>
+    <String name="SCA7_1"> It lowers the boiling point of water </String>
+    <String name="SCA7_2"> It raises the boiling point of water by increasing pressure </String>
+    <String name="SCA7_3"> It removes all heat loss completely </String>
+    <String name="SCA7_4"> It changes water into a different liquid </String>
 
     <!-- Science Choice for question 8 Advanced -->
-    <String name="SCA8_1"> </String>
-    <String name="SCA8_2"> </String>
-    <String name="SCA8_3"> </String>
-    <String name="SCA8_4"> </String>
+    <String name="SCA8_1"> It increases muscle mass too quickly </String>
+    <String name="SCA8_2"> It reduces the body’s ability to regulate temperature and transport nutrients </String>
+    <String name="SCA8_3"> It makes the body produce more oxygen </String>
+    <String name="SCA8_4"> It permanently stops digestion </String>
 
     <!-- Science Choice for question 9 Advanced -->
-    <String name="SCA9_1"> </String>
-    <String name="SCA9_2"> </String>
-    <String name="SCA9_3"> </String>
-    <String name="SCA9_4"> </String>
+    <String name="SCA9_1"> The mixture freezes quickly </String>
+    <String name="SCA9_2"> The chemicals become useless immediately </String>
+    <String name="SCA9_3"> The reaction can produce toxic chloramine gases </String>
+    <String name="SCA9_4"> The mixture only changes color </String>
 
     <!-- Science Choice for question 10 Advanced -->
-    <String name="SCA10_1"> </String>
-    <String name="SCA10_2"> </String>
-    <String name="SCA10_3"> </String>
-    <String name="SCA10_4"> </String>
+    <String name="SCA10_1"> Airbags replace the need for any restraint </String>
+    <String name="SCA10_2"> Seatbelts reduce motion first, and airbags spread force over a larger area </String>
+    <String name="SCA10_3"> Airbags make the car lighter </String>
+    <String name="SCA10_4"> Seatbelts increase the speed of impact </String>
 
 
 
@@ -396,7 +396,7 @@
     <String name="FCB8_3"> </String>
     <String name="FCB8_4"> </String>
 
-    <!-- French Choice for question 9 Beginner -->
+    <!-- French Choice for question  Beginner -->
     <String name="FCB9_1"> </String>
     <String name="FCB9_2"> </String>
     <String name="FCB9_3"> </String>
@@ -422,9 +422,6 @@
     <String name="FQA8"> </String>
     <String name="FQA9"> </String>
     <String name="FQA10"> </String>
-
-
-
 
 
 

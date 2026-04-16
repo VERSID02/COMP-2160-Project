@@ -14,9 +14,9 @@
     <String name="History_Header"> History </String>
 
     <!-- Math Questions for Beginner -->
-    <String name="MQB1"> 1) What's 93 + (2 x 20) - 15? </String>
-    <String name="MQB2"> 2) What's 5/2 x 5 + 75? </String>
-    <String name="MQB3"> </String>
+    <String name="MQB1"> What's 93 + (2 x 20) - 15? </String>
+    <String name="MQB2"> What's 5/2 x 5 + 75? </String>
+    <String name="MQB3"> What is the value of x in: x + 7 = 12 </String>
     <String name="MQB4"> </String>
     <String name="MQB5"> </String>
     <String name="MQB6"> </String>
@@ -41,10 +41,10 @@
     <String name="MCB2_4"> </String>
 
     <!-- Math Choice for question 3 Beginner -->
-    <String name="MCB3_1"> </String>
-    <String name="MCB3_2"> </String>
-    <String name="MCB3_3"> </String>
-    <String name="MCB3_4"> </String>
+    <String name="MCB3_1"> 3 </String>
+    <String name="MCB3_2"> 4 </String>
+    <String name="MCB3_3"> 5 </String>
+    <String name="MCB3_4"> 6 </String>
 
     <!-- Math Choice for question 4 Beginner -->
     <String name="MCB4_1"> </String>

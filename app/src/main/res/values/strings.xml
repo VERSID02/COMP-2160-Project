@@ -495,93 +495,93 @@
 
 
     <!-- History Questions for Beginner -->
-    <String name="HQB1"> </String>
-    <String name="HQB2"> </String>
-    <String name="HQB3"> </String>
-    <String name="HQB4"> </String>
-    <String name="HQB5"> </String>
-    <String name="HQB6"> </String>
-    <String name="HQB7"> </String>
-    <String name="HQB8"> </String>
-    <String name="HQB9"> </String>
-    <String name="HQB10"> </String>
+    <String name="HQB1"> In what year did Canada become a country through Confederation? </String>
+    <String name="HQB2"> Which ancient civilization built the pyramids? </String>
+    <String name="HQB3"> Which province joined Confederation first with Ontario, Quebec, and Nova Scotia? </String>
+    <String name="HQB4"> Who was the leader of Germany during World War II? </String>
+    <String name="HQB5"> Which two groups were the main European settlers in early Canada </String>
+    <String name="HQB6"> Which wall divided a city in Germany during the Cold War? </String>
+    <String name="HQB7"> What war was fought between Britain and the United States partly on Canadian land from 1812 to 1814? </String>
+    <String name="HQB8"> What was the name of the event in Europe where people overthrew the monarchy in 1789? </String>
+    <String name="HQB9"> Who was the first Prime Minister of Canada? </String>
+    <String name="HQB10"> What was the global conflict from 1914 to 1918 called? </String>
 
 
 
     <!-- History choices for Beginner -->
 
-    <!-- History Choice for question 1 Beginner -->
-    <String name="HCB1_1"> </String>
-    <String name="HCB1_2"> </String>
-    <String name="HCB1_3"> </String>
-    <String name="HCB1_4"> </String>
+    <!-- History Choice for question 1 Beginner, Answer: 1867 -->
+    <String name="HCB1_1"> 1776 </String>
+    <String name="HCB1_2"> 1867 </String>
+    <String name="HCB1_3"> 1914 </String>
+    <String name="HCB1_4"> 1982 </String>
 
-    <!-- History Choice for question 2 Beginner -->
-    <String name="HCB2_1"> </String>
-    <String name="HCB2_2"> </String>
-    <String name="HCB2_3"> </String>
-    <String name="HCB2_4"> </String>
+    <!-- History Choice for question 2 Beginner, Answer: Egyptians -->
+    <String name="HCB2_1"> Romans </String>
+    <String name="HCB2_2"> Chinese  </String>
+    <String name="HCB2_3"> Egyptians </String>
+    <String name="HCB2_4"> Greeks </String>
 
-    <!-- History Choice for question 3 Beginner -->
-    <String name="HCB3_1"> </String>
-    <String name="HCB3_2"> </String>
-    <String name="HCB3_3"> </String>
-    <String name="HCB3_4"> </String>
+    <!-- History Choice for question 3 Beginner, Answer: New Brunswick  -->
+    <String name="HCB3_1"> Prince Edward Island </String>
+    <String name="HCB3_2"> Manitoba </String>
+    <String name="HCB3_3"> New Brunswick </String>
+    <String name="HCB3_4"> Alberta </String>
 
-    <!-- History Choice for question 4 Beginner -->
-    <String name="HCB4_1"> </String>
-    <String name="HCB4_2"> </String>
-    <String name="HCB4_3"> </String>
-    <String name="HCB4_4"> </String>
+    <!-- History Choice for question 4 Beginner, Answer: Adolf Hitler -->
+    <String name="HCB4_1"> Adolf Hitler </String>
+    <String name="HCB4_2"> Joseph Stalin </String>
+    <String name="HCB4_3"> Winston Churchill </String>
+    <String name="HCB4_4"> Napoleon Bonaparte </String>
 
-    <!-- History Choice for question 5 Beginner -->
-    <String name="HCB5_1"> </String>
-    <String name="HCB5_2"> </String>
-    <String name="HCB5_3"> </String>
-    <String name="HCB5_4"> </String>
+    <!-- History Choice for question 5 Beginner, Answer: French and British -->
+    <String name="HCB5_1"> German and Italian </String>
+    <String name="HCB5_2"> Spanish and Portuguese </String>
+    <String name="HCB5_3"> Russian and Dutch </String>
+    <String name="HCB5_4"> French and British </String>
 
-    <!-- History Choice for question 6 Beginner -->
-    <String name="HCB6_1"> </String>
-    <String name="HCB6_2"> </String>
-    <String name="HCB6_3"> </String>
-    <String name="HCB6_4"> </String>
+    <!-- History Choice for question 6 Beginner, Answer: Berlin Wall  -->
+    <String name="HCB6_1"> Roman Wall </String>
+    <String name="HCB6_2"> Iron Wall </String>
+    <String name="HCB6_3"> Great Wall </String>
+    <String name="HCB6_4"> Berlin Wall </String>
 
-    <!-- History Choice for question 7 Beginner -->
-    <String name="HCB7_1"> </String>
-    <String name="HCB7_2"> </String>
-    <String name="HCB7_3"> </String>
-    <String name="HCB7_4"> </String>
+    <!-- History Choice for question 7 Beginner, Answer: The War of 1812 -->
+    <String name="HCB7_1"> The War of 1812 </String>
+    <String name="HCB7_2"> The Seven Years’ War </String>
+    <String name="HCB7_3"> World War I </String>
+    <String name="HCB7_4"> The Boer War </String>
 
-    <!-- History Choice for question 8 Beginner -->
-    <String name="HCB8_1"> </String>
-    <String name="HCB8_2"> </String>
-    <String name="HCB8_3"> </String>
-    <String name="HCB8_4"> </String>
+    <!-- History Choice for question 8 Beginner, Answer: French Revolution -->
+    <String name="HCB8_1"> Industrial Revolution </String>
+    <String name="HCB8_2"> French Revolution </String>
+    <String name="HCB8_3"> Glorious Revolution </String>
+    <String name="HCB8_4"> American Revolution </String>
 
-    <!-- History Choice for question 9 Beginner -->
-    <String name="HCB9_1"> </String>
-    <String name="HCB9_2"> </String>
-    <String name="HCB9_3"> </String>
-    <String name="HCB9_4"> </String>
+    <!-- History Choice for question 9 Beginner, Answer: John A. Macdonald -->
+    <String name="HCB9_1"> Lester B. Pearson </String>
+    <String name="HCB9_2"> Pierre Trudeau </String>
+    <String name="HCB9_3"> John A. Macdonald </String>
+    <String name="HCB9_4"> George Washington </String>
 
-    <!-- History Choice for question 10 Beginner -->
-    <String name="HCB10_1"> </String>
-    <String name="HCB10_2"> </String>
-    <String name="HCB10_3"> </String>
-    <String name="HCB10_4"> </String>
+    <!-- History Choice for question 10 Beginner, Answer: World War I -->
+    <String name="HCB10_1"> World War II </String>
+    <String name="HCB10_2"> Crimean War </String>
+    <String name="HCB10_3"> Cold War </String>
+    <String name="HCB10_4"> World War I </String>
 
 
     <!-- History Questions for Advanced -->
-    <String name="HQA1"> </String>
-    <String name="HQA2"> </String>
-    <String name="HQA3"> </String>
-    <String name="HQA4"> </String>
-    <String name="HQA5"> </String>
-    <String name="HQA6"> </String>
-    <String name="HQA7"> </String>
-    <String name="HQA8"> </String>
-    <String name="HQA9"> </String>
-    <String name="HQA10"> </String>
+    <String name="HQA1"> Which British law officially created the Dominion of Canada in 1867? </String>
+    <String name="HQA2"> Who was the civil rights leader famous for the “I Have a Dream” speech? </String>
+    <String name="HQA3"> Which document gave Canada more independence from Britain in 1931? </String>
+    <String name="HQA4"> Which treaty ended World War I in 1919? </String>
+    <String name="HQA5"> What was the main purpose of the National Policy introduced by John A. Macdonald in 1879? </String>
+    <String name="HQA6"> Which empire fell after the capture of Constantinople in 1453? </String>
+    <String name="HQA7"> When was the force that later became the RCMP first established? </String>
+    <String name="HQA8"> What was the main goal of the Marshall Plan after World War II </String>
+    <String name="HQA9"> What was the main cause of the Oka Crisis in 1990? </String>
+    <String name="HQA10"> Which Japanese cities was hit by atomic bombs? </String>
 
 
 
@@ -589,65 +589,65 @@
 
     <!-- History choices for Advanced -->
 
-    <!-- History Choice for question 1 Advanced -->
-    <String name="HCA1_1"> </String>
-    <String name="HCA1_2"> </String>
-    <String name="HCA1_3"> </String>
-    <String name="HCA1_4"> </String>
+    <!-- History Choice for question 1 Advanced, Answer: The British North America Act -->
+    <String name="HCA1_1"> The British North America Act </String>
+    <String name="HCA1_2"> The Constitution Act </String>
+    <String name="HCA1_3"> The Quebec Act </String>
+    <String name="HCA1_4"> The Statute of Westminster </String>
 
-    <!-- History Choice for question 2 Advanced -->
-    <String name="HCA2_1"> </String>
-    <String name="HCA2_2"> </String>
-    <String name="HCA2_3"> </String>
-    <String name="HCA2_4"> </String>
+    <!-- History Choice for question 2 Advanced, Answer: Martin Luther King Jr. -->
+    <String name="HCA2_1"> Abraham Lincoln </String>
+    <String name="HCA2_2"> Mahatma Gandhi </String>
+    <String name="HCA2_3"> Martin Luther King Jr. </String>
+    <String name="HCA2_4"> Nelson Mandela </String>
 
-    <!-- History Choice for question 3 Advanced -->
-    <String name="HCA3_1"> </String>
-    <String name="HCA3_2"> </String>
-    <String name="HCA3_3"> </String>
-    <String name="HCA3_4"> </String>
+    <!-- History Choice for question 3 Advanced, Answer: The Statute of Westminster  -->
+    <String name="HCA3_1"> The Royal Proclamation </String>
+    <String name="HCA3_2"> The Statute of Westminster </String>
+    <String name="HCA3_3"> The Charter of Rights and Freedoms </String>
+    <String name="HCA3_4"> The Meech Lake Accord </String>
 
-    <!-- History Choice for question 4 Advanced -->
-    <String name="HCA4_1"> </String>
-    <String name="HCA4_2"> </String>
-    <String name="HCA4_3"> </String>
-    <String name="HCA4_4"> </String>
+    <!-- History Choice for question 4 Advanced, Answer: Treaty of Versailles  -->
+    <String name="HCA4_1"> Treaty of Utrecht </String>
+    <String name="HCA4_2"> Treaty of Versailles </String>
+    <String name="HCA4_3"> Treaty of Paris </String>
+    <String name="HCA4_4"> Treaty of Vienna </String>
 
-    <!-- History Choice for question 5 Advanced -->
-    <String name="HCA5_1"> </String>
-    <String name="HCA5_2"> </String>
-    <String name="HCA5_3"> </String>
-    <String name="HCA5_4"> </String>
+    <!-- History Choice for question 5 Advanced, Answer: To protect Canadian industries with tariffs and build the economy -->
+    <String name="HCA5_1"> To give independence to the provinces </String>
+    <String name="HCA5_2"> To protect Canadian industries with tariffs and build the economy </String>
+    <String name="HCA5_3"> To reduce immigration to Canada </String>
+    <String name="HCA5_4"> To make French the only official language in Canada </String>
 
-    <!-- History Choice for question 6 Advanced -->
-    <String name="HCA6_1"> </String>
-    <String name="HCA6_2"> </String>
-    <String name="HCA6_3"> </String>
-    <String name="HCA6_4"> </String>
+    <!-- History Choice for question 6 Advanced, Answer: Byzantine Empire  -->
+    <String name="HCA6_1"> Roman Empire </String>
+    <String name="HCA6_2"> Persian Empire </String>
+    <String name="HCA6_3"> Ottoman Empire </String>
+    <String name="HCA6_4"> Byzantine Empire </String>
 
-    <!-- History Choice for question 7 Advanced -->
-    <String name="HCA7_1"> </String>
-    <String name="HCA7_2"> </String>
-    <String name="HCA7_3"> </String>
-    <String name="HCA7_4"> </String>
+    <!-- History Choice for question 7 Advanced, Answer: 1873 -->
+    <String name="HCA7_1"> 1812 </String>
+    <String name="HCA7_2"> 1867 </String>
+    <String name="HCA7_3"> 1873 </String>
+    <String name="HCA7_4"> 1920 </String>
 
-    <!-- History Choice for question 8 Advanced -->
-    <String name="HCA8_1"> </String>
-    <String name="HCA8_2"> </String>
-    <String name="HCA8_3"> </String>
-    <String name="HCA8_4"> </String>
+    <!-- History Choice for question 8 Advanced, Answer: To rebuild European economies and stop the spread of communism  -->
+    <String name="HCA8_1"> To rebuild European economies and stop the spread of communism </String>
+    <String name="HCA8_2"> To create the United Nations </String>
+    <String name="HCA8_3"> To punish Japan economically </String>
+    <String name="HCA8_4"> To divide Germany into four zones </String>
 
-    <!-- History Choice for question 9 Advanced -->
-    <String name="HCA9_1"> </String>
-    <String name="HCA9_2"> </String>
-    <String name="HCA9_3"> </String>
-    <String name="HCA9_4"> </String>
+    <!-- History Choice for question 9 Advanced, Answer: A conflict over expanding a golf course onto disputed Mohawk land and a burial area  -->
+    <String name="HCA9_1"> A protest against joining NAFTA </String>
+    <String name="HCA9_2"> A conflict over expanding a golf course onto disputed Mohawk land and a burial area </String>
+    <String name="HCA9_3"> A dispute over election results in Quebec </String>
+    <String name="HCA9_4"> A disagreement about bilingual education laws </String>
 
-    <!-- History Choice for question 10 Advanced -->
-    <String name="HCA10_1"> </String>
-    <String name="HCA10_2"> </String>
-    <String name="HCA10_3"> </String>
-    <String name="HCA10_4"> </String>
+    <!-- History Choice for question 10 Advanced , Answer: Hiroshima, Nagasaki -->
+    <String name="HCA10_1"> Tokyo, Osaka </String>
+    <String name="HCA10_2"> Yokohama, Sapporo </String>
+    <String name="HCA10_3"> Hiroshima, Nagasaki </String>
+    <String name="HCA10_4"> Fukuoka, Sendai</String>
     <!--/////////////////////////////////////////////////////////////////////////////////////////// -->
 
 

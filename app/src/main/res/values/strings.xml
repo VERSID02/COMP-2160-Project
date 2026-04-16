@@ -332,160 +332,160 @@
 
 
     <!-- French Questions for Beginner -->
-    <String name="FQB1"> </String>
-    <String name="FQB2"> </String>
-    <String name="FQB3"> </String>
-    <String name="FQB4"> </String>
-    <String name="FQB5"> </String>
-    <String name="FQB6"> </String>
-    <String name="FQB7"> </String>
-    <String name="FQB8"> </String>
-    <String name="FQB9"> </String>
-    <String name="FQB10"> </String>
+    <String name="FQB1"> What does bonjour mean in English? </String>
+    <String name="FQB2"> Which word means cat in French? </String>
+    <String name="FQB3"> What is the correct translation of I am a student? </String>
+    <String name="FQB4"> Which sentence correctly says She is my friend? </String>
+    <String name="FQB5"> What is the plural of un enfant? </String>
+    <String name="FQB6"> Which verb means to eat? </String>
+    <String name="FQB7"> Which French word means black? </String>
+    <String name="FQB8"> Which article correctly matches livre (book)? </String>
+    <String name="FQB9"> Which is the correct French word for house? </String>
+    <String name="FQB10"> Which sentence is correct for We have a dog? </String>
 
 
 
 
     <!-- French choices for Beginner -->
 
-    <!-- French Choice for question 1 Beginner -->
-    <String name="FCB1_1"> </String>
-    <String name="FCB1_2"> </String>
-    <String name="FCB1_3"> </String>
-    <String name="FCB1_4"> </String>
+    <!-- French Choice for question 1 Beginner, Answer: Hello -->
+    <String name="FCB1_1"> Goodbye </String>
+    <String name="FCB1_2"> Thanks </String>
+    <String name="FCB1_3"> Hello </String>
+    <String name="FCB1_4"> Please </String>
 
-    <!-- French Choice for question 2 Beginner -->
-    <String name="FCB2_1"> </String>
-    <String name="FCB2_2"> </String>
-    <String name="FCB2_3"> </String>
-    <String name="FCB2_4"> </String>
+    <!-- French Choice for question 2 Beginner, Answer: chat -->
+    <String name="FCB2_1"> Chat </String>
+    <String name="FCB2_2"> cheval </String>
+    <String name="FCB2_3"> oiseau </String>
+    <String name="FCB2_4"> chien </String>
 
-    <!-- French Choice for question 3 Beginner -->
-    <String name="FCB3_1"> </String>
-    <String name="FCB3_2"> </String>
-    <String name="FCB3_3"> </String>
-    <String name="FCB3_4"> </String>
+    <!-- French Choice for question 3 Beginner, Answer: Je suis étudiant -->
+    <String name="FCB3_1"> Tu es étudiant. </String>
+    <String name="FCB3_2"> Nous sommes étudiant. </String>
+    <String name="FCB3_3"> Je suis étudiant. </String>
+    <String name="FCB3_4"> Il est étudiant. </String>
 
-    <!-- French Choice for question 4 Beginner -->
-    <String name="FCB4_1"> </String>
-    <String name="FCB4_2"> </String>
-    <String name="FCB4_3"> </String>
-    <String name="FCB4_4"> </String>
+    <!-- French Choice for question 4 Beginner, Answer: Elle est mon amie. -->
+    <String name="FCB4_1"> Elle est mon ami. </String>
+    <String name="FCB4_2"> Elle est mon amie. </String>
+    <String name="FCB4_3"> Elle est ma amie. </String>
+    <String name="FCB4_4"> Elle est mes amie. </String>
 
-    <!-- French Choice for question 5 Beginner -->
-    <String name="FCB5_1"> </String>
-    <String name="FCB5_2"> </String>
-    <String name="FCB5_3"> </String>
-    <String name="FCB5_4"> </String>
+    <!-- French Choice for question 5 Beginner, Answer: des enfants -->
+    <String name="FCB5_1"> des enfants </String>
+    <String name="FCB5_2"> des enfantes </String>
+    <String name="FCB5_3"> les enfantes </String>
+    <String name="FCB5_4"> des enfant </String>
 
-    <!-- French Choice for question 6 Beginner -->
-    <String name="FCB6_1"> </String>
-    <String name="FCB6_2"> </String>
-    <String name="FCB6_3"> </String>
-    <String name="FCB6_4"> </String>
+    <!-- French Choice for question 6 Beginner, Answer: manger -->
+    <String name="FCB6_1"> boire </String>
+    <String name="FCB6_2"> lire </String>
+    <String name="FCB6_3"> parler </String>
+    <String name="FCB6_4"> manger </String>
 
-    <!-- French Choice for question 7 Beginner -->
-    <String name="FCB7_1"> </String>
-    <String name="FCB7_2"> </String>
-    <String name="FCB7_3"> </String>
-    <String name="FCB7_4"> </String>
+    <!-- French Choice for question 7 Beginner, Answer: noir -->
+    <String name="FCB7_1"> blac </String>
+    <String name="FCB7_2"> rouge </String>
+    <String name="FCB7_3"> noir </String>
+    <String name="FCB7_4"> veur </String>
 
-    <!-- French Choice for question 8 Beginner -->
-    <String name="FCB8_1"> </String>
-    <String name="FCB8_2"> </String>
-    <String name="FCB8_3"> </String>
-    <String name="FCB8_4"> </String>
+    <!-- French Choice for question 8 Beginner, Answer: le -->
+    <String name="FCB8_1"> la </String>
+    <String name="FCB8_2"> les </String>
+    <String name="FCB8_3"> une </String>
+    <String name="FCB8_4"> le </String>
 
-    <!-- French Choice for question  Beginner -->
-    <String name="FCB9_1"> </String>
-    <String name="FCB9_2"> </String>
-    <String name="FCB9_3"> </String>
-    <String name="FCB9_4"> </String>
+    <!-- French Choice for question 9 Beginner, Answer: maison -->
+    <String name="FCB9_1"> pomme </String>
+    <String name="FCB9_2"> maison </String>
+    <String name="FCB9_3"> école </String>
+    <String name="FCB9_4"> voiture </String>
 
-    <!-- French Choice for question 10 Beginner -->
-    <String name="FCB10_1"> </String>
-    <String name="FCB10_2"> </String>
-    <String name="FCB10_3"> </String>
-    <String name="FCB10_4"> </String>
+    <!-- French Choice for question 10 Beginner, Answer: Nous avons un chien. -->
+    <String name="FCB10_1"> Nous avons un chien. </String>
+    <String name="FCB10_2"> Nous sommes un chien. </String>
+    <String name="FCB10_3"> Nous êtes un chien. </String>
+    <String name="FCB10_4"> Nous a un chien. </String>
 
 
 
 
     <!-- French Questions for Advanced -->
-    <String name="FQA1"> </String>
-    <String name="FQA2"> </String>
-    <String name="FQA3"> </String>
-    <String name="FQA4"> </String>
-    <String name="FQA5"> </String>
-    <String name="FQA6"> </String>
-    <String name="FQA7"> </String>
-    <String name="FQA8"> </String>
-    <String name="FQA9"> </String>
-    <String name="FQA10"> </String>
+    <String name="FQA1"> Choose the correct sentence: "It is necessary that you come tomorrow." </String>
+    <String name="FQA2"> Which sentence "It is the book that I need." correctly uses dont? </String>
+    <String name="FQA3"> Choose the correct form of the past participle for "The letters that I wrote yesterday are on the table", Les lettres que j’ai _____ hier sont sur la table.  </String>
+    <String name="FQA4"> Which sentence correctly uses si + imparfait?, "If I had time, I would travel." </String>
+    <String name="FQA5"> Choose the correct meaning of cependant. </String>
+    <String name="FQA6"> Which sentence for "Although he is tired, he continues to work." is grammatically correct? </String>
+    <String name="FQA7"> Choose the correct sentence with y for "I think about my exams. I think about them often."? </String>
+    <String name="FQA8"> Which word best completes the sentence "He spoke with a lot of conviction during the debate.", Il a parlé avec beaucoup de _____ pendant le débat. </String>
+    <String name="FQA9"> Choose the correct relative pronoun,"That is exactly what I wanted to say.", C’est exactement ce _____ je voulais dire. </String>
+    <String name="FQA10"> Which sentence is correct for "She realized her mistake."? </String>
 
 
 
     <!-- French choices for Advanced -->
 
-    <!-- French Choice for question 1 Advanced -->
-    <String name="FCA1_1"> </String>
-    <String name="FCA1_2"> </String>
-    <String name="FCA1_3"> </String>
-    <String name="FCA1_4"> </String>
+    <!-- French Choice for question 1 Advanced, Answer: Il faut que tu viennes demain. -->
+    <String name="FCA1_1"> Il faut que tu viendras demain. </String>
+    <String name="FCA1_2"> Il faut que tu venu demain. </String>
+    <String name="FCA1_3"> Il faut que tu viennes demain. </String>
+    <String name="FCA1_4"> Il faut que tu viens demain. </String>
 
-    <!-- French Choice for question 2 Advanced -->
-    <String name="FCA2_1"> </String>
-    <String name="FCA2_2"> </String>
-    <String name="FCA2_3"> </String>
-    <String name="FCA2_4"> </String>
+    <!-- French Choice for question 2 Advanced, Answer: C’est le livre dont j’ai besoin. -->
+    <String name="FCA2_1"> C’est le livre dont je vois. </String>
+    <String name="FCA2_2"> C’est le livre dont j’ai besoin. </String>
+    <String name="FCA2_3"> C’est le livre dont je regarde. </String>
+    <String name="FCA2_4"> C’est le livre dont j’achète. </String>
 
-    <!-- French Choice for question 3 Advanced -->
-    <String name="FCA3_1"> </String>
-    <String name="FCA3_2"> </String>
-    <String name="FCA3_3"> </String>
-    <String name="FCA3_4"> </String>
+    <!-- French Choice for question 3 Advanced, Answer: écrites -->
+    <String name="FCA3_1"> écrites </String>
+    <String name="FCA3_2"> écrits </String>
+    <String name="FCA3_3"> écrire </String>
+    <String name="FCA3_4"> écrit </String>
 
-    <!-- French Choice for question 4 Advanced -->
-    <String name="FCA4_1"> </String>
-    <String name="FCA4_2"> </String>
-    <String name="FCA4_3"> </String>
-    <String name="FCA4_4"> </String>
+    <!-- French Choice for question 4 Advanced, Answer: Si j’aurais le temps, je voyagerais. -->
+    <String name="FCA4_1"> Si j’avais le temps, je voyagerais. </String>
+    <String name="FCA4_2"> Si j’ai le temps, je voyagerais. </String>
+    <String name="FCA4_3"> Si j’aurais le temps, je voyagerais. </String>
+    <String name="FCA4_4"> Si j’aurai le temps, je voyagerais. </String>
 
-    <!-- French Choice for question 5 Advanced -->
-    <String name="FCA5_1"> </String>
-    <String name="FCA5_2"> </String>
-    <String name="FCA5_3"> </String>
-    <String name="FCA5_4"> </String>
+    <!-- French Choice for question 5 Advanced, Answer: however -->
+    <String name="FCA5_1"> suddenly </String>
+    <String name="FCA5_2"> because </String>
+    <String name="FCA5_3"> therefore </String>
+    <String name="FCA5_4"> however </String>
 
-    <!-- French Choice for question 6 Advanced -->
-    <String name="FCA6_1"> </String>
-    <String name="FCA6_2"> </String>
-    <String name="FCA6_3"> </String>
-    <String name="FCA6_4"> </String>
+    <!-- French Choice for question 6 Advanced, Answer: Bien qu’il soit fatigué, il continue à travailler. -->
+    <String name="FCA6_1"> Bien qu’il sera fatigué, il continue à travailler. </String>
+    <String name="FCA6_2"> Bien qu’il soit fatigué, il continue à travailler. </String>
+    <String name="FCA6_3"> Bien qu’il est fatigué, il continue à travailler. </String>
+    <String name="FCA6_4"> Bien qu’il était fatigué, il continue à travailler. </String>
 
-    <!-- French Choice for question 7 Advanced -->
-    <String name="FCA7_1"> </String>
-    <String name="FCA7_2"> </String>
-    <String name="FCA7_3"> </String>
-    <String name="FCA7_4"> </String>
+    <!-- French Choice for question 7 Advanced, Answer: Je pense à mes examens. J’y pense souvent.  -->
+    <String name="FCA7_1"> Je pense à mes examens. J’en pense souvent. </String>
+    <String name="FCA7_2"> Je pense à mes examens. Je les pense souvent. </String>
+    <String name="FCA7_3"> Je pense à mes examens. Je pense y souvent. </String>
+    <String name="FCA7_4"> Je pense à mes examens. J’y pense souvent. </String>
 
-    <!-- French Choice for question 8 Advanced -->
-    <String name="FCA8_1"> </String>
-    <String name="FCA8_2"> </String>
-    <String name="FCA8_3"> </String>
-    <String name="FCA8_4"> </String>
+    <!-- French Choice for question 8 Advanced, Answer: conviction -->
+    <String name="FCA8_1"> convaincant </String>
+    <String name="FCA8_2"> conviction </String>
+    <String name="FCA8_3"> convaincre </String>
+    <String name="FCA8_4"> convaincu </String>
 
-    <!-- French Choice for question 9 Advanced -->
-    <String name="FCA9_1"> </String>
-    <String name="FCA9_2"> </String>
-    <String name="FCA9_3"> </String>
-    <String name="FCA9_4"> </String>
+    <!-- French Choice for question 9 Advanced, Answer: que -->
+    <String name="FCA9_1"> dont </String>
+    <String name="FCA9_2"> tu </String>
+    <String name="FCA9_3"> où </String>
+    <String name="FCA9_4"> que </String>
 
-    <!-- French Choice for question 10 Advanced -->
-    <String name="FCA10_1"> </String>
-    <String name="FCA10_2"> </String>
-    <String name="FCA10_3"> </String>
-    <String name="FCA10_4"> </String>
+    <!-- French Choice for question 10 Advanced, Answer: Elle s’est rendu compte de son erreur.  -->
+    <String name="FCA10_1"> Elle s’est rendre compte de son erreur. </String>
+    <String name="FCA10_2"> Elle s’est rendus compte de son erreur. </String>
+    <String name="FCA10_3"> Elle s’est rendue compte de son erreur. </String>
+    <String name="FCA10_4"> Elle s’est rendu compte de son erreur. </String>
 
 
 

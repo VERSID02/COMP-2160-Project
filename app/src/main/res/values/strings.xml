@@ -14,84 +14,84 @@
     <String name="History_Header"> History </String>
 
     <!-- Math Questions for Beginner -->
-    <String name="MQB1"> What's 93 + (2 x 20) - 15? </String>
-    <String name="MQB2"> What's \frac{5/2} x 5 + 75? </String>
-    <String name="MQB3"> What is the value of x in: x + 7 = 12 </String>
-    <String name="MQB4"> </String>
-    <String name="MQB5"> </String>
-    <String name="MQB6"> </String>
-    <String name="MQB7"> </String>
-    <String name="MQB8"> </String>
-    <String name="MQB9"> </String>
-    <String name="MQB10"> </String>
+    <String name="MQB1"> What's 7 + 5 </String>
+    <String name="MQB2"> What's 15 - 8? </String>
+    <String name="MQB3"> What's 12 x 2 </String>
+    <String name="MQB4"> What's 18 ÷ 3</String>
+    <String name="MQB5"> Which fraction is equal to one-half? </String>
+    <String name="MQB6"> A bottle of milk costs $4 and a loaf of bread costs $3. How much do they cost together? </String>
+    <String name="MQB7"> What is 1/4 + 1/4? </String>
+    <String name="MQB8"> What is 50% of 100? </String>
+    <String name="MQB9"> A shirt costs $40. What is 10% of $40? </String>
+    <String name="MQB10"> A pizza is cut into 8 equal slices. If you eat 2 slices, what fraction of the pizza did you eat? </String>
 
 
     <!-- Math choices for Beginner -->
 
-    <!-- Math Choices for question 1 Beginner -->
-    <String name="MCB1_1"> </String>
-    <String name="MCB1_2"> </String>
-    <String name="MCB1_3"> </String>
-    <String name="MCB1_4"> </String>
+    <!-- Math Choices for question 1 Beginner, Answer: 12 -->
+    <String name="MCB1_1"> 10 </String>
+    <String name="MCB1_2"> 11 </String>
+    <String name="MCB1_3"> 12 </String>
+    <String name="MCB1_4"> 14 </String>
 
-    <!-- Math Choices for question 2 Beginner -->
-    <String name="MCB2_1"> </String>
-    <String name="MCB2_2"> </String>
-    <String name="MCB2_3"> </String>
-    <String name="MCB2_4"> </String>
+    <!-- Math Choices for question 2 Beginner, Answer: 7 -->
+    <String name="MCB2_1"> 7 </String>
+    <String name="MCB2_2"> 8 </String>
+    <String name="MCB2_3"> 9 </String>
+    <String name="MCB2_4"> 12 </String>
 
-    <!-- Math Choice for question 3 Beginner -->
-    <String name="MCB3_1"> 3 </String>
-    <String name="MCB3_2"> 4 </String>
-    <String name="MCB3_3"> 5 </String>
-    <String name="MCB3_4"> 6 </String>
+    <!-- Math Choice for question 3 Beginner, Answer: 24 -->
+    <String name="MCB3_1"> 28 </String>
+    <String name="MCB3_2"> 24 </String>
+    <String name="MCB3_3"> 32 </String>
+    <String name="MCB3_4"> 46 </String>
 
-    <!-- Math Choice for question 4 Beginner -->
-    <String name="MCB4_1"> </String>
-    <String name="MCB4_2"> </String>
-    <String name="MCB4_3"> </String>
-    <String name="MCB4_4"> </String>
+    <!-- Math Choice for question 4 Beginner, Answer: 6 -->
+    <String name="MCB4_1"> 7 </String>
+    <String name="MCB4_2"> 6 </String>
+    <String name="MCB4_3"> 4 </String>
+    <String name="MCB4_4"> 12 </String>
 
-    <!-- Math Choice for question 5 Beginner -->
-    <String name="MCB5_1"> </String>
-    <String name="MCB5_2"> </String>
-    <String name="MCB5_3"> </String>
-    <String name="MCB5_4"> </String>
+    <!-- Math Choice for question 5 Beginner, Answer: 2/4 -->
+    <String name="MCB5_1"> 1/3 </String>
+    <String name="MCB5_2"> 2/5 </String>
+    <String name="MCB5_3"> 2/4 </String>
+    <String name="MCB5_4"> 3/5 </String>
 
-    <!-- Math Choice for question 6 Beginner -->
-    <String name="MCB6_1"> </String>
-    <String name="MCB6_2"> </String>
-    <String name="MCB6_3"> </String>
-    <String name="MCB6_4"> </String>
+    <!-- Math Choice for question 6 Beginner, Answer: $7  -->
+    <String name="MCB6_1"> $5 </String>
+    <String name="MCB6_2"> $8 </String>
+    <String name="MCB6_3"> $6 </String>
+    <String name="MCB6_4"> $7 </String>
 
-    <!-- Math Choice for question 7 Beginner -->
-    <String name="MCB7_1"> </String>
-    <String name="MCB7_2"> </String>
-    <String name="MCB7_3"> </String>
-    <String name="MCB7_4"> </String>
+    <!-- Math Choice for question 7 Beginner, Answer: 1/2 -->
+    <String name="MCB7_1"> 2/2 </String>
+    <String name="MCB7_2"> 3/2 </String>
+    <String name="MCB7_3"> 1/2 </String>
+    <String name="MCB7_4"> 2/8 </String>
 
-    <!-- Math Choice for question 8 Beginner -->
-    <String name="MCB8_1"> </String>
-    <String name="MCB8_2"> </String>
-    <String name="MCB8_3"> </String>
-    <String name="MCB8_4"> </String>
+    <!-- Math Choice for question 8 Beginner, Answer: 50% -->
+    <String name="MCB8_1"> 50% </String>
+    <String name="MCB8_2"> 25%</String>
+    <String name="MCB8_3"> 80% </String>
+    <String name="MCB8_4"> 10% </String>
 
-    <!-- Math Choice for question 9 Beginner -->
-    <String name="MCB9_1"> </String>
-    <String name="MCB9_2"> </String>
-    <String name="MCB9_3"> </String>
-    <String name="MCB9_4"> </String>
+    <!-- Math Choice for question 9 Beginner, Answer: $4 -->
+    <String name="MCB9_1"> $2 </String>
+    <String name="MCB9_2"> $3 </String>
+    <String name="MCB9_3"> $4 </String>
+    <String name="MCB9_4"> $5 </String>
 
-    <!-- Math Choice for question 10 Beginner -->
-    <String name="MCB10_1"> </String>
-    <String name="MCB10_2"> </String>
-    <String name="MCB10_3"> </String>
-    <String name="MCB10_4"> </String>
+    <!-- Math Choice for question 10 Beginner, Answer: 1/4 -->
+    <String name="MCB10_1"> 1/2 </String>
+    <String name="MCB10_2"> 1/3 </String>
+    <String name="MCB10_3"> 1/4 </String>
+    <String name="MCB10_4"> 2/3 </String>
 
 
     <!-- Math Questions for Advanced -->
-    <String name="MQA1"> </String>
-    <String name="MQA2"> </String>
+    <String name="MQA1"> Solve for 𝑥: 3𝑥 - 7 = 2𝑥 + 9 </String>
+    <String name="MQA2"> What is the value of 𝑥 in the equation 𝑥^2 - 9 = 0 </String>
     <String name="MQA3"> </String>
     <String name="MQA4"> </String>
     <String name="MQA5"> </String>
@@ -106,17 +106,17 @@
 
     <!-- Math choices for Advanced -->
 
-    <!-- Math Choice for question 1 Advanced -->
-    <String name="MCA1_1"> </String>
-    <String name="MCA1_2"> </String>
-    <String name="MCA1_3"> </String>
-    <String name="MCA1_4"> </String>
+    <!-- Math Choice for question 1 Advanced, Answer: 16 -->
+    <String name="MCA1_1"> 14 </String>
+    <String name="MCA1_2"> 15 </String>
+    <String name="MCA1_3"> 16 </String>
+    <String name="MCA1_4"> -15 </String>
 
-    <!-- Math Choice for question 2 Advanced -->
-    <String name="MCA2_1"> </String>
-    <String name="MCA2_2"> </String>
-    <String name="MCA2_3"> </String>
-    <String name="MCA2_4"> </String>
+    <!-- Math Choice for question 2 Advanced, Answer: 3 and -3 -->
+    <String name="MCA2_1"> 3 only </String>
+    <String name="MCA2_2"> -3 only </String>
+    <String name="MCA2_3"> 3 and -3 </String>
+    <String name="MCA2_4"> 9 and -9 </String>
 
     <!-- Math Choice for question 3 Advanced -->
     <String name="MCA3_1"> </String>

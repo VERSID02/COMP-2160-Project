@@ -56,7 +56,6 @@ public class MainActivity extends AppCompatActivity {
         btnProgress.setOnClickListener(v -> startActivity(new Intent(this, ProgressActivity.class)));
         btnSettings.setOnClickListener(v -> startActivity(new Intent(this, SettingsActivity.class)));
 
-        // Start background music
         startService(new Intent(this, BackgroundMusicService.class));
     }
 

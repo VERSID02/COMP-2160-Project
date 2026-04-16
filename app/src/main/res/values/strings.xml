@@ -10,7 +10,7 @@
     <!-- Header of Subjects-->
     <String name="Math_Header"> Mathematical </String>
     <String name="Science_Header"> Science </String>
-    <String name="French_Header"> French Language </String>
+    <String name="French_Header"> French </String>
     <String name="History_Header"> History </String>
 
     <!-- Math Questions for Beginner -->

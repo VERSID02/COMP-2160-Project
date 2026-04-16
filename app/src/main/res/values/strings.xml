@@ -15,7 +15,7 @@
 
     <!-- Math Questions for Beginner -->
     <String name="MQB1"> What's 93 + (2 x 20) - 15? </String>
-    <String name="MQB2"> What's 5/2 x 5 + 75? </String>
+    <String name="MQB2"> What's \frac{5/2} x 5 + 75? </String>
     <String name="MQB3"> What is the value of x in: x + 7 = 12 </String>
     <String name="MQB4"> </String>
     <String name="MQB5"> </String>

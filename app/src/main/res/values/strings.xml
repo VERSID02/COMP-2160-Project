@@ -14,10 +14,10 @@
     <String name="History_Header"> History </String>
 
     <!-- Math Questions for Beginner -->
-    <String name="MQB1"> What's 7 + 5 </String>
+    <String name="MQB1"> What's 7 + 5? </String>
     <String name="MQB2"> What's 15 - 8? </String>
-    <String name="MQB3"> What's 12 x 2 </String>
-    <String name="MQB4"> What's 18 ÷ 3</String>
+    <String name="MQB3"> What's 12 x 2? </String>
+    <String name="MQB4"> What's 18 ÷ 3? </String>
     <String name="MQB5"> Which fraction is equal to one-half? </String>
     <String name="MQB6"> A bottle of milk costs $4 and a loaf of bread costs $3. How much do they cost together? </String>
     <String name="MQB7"> What is 1/4 + 1/4? </String>

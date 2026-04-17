@@ -28,12 +28,13 @@
 
 
     <!-- Header of Subjects use in activity_progress.xml -->
-    <string name="Math_Header"> Mathematics </string>
-    <string name="Science_Header"> Science </string>
-    <string name="French_Header"> French </string>
-    <string name="History_Header"> History </string>
+    <string name="Math"> Mathematics </string>
+    <string name="Science"> Science </string>
+    <string name="French"> French </string>
+    <string name="History"> History </string>
 
     <!-- Math Questions for Beginner -->
+
     <string name="MQB1"> What\'s 7 + 5? </string>
     <string name="MQB2"> What\'s 15 - 8? </string>
     <string name="MQB3"> What\'s 12 × 2? </string>

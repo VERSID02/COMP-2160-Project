@@ -24,7 +24,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="@string/Math_Header"
+        android:text="@string/Math"
         android:textSize="16sp"
         android:textStyle="bold" />
 
@@ -51,7 +51,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
-        android:text="@string/Science_Header"
+        android:text="@string/Science"
         android:textSize="16sp"
         android:textStyle="bold" />
 
@@ -78,7 +78,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
-        android:text="@string/French_Header"
+        android:text="@string/French"
         android:textSize="16sp"
         android:textStyle="bold" />
 
@@ -105,7 +105,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
-        android:text="@string/History_Header"
+        android:text="@string/History"
         android:textSize="16sp"
         android:textStyle="bold" />
 

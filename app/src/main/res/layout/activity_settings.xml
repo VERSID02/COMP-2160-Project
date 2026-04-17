@@ -8,7 +8,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/settings"
+        android:text="@string/app_settings"
         android:textSize="24sp"
         android:textStyle="bold" />
 
@@ -17,7 +17,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:hint="@string/edit_name"
+        android:hint="@string/app_edit_name"
         android:inputType="textPersonName" />
 
     <RadioGroup
@@ -31,14 +31,14 @@
             android:id="@+id/rbJuniorEdit"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/junior" />
+            android:text="@string/app_junior" />
 
         <RadioButton
             android:id="@+id/rbSeniorEdit"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
-            android:text="@string/senior" />
+            android:text="@string/app_senior" />
     </RadioGroup>
 
     <LinearLayout
@@ -50,7 +50,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/sound_effects"
+            android:text="@string/app_sound_effect"
             android:textSize="14sp" />
         <Switch
             android:id="@+id/switchSound"
@@ -67,7 +67,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/show_explanations"
+            android:text="@string/app_show_explanation"
             android:textSize="14sp" />
         <Switch
             android:id="@+id/switchExplanations"
@@ -79,7 +79,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="@string/question_count"
+        android:text="@string/app_question_count"
         android:textSize="14sp" />
 
     <RadioGroup
@@ -115,13 +115,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="@string/save" />
+        android:text="@string/app_save" />
 
     <Button
         android:id="@+id/btnResetAll"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
-        android:text="@string/reset_progress" />
+        android:text="@string/app_reset_progress" />
 
 </LinearLayout>

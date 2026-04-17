@@ -61,7 +61,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/try_again" />
+            android:text="@string/app_try_again" />
 
         <Button
             android:id="@+id/btnChangeSubject"
@@ -69,7 +69,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="4dp"
             android:layout_weight="1"
-            android:text="@string/change_subject" />
+            android:text="@string/app_change_subject" />
     </LinearLayout>
 
     <LinearLayout
@@ -83,7 +83,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/share_result" />
+            android:text="@string/app_change_subject" />
 
         <Button
             android:id="@+id/btnGoHome"
@@ -91,7 +91,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="4dp"
             android:layout_weight="1"
-            android:text="@string/go_home" />
+            android:text="@string/app_go_hone" />
     </LinearLayout>
 
 </LinearLayout>

@@ -2,7 +2,7 @@
     <string name= "app_name">Education Quiz Application</string>
 
     <!-- Texts inside activity_main.xml and activity_setting.xml -->
-    <string name = "app_reset_progress"> Reset Progress </string>"
+    <string name = "app_reset_progress"> Reset Progress </string>
     <string name = "app_progress"> Progress </string>
     <string name = "app_settings"> Settings </string>
 
@@ -10,7 +10,7 @@
     <string name = "app_try_again"> Try Again </string>
     <string name = "app_change_subject"> Change Subject </string>
     <string name = "app_share_result"> Share Result </string>
-    <string name = "app_go_hone"> Go Home </string>
+    <string name = "app_go_home"> Go Home </string>
 
     <!-- Texts inside activity_setting.xml -->
     <string name = "app_edit_name"> Edit Name </string>
@@ -36,7 +36,7 @@
     <!-- Math Questions for Beginner -->
     <string name="MQB1"> What\'s 7 + 5? </string>
     <string name="MQB2"> What\'s 15 - 8? </string>
-    <string name="MQB3"> What\'s 12 x 2? </string>
+    <string name="MQB3"> What\'s 12 × 2? </string>
     <string name="MQB4"> What\'s 18 ÷ 3? </string>
     <string name="MQB5"> Which fraction is equal to one-half? </string>
     <string name="MQB6"> A bottle of milk costs $4 and a loaf of bread costs $3. How much do they cost together? </string>
@@ -199,7 +199,7 @@
     <string name="SQB6"> Which pH value is considered neutral? </string>
     <string name="SQB7"> Which material is a good conductor of electricity? </string>
     <string name="SQB8"> Which layer of the atmosphere protects Earth from most harmful ultraviolet (UV) radiation? </string>
-    <string name="SQB9"> What\'sthe main function of the lungs? </string>
+    <string name="SQB9"> What\'s the main function of the lungs? </string>
     <string name="SQB10"> Why does salt help preserve food? </string>
 
 
@@ -214,10 +214,10 @@
     <string name="SBC1_4"> Liver </string>
 
     <!-- Science Choice for question 2 Beginner, Answer: H2O -->
-    <string name="SBC2_1"> CO2 </string>
-    <string name="SBC2_2"> H2O </string>
-    <string name="SBC2_3"> O2 </string>
-    <string name="SBC2_4"> NaCI </string>
+    <string name="SBC2_1"> CO₂ </string>
+    <string name="SBC2_2"> H₂O </string>
+    <string name="SBC2_3"> O₂ </string>
+    <string name="SBC2_4"> NaCl </string>
 
     <!-- Science Choice for question 3 Beginner, Answer: Metal is a better conductor of heat than wood -->
     <string name="SBC3_1"> Metal is heavier than wood </string>
@@ -375,7 +375,7 @@
     <string name="FCB1_4"> Please </string>
 
     <!-- French Choice for question 2 Beginner, Answer: chat -->
-    <string name="FCB2_1"> Chat </string>
+    <string name="FCB2_1"> chat </string>
     <string name="FCB2_2"> cheval </string>
     <string name="FCB2_3"> oiseau </string>
     <string name="FCB2_4"> chien </string>
@@ -405,10 +405,10 @@
     <string name="FCB6_4"> manger </string>
 
     <!-- French Choice for question 7 Beginner, Answer: noir -->
-    <string name="FCB7_1"> blac </string>
+    <string name="FCB7_1"> blanc </string>
     <string name="FCB7_2"> rouge </string>
     <string name="FCB7_3"> noir </string>
-    <string name="FCB7_4"> veur </string>
+    <string name="FCB7_4"> vert </string>
 
     <!-- French Choice for question 8 Beginner, Answer: le -->
     <string name="FCB8_1"> la </string>

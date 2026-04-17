@@ -668,6 +668,20 @@
     <string name="HCA10_2"> Yokohama, Sapporo </string>
     <string name="HCA10_3"> Hiroshima, Nagasaki </string>
     <string name="HCA10_4"> Fukuoka, Sendai</string>
+<!-- Arrays to group your existing strings -->
+    <string-array name="math_junior_questions">
+        <item>@string/MQB1</item>
+        <item>@string/MQB2</item>
+        <item>@string/MQB3</item>
+        <!-- ... add all 10 ... -->
+    </string-array>
+
+    <integer-array name="math_junior_answers">
+        <item>2</item> <!-- Index for 12 -->
+        <item>0</item> <!-- Index for 7 -->
+        <item>1</item> <!-- Index for 24 -->
+        <!-- ... add all 10 ... -->
+    </integer-array>
     <!--/////////////////////////////////////////////////////////////////////////////////////////// -->
 
 

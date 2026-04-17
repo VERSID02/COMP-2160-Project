@@ -39,467 +39,2023 @@
     <string name="low_battery">Low battery detected. Your progress has been saved.</string>
     <string name="mathematics">Mathematics</string>
     <string name="science">Science</string>
-    <string name="english">English</string>
+    <string name="french">French</string>
     <string name="history">History</string>
     <string name="math_desc">Test your maths skills from basic arithmetic to algebra and geometry.</string>
     <string name="science_desc">Explore science from states of matter to chemical reactions and physics.</string>
-    <string name="english_desc">Practise grammar, vocabulary, comprehension and literary devices.</string>
+    <string name="french_desc">Practise grammar, vocabulary, comprehension and literary devices in French.</string>
     <string name="history_desc">Revisit key historical events, figures, causes and effects.</string>
-
-
-
-
-
-
-
 
 
     <!-- Mathematics Foundation Questions -->
     <string-array name="math_foundation_questions">
+
+        <!-- Question_1 -->
         <item>What is 12 + 7?</item>
+
+        <!-- Question_2 -->
         <item>What is 25 - 9?</item>
+
+        <!-- Question_3 -->
         <item>What is 6 × 8?</item>
+
+        <!-- Question_4 -->
         <item>What is 48 ÷ 6?</item>
+
+        <!-- Question_5 -->
         <item>What is 1/2 + 1/4?</item>
+
+        <!-- Question_6 -->
         <item>What is 3/4 as a percentage?</item>
+
+        <!-- Question_7 -->
         <item>What is 20% of 80?</item>
+
+        <!-- Question_8 -->
         <item>Round 4.67 to the nearest whole number.</item>
+
+        <!-- Question_9 -->
         <item>What is the value of 2³?</item>
+
+        <!-- Question_10 -->
         <item>What is the LCM of 4 and 6?</item>
+
     </string-array>
+
+
+    <!-- Mathematics Foundation Choice A Array -->
     <string-array name="math_foundation_a">
-        <item>19</item><item>16</item><item>48</item><item>8</item><item>3/4</item>
-        <item>75%</item><item>16</item><item>5</item><item>8</item><item>12</item>
+
+        <!-- Choice 1_a -->
+        <item>19</item>
+
+        <!-- Choice 2_a -->
+        <item>16</item>
+
+        <!-- Choice 3_a -->
+        <item>48</item>
+
+        <!-- Choice 4_a -->
+        <item>8</item>
+
+        <!-- Choice 5_a -->
+        <item>3/4</item>
+
+        <!-- Choice 6_a -->
+        <item>75%</item>
+
+        <!-- Choice 7_a -->
+        <item>16</item>
+
+        <!-- Choice 8_a -->
+        <item>5</item>
+
+        <!-- Choice 9_a -->
+        <item>8</item>
+
+        <!-- Choice 10_a -->
+        <item>12</item>
     </string-array>
+
+
+    <!-- Mathematics Foundation Choice B Array -->
     <string-array name="math_foundation_b">
-        <item>18</item><item>14</item><item>42</item><item>6</item><item>2/3</item>
-        <item>70%</item><item>14</item><item>4</item><item>6</item><item>10</item>
+
+        <!-- Choice 1_b -->
+        <item>18</item>
+
+        <!-- Choice 2_b -->
+        <item>14</item>
+
+        <!-- Choice 3_b -->
+        <item>42</item>
+
+        <!-- Choice 4_b -->
+        <item>6</item>
+
+        <!-- Choice 5_b -->
+        <item>2/3</item>
+
+        <!-- Choice 6_b -->
+        <item>70%</item>
+
+        <!-- Choice 7_b -->
+        <item>14</item>
+
+        <!-- Choice 8_b -->
+        <item>4</item>
+
+        <!-- Choice 9_b -->
+        <item>6</item>
+
+        <!-- Choice 10_b -->
+        <item>10</item>
     </string-array>
+
+
+    <!-- Mathematics Foundation Choice C Array -->
     <string-array name="math_foundation_c">
-        <item>21</item><item>17</item><item>56</item><item>9</item><item>1/3</item>
-        <item>80%</item><item>18</item><item>6</item><item>9</item><item>8</item>
+
+        <!-- Choice 1_c -->
+        <item>21</item>
+
+        <!-- Choice 2_c -->
+        <item>17</item>
+
+        <!-- Choice 3_c -->
+        <item>56</item>
+
+        <!-- Choice 4_c -->
+        <item>9</item>
+
+        <!-- Choice 5_c -->
+        <item>1/3</item>
+
+        <!-- Choice 6_c -->
+        <item>80%</item>
+
+        <!-- Choice 7_c -->
+        <item>18</item>
+
+        <!-- Choice 8_c -->
+        <item>6</item>
+
+        <!-- Choice 9_c -->
+        <item>9</item>
+
+        <!-- Choice 10_c -->
+        <item>8</item>
+
     </string-array>
+
+
+    <!-- Mathematics Foundation Choice D Array -->
     <string-array name="math_foundation_d">
-        <item>17</item><item>15</item><item>40</item><item>7</item><item>1/4</item>
-        <item>65%</item><item>12</item><item>3</item><item>4</item><item>6</item>
+
+        <!-- Choice 1_d -->
+        <item>17</item>
+
+        <!-- Choice 2_d -->
+        <item>15</item>
+
+        <!-- Choice 3_d -->
+        <item>40</item>
+
+        <!-- Choice 4_d -->
+        <item>7</item>
+
+        <!-- Choice 5_d -->
+        <item>1/4</item>
+
+        <!-- Choice 6_d -->
+        <item>65%</item>
+
+        <!-- Choice 7_d -->
+        <item>12</item>
+
+        <!-- Choice 8_d -->
+        <item>3</item>
+
+        <!-- Choice 9_d -->
+        <item>4</item>
+
+        <!-- Choice 10_d -->
+        <item>6</item>
+
     </string-array>
+
+
+    <!-- Mathematics Foundation Answers  -->
     <integer-array name="math_foundation_answers">
-        <item>0</item><item>0</item><item>0</item><item>0</item><item>0</item>
-        <item>0</item><item>0</item><item>0</item><item>0</item><item>0</item>
+
+        <!-- Answer 1 -->
+        <item>0</item>
+
+        <!-- Answer 2 -->
+        <item>0</item>
+
+        <!-- Answer 3 -->
+        <item>0</item>
+
+        <!-- Answer 4 -->
+        <item>0</item>
+
+        <!-- Answer 5 -->
+        <item>0</item>
+
+        <!-- Answer 6 -->
+        <item>0</item>
+
+        <!-- Answer 7 -->
+        <item>0</item>
+
+        <!-- Answer 8 -->
+        <item>0</item>
+
+        <!-- Answer 9 -->
+        <item>0</item>
+
+        <!-- Answer 10 -->
+        <item>0</item>
     </integer-array>
+
+
+    <!-- Mathematics Foundation Answer's Explanation  -->
     <string-array name="math_foundation_explanations">
+        <!-- Explanation_1 -->
         <item>12 + 7 = 19. Simple addition.</item>
+
+        <!-- Explanation_2 -->
         <item>25 - 9 = 16. Simple subtraction.</item>
+
+        <!-- Explanation_3 -->
         <item>6 × 8 = 48. Multiplication table.</item>
+
+        <!-- Explanation_4 -->
         <item>48 ÷ 6 = 8. Division.</item>
+
+        <!-- Explanation_5 -->
         <item>1/2 + 1/4 = 2/4 + 1/4 = 3/4. Common denominator.</item>
+
+        <!-- Explanation_6 -->
         <item>3/4 = 75%. Multiply numerator by 100 divided by denominator.</item>
+
+        <!-- Explanation_7 -->
         <item>20% of 80 = (20/100) × 80 = 16.</item>
+
+        <!-- Explanation_8 -->
         <item>4.67 rounds up to 5 since .67 is above .5.</item>
+
+        <!-- Explanation_9 -->
         <item>2³ = 2 × 2 × 2 = 8.</item>
+
+        <!-- Explanation_10 -->
         <item>Multiples of 4: 4,8,12. Multiples of 6: 6,12. LCM = 12.</item>
     </string-array>
 
 
-
-
-
-
-
-
-
-
-
-
-
     <!-- Mathematics Advanced Questions -->
     <string-array name="math_advanced_questions">
+
+        <!-- Question_1 -->
         <item>Solve: 2x + 5 = 13</item>
+
+        <!-- Question_2 -->
         <item>What is the area of a circle with radius 7? (use π ≈ 3.14)</item>
+
+        <!-- Question_3 -->
         <item>Factorise: x² + 5x + 6</item>
+
+        <!-- Question_4 -->
         <item>What is the gradient of the line y = 3x - 2?</item>
+
+        <!-- Question_5 -->
         <item>What is the mean of: 4, 7, 9, 12, 8?</item>
+
+        <!-- Question_6 -->
         <item>What is the Pythagorean theorem?</item>
+
+        <!-- Question_7 -->
         <item>Simplify: (3x²)(2x³)</item>
+
+        <!-- Question_8 -->
         <item>What is the median of: 3, 7, 5, 1, 9?</item>
+
+        <!-- Question_9 -->
         <item>What is the interior angle sum of a hexagon?</item>
+
+        <!-- Question_10 -->
         <item>Solve: x² - 9 = 0</item>
     </string-array>
+
+
+    <!-- Mathematics Advanced Choice A Array -->
     <string-array name="math_advanced_a">
-        <item>x = 4</item><item>153.86</item><item>(x+2)(x+3)</item><item>3</item><item>8</item>
-        <item>a² + b² = c²</item><item>6x⁵</item><item>5</item><item>720°</item><item>x = 3 or x = -3</item>
+
+        <!-- Choice 1_a -->
+        <item>x = 4</item>
+
+        <!-- Choice 2_a -->
+        <item>153.86</item>
+
+        <!-- Choice 3_a -->
+        <item>(x+2)(x+3)</item>
+
+        <!-- Choice 4_a -->
+        <item>3</item>
+
+        <!-- Choice 5_a -->
+        <item>8</item>
+
+        <!-- Choice 6_a -->
+        <item>a² + b² = c²</item>
+
+        <!-- Choice 7_a -->
+        <item>6x⁵</item>
+
+        <!-- Choice 8_a -->
+        <item>5</item>
+
+        <!-- Choice 9_a -->
+        <item>720°</item>
+
+        <!-- Choice 10_a -->
+        <item>x = 3 or x = -3</item>
+
     </string-array>
+
+
+    <!-- Mathematics Advanced Choice B Array -->
     <string-array name="math_advanced_b">
-        <item>x = 3</item><item>140.00</item><item>(x+1)(x+6)</item><item>-2</item><item>9</item>
-        <item>a + b = c</item><item>5x⁵</item><item>7</item><item>540°</item><item>x = 9 or x = -9</item>
+
+        <!-- Choice 1_b -->
+        <item>x = 3</item>
+
+        <!-- Choice 2_b -->
+        <item>140.00</item>
+
+        <!-- Choice 3_b -->
+        <item>(x+1)(x+6)</item>
+
+        <!-- Choice 4_b -->
+        <item>-2</item>
+
+        <!-- Choice 5_b -->
+        <item>9</item>
+
+        <!-- Choice 6_b -->
+        <item>a + b = c</item>
+
+        <!-- Choice 7_b -->
+        <item>5x⁵</item>
+
+        <!-- Choice 8_b -->
+        <item>7</item>
+
+        <!-- Choice 9_b -->
+        <item>540°</item>
+
+        <!-- Choice 10_b -->
+        <item>x = 9 or x = -9</item>
+
     </string-array>
+
+
+    <!-- Mathematics Advanced Choice C Array -->
     <string-array name="math_advanced_c">
-        <item>x = 6</item><item>163.54</item><item>(x+4)(x+2)</item><item>5</item><item>7</item>
-        <item>a² - b² = c²</item><item>6x⁶</item><item>3</item><item>900°</item><item>x = 4 or x = -4</item>
+
+        <!-- Choice 1_c -->
+        <item>x = 6</item>
+
+        <!-- Choice 2_c -->
+        <item>163.54</item>
+
+        <!-- Choice 3_c -->
+        <item>(x+4)(x+2)</item>
+
+        <!-- Choice 4_c -->
+        <item>5</item>
+
+        <!-- Choice 5_c -->
+        <item>7</item>
+
+        <!-- Choice 6_c -->
+        <item>a² - b² = c²</item>
+
+        <!-- Choice 7_c -->
+        <item>6x⁶</item>
+
+        <!-- Choice 8_c -->
+        <item>3</item>
+
+        <!-- Choice 9_c -->
+        <item>900°</item>
+
+        <!-- Choice 10_c -->
+        <item>x = 4 or x = -4</item>
+
     </string-array>
+
+
+    <!-- Mathematics Advanced Choice D Array -->
     <string-array name="math_advanced_d">
-        <item>x = 5</item><item>176.00</item><item>(x+3)(x+3)</item><item>-3</item><item>10</item>
-        <item>a³ + b³ = c³</item><item>5x⁶</item><item>9</item><item>1080°</item><item>x = 6 or x = -6</item>
+
+        <!-- Choice 1_d -->
+        <item>x = 5</item>
+
+        <!-- Choice 2_d -->
+        <item>176.00</item>
+
+        <!-- Choice 3_d -->
+        <item>(x+3)(x+3)</item>
+
+        <!-- Choice 4_d -->
+        <item>-3</item>
+
+        <!-- Choice 5_d -->
+        <item>10</item>
+
+        <!-- Choice 6_d -->
+        <item>a³ + b³ = c³</item>
+
+        <!-- Choice 7_d -->
+        <item>5x⁶</item>
+
+        <!-- Choice 8_d -->
+        <item>9</item>
+
+        <!-- Choice 9_d -->
+        <item>1080°</item>
+
+        <!-- Choice 10_d -->
+        <item>x = 6 or x = -6</item>
+
     </string-array>
+
+
+    <!-- Mathematics Advanced Answers  -->
     <integer-array name="math_advanced_answers">
-        <item>0</item><item>0</item><item>0</item><item>0</item><item>0</item>
-        <item>0</item><item>0</item><item>0</item><item>0</item><item>0</item>
+
+        <!-- Answer 1 -->
+        <item>0</item>
+
+        <!-- Answer 2 -->
+        <item>0</item>
+
+        <!-- Answer 3 -->
+        <item>0</item>
+
+        <!-- Answer 4 -->
+        <item>0</item>
+
+        <!-- Answer 5 -->
+        <item>0</item>
+
+        <!-- Answer 6 -->
+        <item>0</item>
+
+        <!-- Answer 7 -->
+        <item>0</item>
+
+        <!-- Answer 8 -->
+        <item>0</item>
+
+        <!-- Answer 9 -->
+        <item>0</item>
+
+        <!-- Answer 10 -->
+        <item>0</item>
+
     </integer-array>
+
+
+    <!-- Mathematics Advanced Answer's Explanations  -->
     <string-array name="math_advanced_explanations">
+
+        <!-- Explanation_1 -->
         <item>2x + 5 = 13 → 2x = 8 → x = 4.</item>
+
+        <!-- Explanation_2 -->
         <item>Area = π r² = 3.14 × 49 = 153.86.</item>
+
+        <!-- Explanation_3 -->
         <item>Find two numbers that multiply to 6 and add to 5: 2 and 3. So (x+2)(x+3).</item>
+
+        <!-- Explanation_4 -->
         <item>In y = mx + b, m is the gradient. Here m = 3.</item>
+
+        <!-- Explanation_5 -->
         <item>(4+7+9+12+8) / 5 = 40/5 = 8.</item>
+
+        <!-- Explanation_6 -->
         <item>Pythagorean theorem: a² + b² = c² for right-angled triangles.</item>
+
+        <!-- Explanation_7 -->
         <item>Multiply coefficients: 3×2=6. Add exponents: 2+3=5. Result: 6x⁵.</item>
+
+        <!-- Explanation_8 -->
         <item>Sorted: 1,3,5,7,9. Middle value = 5.</item>
+
+        <!-- Explanation_9 -->
         <item>Interior angle sum = (n-2)×180 = 4×180 = 720°.</item>
+
+        <!-- Explanation_10 -->
         <item>x² = 9 → x = ±3.</item>
+
     </string-array>
-
-
-
-
-
-
-
-
-
 
 
 
     <!-- Science Foundation Questions -->
     <string-array name="science_foundation_questions">
+
+        <!-- Question_1 -->
         <item>What are the three states of matter?</item>
+
+        <!-- Question_2 -->
         <item>What force pulls objects towards Earth?</item>
+
+        <!-- Question_3 -->
         <item>What is the unit of force?</item>
+
+        <!-- Question_4 -->
         <item>Which gas do plants absorb during photosynthesis?</item>
+
+        <!-- Question_5 -->
         <item>What is the boiling point of water in Celsius?</item>
+
+        <!-- Question_6 -->
         <item>What organelle controls the cell?</item>
+
+        <!-- Question_7 -->
         <item>What is the freezing point of water?</item>
+
+        <!-- Question_8 -->
         <item>What type of energy does a moving object have?</item>
+
+        <!-- Question_9 -->
         <item>Which planet is closest to the Sun?</item>
+
+        <!-- Question_10 -->
         <item>What is the process plants use to make food?</item>
     </string-array>
+
+
+    <!-- Science Foundation Choice A Array -->
     <string-array name="science_foundation_a">
-        <item>Solid, liquid, gas</item><item>Gravity</item><item>Newton</item><item>Carbon dioxide</item><item>100°C</item>
-        <item>Nucleus</item><item>0°C</item><item>Kinetic energy</item><item>Mercury</item><item>Photosynthesis</item>
+
+        <!-- Choice 1_a -->
+        <item>Solid, liquid, gas</item>
+
+        <!-- Choice 2_a -->
+        <item>Gravity</item>
+
+        <!-- Choice 3_a -->
+        <item>Newton</item>
+
+        <!-- Choice 4_a -->
+        <item>Carbon dioxide</item>
+
+        <!-- Choice 5_a -->
+        <item>100°C</item>
+
+        <!-- Choice 6_a -->
+        <item>Nucleus</item>
+
+        <!-- Choice 7_a -->
+        <item>0°C</item>
+
+        <!-- Choice 8_a -->
+        <item>Kinetic energy</item>
+
+        <!-- Choice 9_a -->
+        <item>Mercury</item>
+
+        <!-- Choice 10_a -->
+        <item>Photosynthesis</item>
+
     </string-array>
+
+
+    <!-- Science Foundation Choice B Array -->
     <string-array name="science_foundation_b">
-        <item>Solid, liquid, plasma</item><item>Magnetism</item><item>Joule</item><item>Oxygen</item><item>90°C</item>
-        <item>Mitochondria</item><item>4°C</item><item>Potential energy</item><item>Venus</item><item>Respiration</item>
+
+        <!-- Choice 1_b -->
+        <item>Solid, liquid, plasma</item>
+
+        <!-- Choice 2_b -->
+        <item>Magnetism</item>
+
+        <!-- Choice 3_b -->
+        <item>Joule</item>
+
+        <!-- Choice 4_b -->
+        <item>Oxygen</item>
+
+        <!-- Choice 5_b -->
+        <item>90°C</item>
+
+        <!-- Choice 6_b -->
+        <item>Mitochondria</item>
+
+        <!-- Choice 7_b -->
+        <item>4°C</item>
+
+        <!-- Choice 8_b -->
+        <item>Potential energy</item>
+
+        <!-- Choice 9_b -->
+        <item>Venus</item>
+
+        <!-- Choice 10_b -->
+        <item>Respiration</item>
+
     </string-array>
+
+
+    <!-- Science Foundation Choice C Array -->
     <string-array name="science_foundation_c">
-        <item>Solid, gas, plasma</item><item>Friction</item><item>Watt</item><item>Nitrogen</item><item>110°C</item>
-        <item>Cell membrane</item><item>-10°C</item><item>Thermal energy</item><item>Mars</item><item>Digestion</item>
+
+        <!-- Choice 1_c -->
+        <item>Solid, gas, plasma</item>
+
+        <!-- Choice 2_c -->
+        <item>Friction</item>
+
+        <!-- Choice 3_c -->
+        <item>Watt</item>
+
+        <!-- Choice 4_c -->
+        <item>Nitrogen</item>
+
+        <!-- Choice 5_c -->
+        <item>110°C</item>
+
+        <!-- Choice 6_c -->
+        <item>Cell membrane</item>
+
+        <!-- Choice 7_c -->
+        <item>-10°C</item>
+
+        <!-- Choice 8_c -->
+        <item>Thermal energy</item>
+
+        <!-- Choice 9_c -->
+        <item>Mars</item>
+
+        <!-- Choice 10_c -->
+        <item>Digestion</item>
+
     </string-array>
+
+
+    <!-- Science Foundation Choice D Array -->
     <string-array name="science_foundation_d">
-        <item>Liquid, gas, plasma</item><item>Tension</item><item>Pascal</item><item>Hydrogen</item><item>80°C</item>
-        <item>Vacuole</item><item>10°C</item><item>Chemical energy</item><item>Jupiter</item><item>Transpiration</item>
+
+        <!-- Choice 1_d -->
+        <item>Liquid, gas, plasma</item>
+
+        <!-- Choice 2_d -->
+        <item>Tension</item>
+
+        <!-- Choice 3_d -->
+        <item>Pascal</item>
+
+        <!-- Choice 4_d -->
+        <item>Hydrogen</item>
+
+        <!-- Choice 5_d -->
+        <item>80°C</item>
+
+        <!-- Choice 6_d -->
+        <item>Vacuole</item>
+
+        <!-- Choice 7_d -->
+        <item>10°C</item>
+
+        <!-- Choice 8_d -->
+        <item>Chemical energy</item>
+
+        <!-- Choice 9_d -->
+        <item>Jupiter</item>
+
+        <!-- Choice 10_d -->
+        <item>Transpiration</item>
+
     </string-array>
+
+
+    <!-- Science Foundation Answers  -->
     <integer-array name="science_foundation_answers">
-        <item>0</item><item>0</item><item>0</item><item>0</item><item>0</item>
-        <item>0</item><item>0</item><item>0</item><item>0</item><item>0</item>
+
+        <!-- Answer 1 -->
+        <item>0</item>
+
+        <!-- Answer 2 -->
+        <item>0</item>
+
+        <!-- Answer 3 -->
+        <item>0</item>
+
+        <!-- Answer 4 -->
+        <item>0</item>
+
+        <!-- Answer 5 -->
+        <item>0</item>
+
+        <!-- Answer 6 -->
+        <item>0</item>
+
+        <!-- Answer 7 -->
+        <item>0</item>
+
+        <!-- Answer 8 -->
+        <item>0</item>
+
+        <!-- Answer 9 -->
+        <item>0</item>
+
+        <!-- Answer 10 -->
+        <item>0</item>
+
     </integer-array>
+
+
+    <!-- Science Foundation Answer's Explanations  -->
     <string-array name="science_foundation_explanations">
+
+        <!-- Explanation_1 -->
         <item>The three states of matter are solid, liquid, and gas.</item>
+
+        <!-- Explanation_2 -->
         <item>Gravity is the force that pulls objects toward Earth.</item>
+
+        <!-- Explanation_3 -->
         <item>Force is measured in Newtons (N).</item>
+
+        <!-- Explanation_4 -->
         <item>Plants absorb CO₂ (carbon dioxide) during photosynthesis.</item>
+
+        <!-- Explanation_5 -->
         <item>Water boils at 100°C at standard pressure.</item>
+
+        <!-- Explanation_6 -->
         <item>The nucleus controls cell activities and contains DNA.</item>
+
+        <!-- Explanation_7 -->
         <item>Water freezes at 0°C.</item>
+
+        <!-- Explanation_8 -->
         <item>Moving objects have kinetic energy.</item>
+
+        <!-- Explanation_9 -->
         <item>Mercury is the closest planet to the Sun.</item>
+
+        <!-- Explanation_10 -->
         <item>Photosynthesis is the process plants use to make food using sunlight.</item>
+
     </string-array>
-
-
-
-
-
-
-
-
-
 
 
     <!-- Science Advanced Questions -->
     <string-array name="science_advanced_questions">
+
+        <!-- Question_1 -->
         <item>What type of reaction is combustion?</item>
+
+        <!-- Question_2 -->
         <item>What is Newton\'s second law of motion?</item>
+
+        <!-- Question_3 -->
         <item>What is the role of decomposers in an ecosystem?</item>
+
+        <!-- Question_4 -->
         <item>What is the chemical formula for water?</item>
+
+        <!-- Question_5 -->
         <item>What is Ohm\'s Law?</item>
+
+        <!-- Question_6 -->
         <item>What happens to particles when a substance is heated?</item>
+
+        <!-- Question_7 -->
         <item>What is a food chain?</item>
+
+        <!-- Question_8 -->
         <item>What is the difference between speed and velocity?</item>
+
+        <!-- Question_9 -->
         <item>What subatomic particle has a negative charge?</item>
+
+        <!-- Question_10 -->
         <item>What is the law of conservation of energy?</item>
+
     </string-array>
+
+
+    <!-- Science Advanced Choice A Array -->
     <string-array name="science_advanced_a">
-        <item>Exothermic</item><item>F = ma</item><item>Break down dead matter</item><item>H₂O</item><item>V = IR</item>
-        <item>Move faster and further apart</item><item>A sequence showing feeding relationships</item><item>Velocity has direction</item><item>Electron</item><item>Energy cannot be created or destroyed</item>
+
+        <!-- Choice 1_a -->
+        <item>Exothermic</item>
+
+        <!-- Choice 2_a -->
+        <item>F = ma</item>
+
+        <!-- Choice 3_a -->
+        <item>Break down dead matter</item>
+
+        <!-- Choice 4_a -->
+        <item>H₂O</item>
+
+        <!-- Choice 5_a -->
+        <item>V = IR</item>
+
+        <!-- Choice 6_a -->
+        <item>Move faster and further apart</item>
+
+        <!-- Choice 7_a -->
+        <item>A sequence showing feeding relationships</item>
+
+        <!-- Choice 8_a -->
+        <item>Velocity has direction</item>
+
+        <!-- Choice 9_a -->
+        <item>Electron</item>
+
+        <!-- Choice 10_a -->
+        <item>Energy cannot be created or destroyed</item>
+
     </string-array>
+
+
+    <!-- Science Advanced Choice B Array -->
     <string-array name="science_advanced_b">
-        <item>Endothermic</item><item>F = mv</item><item>Produce oxygen</item><item>H₂O₂</item><item>V = I/R</item>
-        <item>Slow down and bond together</item><item>A diagram of an ecosystem</item><item>Speed is faster</item><item>Proton</item><item>Energy is always lost as heat</item>
+
+        <!-- Choice 1_b -->
+        <item>Endothermic</item>
+
+        <!-- Choice 2_b -->
+        <item>F = mv</item>
+
+        <!-- Choice 3_b -->
+        <item>Produce oxygen</item>
+
+        <!-- Choice 4_b -->
+        <item>H₂O₂</item>
+
+        <!-- Choice 5_b -->
+        <item>V = I/R</item>
+
+        <!-- Choice 6_b -->
+        <item>Slow down and bond together</item>
+
+        <!-- Choice 7_b -->
+        <item>A diagram of an ecosystem</item>
+
+        <!-- Choice 8_b -->
+        <item>Speed is faster</item>
+
+        <!-- Choice 9_b -->
+        <item>Proton</item>
+
+        <!-- Choice 10_b -->
+        <item>Energy is always lost as heat</item>
+
     </string-array>
+
+
+    <!-- Science Advanced Choice C Array -->
     <string-array name="science_advanced_c">
-        <item>Neutralisation</item><item>F = m/a</item><item>Produce sunlight</item><item>CO₂</item><item>I = VR</item>
-        <item>Stay the same</item><item>A list of all animals</item><item>Speed has direction</item><item>Neutron</item><item>Energy can be created from matter</item>
+
+        <!-- Choice 1_c -->
+        <item>Neutralisation</item>
+
+        <!-- Choice 2_c -->
+        <item>F = m/a</item>
+
+        <!-- Choice 3_c -->
+        <item>Produce sunlight</item>
+
+        <!-- Choice 4_c -->
+        <item>CO₂</item>
+
+        <!-- Choice 5_c -->
+        <item>I = VR</item>
+
+        <!-- Choice 6_c -->
+        <item>Stay the same</item>
+
+        <!-- Choice 7_c -->
+        <item>A list of all animals</item>
+
+        <!-- Choice 8_c -->
+        <item>Speed has direction</item>
+
+        <!-- Choice 9_c -->
+        <item>Neutron</item>
+
+        <!-- Choice 10_c -->
+        <item>Energy can be created from matter</item>
+
     </string-array>
+
+
+    <!-- Science Advanced Choice D Array -->
     <string-array name="science_advanced_d">
-        <item>Oxidation</item><item>F = v/m</item><item>Absorb carbon dioxide</item><item>O₂</item><item>R = VI</item>
-        <item>Vibrate less</item><item>A group of similar organisms</item><item>They are the same</item><item>Nucleus</item><item>Energy equals mass times speed</item>
+
+        <!-- Choice 1_d -->
+        <item>Oxidation</item>
+
+        <!-- Choice 2_d -->
+        <item>F = v/m</item>
+
+        <!-- Choice 3_d -->
+        <item>Absorb carbon dioxide</item>
+
+        <!-- Choice 4_d -->
+        <item>O₂</item>
+
+        <!-- Choice 5_d -->
+        <item>R = VI</item>
+
+        <!-- Choice 6_d -->
+        <item>Vibrate less</item>
+
+        <!-- Choice 7_d -->
+        <item>A group of similar organisms</item>
+
+        <!-- Choice 8_d -->
+        <item>They are the same</item>
+
+        <!-- Choice 9_d -->
+        <item>Nucleus</item>
+
+        <!-- Choice 10_d -->
+        <item>Energy equals mass times speed</item>
+
     </string-array>
+
+
+    <!-- Science Advanced Answers  -->
     <integer-array name="science_advanced_answers">
-        <item>0</item><item>0</item><item>0</item><item>0</item><item>0</item>
-        <item>0</item><item>0</item><item>0</item><item>0</item><item>0</item>
+
+        <!-- Answers 1 -->
+        <item>0</item>
+
+        <!-- Answers 2 -->
+        <item>0</item>
+
+        <!-- Answers 3 -->
+        <item>0</item>
+
+        <!-- Answers 4 -->
+        <item>0</item>
+
+        <!-- Answers 5 -->
+        <item>0</item>
+
+        <!-- Answers 6 -->
+        <item>0</item>
+
+        <!-- Answers 7 -->
+        <item>0</item>
+
+        <!-- Answers 8 -->
+        <item>0</item>
+
+        <!-- Answers 9 -->
+        <item>0</item>
+
+        <!-- Answers 10 -->
+        <item>0</item>
+
     </integer-array>
+
+
+    <!-- Science Advanced Answer's Explanations -->
     <string-array name="science_advanced_explanations">
+
+        <!-- Explanation_1 -->
         <item>Combustion releases heat energy — it is an exothermic reaction.</item>
+
+        <!-- Explanation_2 -->
         <item>Newton\'s 2nd law: Force = mass × acceleration (F = ma).</item>
+
+        <!-- Explanation_3 -->
         <item>Decomposers break down dead organisms returning nutrients to the soil.</item>
+
+        <!-- Explanation_4 -->
         <item>Water is H₂O — two hydrogen atoms bonded to one oxygen atom.</item>
+
+        <!-- Explanation_5 -->
         <item>Ohm\'s Law: Voltage = Current × Resistance (V = IR).</item>
+
+        <!-- Explanation_6 -->
         <item>Heating causes particles to gain energy, move faster and spread apart.</item>
+
+        <!-- Explanation_7 -->
         <item>A food chain shows the transfer of energy through feeding relationships.</item>
+
+        <!-- Explanation_8 -->
         <item>Velocity includes direction; speed does not.</item>
+
+        <!-- Explanation_9 -->
         <item>Electrons are negatively charged subatomic particles.</item>
+
+        <!-- Explanation_10 -->
         <item>The law of conservation of energy states energy cannot be created or destroyed.</item>
+
     </string-array>
 
 
 
+    <!-- French Foundation Questions -->
+    <string-array name="french_foundation_questions">
 
+        <!-- Question_1 -->
+        <item>How do you say \'Hello\' in French?</item>
 
+        <!-- Question_2 -->
+        <item>Which of these is \'Apple\'?</item>
 
+        <!-- Question_3 -->
+        <item>What is the plural of \'le chat\'?</item>
 
+        <!-- Question_4 -->
+        <item>How do you say \'Thank you\'?</item>
 
+        <!-- Question_5 -->
+        <item>Translate: \'I am\'</item>
 
+        <!-- Question_6 -->
+        <item>Which color is \'bleu\'?</item>
 
+        <!-- Question_7 -->
+        <item>What is \'one\' in French?</item>
 
+        <!-- Question_8 -->
+        <item>Which is a feminine article?</item>
 
+        <!-- Question_9 -->
+        <item>How do you say \'Goodbye\'?</item>
 
+        <!-- Question_10 -->
+        <item>Translate: \'the boy\'</item>
 
-
-    <!-- English Foundation Questions -->
-    <string-array name="english_foundation_questions">
-        <item>Which sentence uses correct punctuation?</item>
-        <item>What is a noun?</item>
-        <item>What does the word "benevolent" mean?</item>
-        <item>Which is the correct spelling?</item>
-        <item>What is an adjective?</item>
-        <item>What punctuation ends a question?</item>
-        <item>Which word is a verb?</item>
-        <item>What is a synonym of "happy"?</item>
-        <item>What is an antonym of "cold"?</item>
-        <item>How many syllables in "elephant"?</item>
     </string-array>
-    <string-array name="english_foundation_a">
-        <item>She went to the shop.</item><item>A person, place or thing</item><item>Kind and generous</item><item>Receive</item><item>A word that describes a noun</item>
-        <item>\?</item><item>Run</item><item>Joyful</item><item>Hot</item><item>3</item>
+
+
+    <!-- French Foundation Choice A Array -->
+    <string-array name="french_foundation_a">
+
+        <!-- Choice 1_a -->
+        <item>Bonjour</item>
+
+        <!-- Choice 2_a -->
+        <item>La pomme</item>
+
+        <!-- Choice 3_a -->
+        <item>les chats</item>
+
+        <!-- Choice 4_a -->
+        <item>Merci</item>
+
+        <!-- Choice 5_a -->
+        <item>Je suis</item>
+
+        <!-- Choice 6_a -->
+        <item>Blue</item>
+
+        <!-- Choice 7_a -->
+        <item>un</item>
+
+        <!-- Choice 8_a -->
+        <item>la</item>
+
+        <!-- Choice 9_a -->
+        <item>Au revoir</item>
+
+        <!-- Choice 10_a -->
+        <item>le garçon</item>
+
     </string-array>
-    <string-array name="english_foundation_b">
-        <item>She went to the shop</item><item>An action word</item><item>Cruel and mean</item><item>Recieve</item><item>A word that describes a verb</item>
-        <item>.</item><item>Fast</item><item>Sad</item><item>Icy</item><item>2</item>
+
+
+    <!-- French Foundation Choice B Array -->
+    <string-array name="french_foundation_b">
+
+        <!-- Choice 1_b -->
+        <item>Au revoir</item>
+
+        <!-- Choice 2_b -->
+        <item>La poire</item>
+
+        <!-- Choice 3_b -->
+        <item>les chat</item>
+
+        <!-- Choice 4_b -->
+        <item>Pardon</item>
+
+        <!-- Choice 5_b -->
+        <item>Tu es</item>
+
+        <!-- Choice 6_b -->
+        <item>Red</item>
+
+        <!-- Choice 7_b -->
+        <item>deux</item>
+
+        <!-- Choice 8_b -->
+        <item>le</item>
+
+        <!-- Choice 9_b -->
+        <item>Salut</item>
+
+        <!-- Choice 10_b -->
+        <item>la fille</item>
+
     </string-array>
-    <string-array name="english_foundation_c">
-        <item>she went to the shop.</item><item>A describing word</item><item>Very intelligent</item><item>Receve</item><item>A naming word</item>
-        <item>!</item><item>Quickly</item><item>Angry</item><item>Freezing</item><item>4</item>
+
+
+    <!-- French Foundation Choice C Array -->
+    <string-array name="french_foundation_c">
+
+        <!-- Choice 1_c -->
+        <item>Merci</item>
+
+        <!-- Choice 2_c -->
+        <item>La banane</item>
+
+        <!-- Choice 3_c -->
+        <item>le chats</item>
+
+        <!-- Choice 4_c -->
+        <item>De rien</item>
+
+        <!-- Choice 5_c -->
+        <item>Il est</item>
+
+        <!-- Choice 6_c -->
+        <item>Green</item>
+
+        <!-- Choice 7_c -->
+        <item>trois</item>
+
+        <!-- Choice 8_c -->
+        <item>un</item>
+
+        <!-- Choice 9_c -->
+        <item>À bientôt</item>
+
+        <!-- Choice 10_c -->
+        <item>l\'homme</item>
+
     </string-array>
-    <string-array name="english_foundation_d">
-        <item>She went to the shop?</item><item>A connecting word</item><item>Feeling tired</item><item>Receeve</item><item>An action word</item>
-        <item>,</item><item>Blue</item><item>Tired</item><item>Warm</item><item>1</item>
+
+
+    <!-- French Foundation Choice D Array -->
+    <string-array name="french_foundation_d">
+
+        <!-- Choice 1_d -->
+        <item>S\'il vous plaît</item>
+
+        <!-- Choice 2_d -->
+        <item>L\'orange</item>
+
+        <!-- Choice 3_d -->
+        <item>la chats</item>
+
+        <!-- Choice 4_d -->
+        <item>Enchanté</item>
+
+        <!-- Choice 5_d -->
+        <item>Nous sommes</item>
+
+        <!-- Choice 6_d -->
+        <item>Yellow</item>
+
+        <!-- Choice 7_d -->
+        <item>quatre</item>
+
+        <!-- Choice 8_d -->
+        <item>les</item>
+
+        <!-- Choice 9_d -->
+        <item>Bonne nuit</item>
+
+        <!-- Choice 10_d -->
+        <item>la femme</item>
+
     </string-array>
-    <integer-array name="english_foundation_answers">
-        <item>0</item><item>0</item><item>0</item><item>0</item><item>0</item>
-        <item>0</item><item>0</item><item>0</item><item>0</item><item>0</item>
+
+
+    <!-- French Foundation Answers -->
+    <integer-array name="french_foundation_answers">
+
+        <!-- Answers 1 -->
+        <item>0</item>
+
+        <!-- Answers 2 -->
+        <item>0</item>
+
+        <!-- Answers 3 -->
+        <item>0</item>
+
+        <!-- Answers 4 -->
+        <item>0</item>
+
+        <!-- Answers 5 -->
+        <item>0</item>
+
+        <!-- Answers 6 -->
+        <item>0</item>
+
+        <!-- Answers 7 -->
+        <item>0</item>
+
+        <!-- Answers 8 -->
+        <item>0</item>
+
+        <!-- Answers 9 -->
+        <item>0</item>
+
+        <!-- Answers 10 -->
+        <item>0</item>
+
     </integer-array>
-    <string-array name="english_foundation_explanations">
-        <item>A proper sentence starts with a capital and ends with a full stop.</item>
-        <item>A noun is a person, place, or thing.</item>
-        <item>Benevolent means kind and generous.</item>
-        <item>The correct spelling is "receive" — i before e except after c.</item>
-        <item>An adjective is a word that describes a noun.</item>
-        <item>Questions end with a question mark (?).</item>
-        <item>Run is a verb — it describes an action.</item>
-        <item>Joyful is a synonym of happy — it means the same thing.</item>
-        <item>Hot is the antonym (opposite) of cold.</item>
-        <item>El-e-phant has 3 syllables.</item>
+
+
+    <!-- French Foundation Answer's Explanations -->
+    <string-array name="french_foundation_explanations">
+
+        <!-- Explanation_1 -->
+        <item>\'Bonjour\' is the standard greeting for \'Hello\'.</item>
+
+        <!-- Explanation_2 -->
+        <item>\'La pomme\' means apple.</item>
+
+        <!-- Explanation_3 -->
+        <item>Plurals are usually formed by adding \'s\' and changing the article to \'les\'.</item>
+
+        <!-- Explanation_4 -->
+        <item>\'Merci\' means thank you.</item>
+
+        <!-- Explanation_5 -->
+        <item>\'Je suis\' is the first person singular of the verb \'être\' (to be).</item>
+
+        <!-- Explanation_6 -->
+        <item>\'Bleu\' means blue.</item>
+
+        <!-- Explanation_7 -->
+        <item>\'un\' means one.</item>
+
+        <!-- Explanation_8 -->
+        <item>\'la\' is the definite article for feminine singular nouns.</item>
+
+        <!-- Explanation_9 -->
+        <item>\'Au revoir\' means goodbye.</item>
+
+        <!-- Explanation_10 -->
+        <item>\'le garçon\' means the boy.</item>
+
+    </string-array>
+
+    
+    <!-- French Advanced Questions -->
+    <string-array name="french_advanced_questions">
+
+        <!-- Question_1 -->
+        <item>Which tense is \'j\'ai mangé\'?</item>
+
+        <!-- Question_2 -->
+        <item>Identify the correct relative pronoun: \'La maison ___ j\'ai achetée.\'</item>
+
+        <!-- Question_3 -->
+        <item>What does \'bien que\' trigger?</item>
+
+        <!-- Question_4 -->
+        <item>Translate: \'I would have gone\'</item>
+
+        <!-- Question_5 -->
+        <item>Which is a synonym of \'néanmoins\'?</item>
+
+        <!-- Question_6 -->
+        <item>What is the feminine form of \'heureux\'?</item>
+
+        <!-- Question_7 -->
+        <item>Translate: \'the trees\'</item>
+
+        <!-- Question_8 -->
+        <item>Which verb is used with \'être\' in passé composé?</item>
+
+        <!-- Question_9 -->
+        <item>What is the \'imparfait\' stem of \'finir\'?</item>
+
+        <!-- Question_10 -->
+        <item>Translate: \'I believe that he is coming\'</item>
+
     </string-array>
 
 
+    <!-- French Advanced Choice A Array -->
+    <string-array name="french_advanced_a">
 
+        <!-- Choice 1_a -->
+        <item>Passé composé</item>
 
+        <!-- Choice 2_a -->
+        <item>que</item>
 
+        <!-- Choice 3_a -->
+        <item>Subjunctive</item>
 
+        <!-- Choice 4_a -->
+        <item>Je serais allé</item>
 
+        <!-- Choice 5_a -->
+        <item>cependant</item>
 
+        <!-- Choice 6_a -->
+        <item>heureuse</item>
 
+        <!-- Choice 7_a -->
+        <item>les arbres</item>
 
+        <!-- Choice 8_a -->
+        <item>venir</item>
 
+        <!-- Choice 9_a -->
+        <item>finiss-</item>
 
+        <!-- Choice 10_a -->
+        <item>Je crois qu\'il vient</item>
 
-    <!-- English Advanced Questions -->
-    <string-array name="english_advanced_questions">
-        <item>What is a metaphor?</item>
-        <item>Identify the literary device: "The wind whispered through the trees."</item>
-        <item>What is the main purpose of a thesis statement?</item>
-        <item>What is dramatic irony?</item>
-        <item>What is the effect of short sentences in writing?</item>
-        <item>What is an inference?</item>
-        <item>What does "omniscient narrator" mean?</item>
-        <item>What is alliteration?</item>
-        <item>Which is an example of a simile?</item>
-        <item>What is the purpose of a topic sentence in a paragraph?</item>
     </string-array>
-    <string-array name="english_advanced_a">
-        <item>A direct comparison without using "like" or "as"</item><item>Personification</item><item>To state the main argument of an essay</item><item>When audience knows more than characters</item><item>Creates urgency and tension</item>
-        <item>A conclusion drawn from evidence</item><item>A narrator who knows all characters\' thoughts</item><item>Repetition of consonant sounds at word starts</item><item>He ran like a cheetah</item><item>Introduces the main idea of the paragraph</item>
+
+
+    <!-- French Advanced Choice B Array -->
+    <string-array name="french_advanced_b">
+
+        <!-- Choice 1_b -->
+        <item>Présent</item>
+
+        <!-- Choice 2_b -->
+        <item>qui</item>
+
+        <!-- Choice 3_b -->
+        <item>Indicative</item>
+
+        <!-- Choice 4_b -->
+        <item>Je suis allé</item>
+
+        <!-- Choice 5_b -->
+        <item>car</item>
+
+        <!-- Choice 6_b -->
+        <item>heureux</item>
+
+        <!-- Choice 7_b -->
+        <item>l\'arbres</item>
+
+        <!-- Choice 8_b -->
+        <item>manger</item>
+
+        <!-- Choice 9_b -->
+        <item>fin-</item>
+
+        <!-- Choice 10_b -->
+        <item>Je crois qu\'il vienne</item>
+
     </string-array>
-    <string-array name="english_advanced_b">
-        <item>A comparison using "like" or "as"</item><item>Metaphor</item><item>To summarise the conclusion</item><item>When a character says the opposite of what they mean</item><item>Makes writing boring</item>
-        <item>A direct quote from the text</item><item>A narrator who is a character in the story</item><item>Repetition of vowel sounds</item><item>She is a shining star</item><item>Ends the paragraph with evidence</item>
+
+
+    <!-- French Advanced Choice C Array -->
+    <string-array name="french_advanced_c">
+
+        <!-- Choice 1_c -->
+        <item>Imparfait</item>
+
+        <!-- Choice 2_c -->
+        <item>dont</item>
+
+        <!-- Choice 3_c -->
+        <item>Conditional</item>
+
+        <!-- Choice 4_c -->
+        <item>J\'irais</item>
+
+        <!-- Choice 5_c -->
+        <item>donc</item>
+
+        <!-- Choice 6_c -->
+        <item>heureuses</item>
+
+        <!-- Choice 7_c -->
+        <item>le arbres</item>
+
+        <!-- Choice 8_c -->
+        <item>finir</item>
+
+        <!-- Choice 9_c -->
+        <item>fini-</item>
+
+        <!-- Choice 10_c -->
+        <item>Je crois qu\'il viendra</item>
+
     </string-array>
-    <string-array name="english_advanced_c">
-        <item>A figure of speech using exaggeration</item><item>Simile</item><item>To introduce characters</item><item>When events turn out opposite to expectations</item><item>Makes writing easier to read</item>
-        <item>A guess with no evidence</item><item>A narrator who is unreliable</item><item>Repetition of a word for emphasis</item><item>The night was a dark blanket</item><item>Provides the concluding sentence</item>
+
+
+    <!-- French Advanced Choice D Array -->
+    <string-array name="french_advanced_d">
+
+        <!-- Choice 1_d -->
+        <item>Futur simple</item>
+
+        <!-- Choice 2_d -->
+        <item>où</item>
+
+        <!-- Choice 3_d -->
+        <item>Imperative</item>
+
+        <!-- Choice 4_d -->
+        <item>J\'allais</item>
+
+        <!-- Choice 5_d -->
+        <item>puisque</item>
+
+        <!-- Choice 6_d -->
+        <item>heureu</item>
+
+        <!-- Choice 7_d -->
+        <item>la arbres</item>
+
+        <!-- Choice 8_d -->
+        <item>parler</item>
+
+        <!-- Choice 9_d -->
+        <item>finis-</item>
+
+        <!-- Choice 10_d -->
+        <item>Je crois qu\'il est venu</item>
+
     </string-array>
-    <string-array name="english_advanced_d">
-        <item>A word that sounds like what it describes</item><item>Onomatopoeia</item><item>To hook the reader\'s attention</item><item>When a character lies to another</item><item>Confuses the reader</item>
-        <item>A prediction about the future</item><item>A narrator who hides information</item><item>Use of rhyme in prose</item><item>Time flew by quickly</item><item>Restates the thesis</item>
-    </string-array>
-    <integer-array name="english_advanced_answers">
-        <item>0</item><item>0</item><item>0</item><item>0</item><item>0</item>
-        <item>0</item><item>0</item><item>0</item><item>0</item><item>0</item>
+
+
+    <!-- French Advanced Answers -->
+    <integer-array name="french_advanced_answers">
+
+        <!-- Answers 1 -->
+        <item>0</item>
+
+        <!-- Answers 2 -->
+        <item>0</item>
+
+        <!-- Answers 3 -->
+        <item>0</item>
+
+        <!-- Answers 4 -->
+        <item>0</item>
+
+        <!-- Answers 5 -->
+        <item>0</item>
+
+        <!-- Answers 6 -->
+        <item>0</item>
+
+        <!-- Answers 7 -->
+        <item>0</item>
+
+        <!-- Answers 8 -->
+        <item>0</item>
+
+        <!-- Answers 9 -->
+        <item>0</item>
+
+        <!-- Answers 10 -->
+        <item>0</item>
+
     </integer-array>
-    <string-array name="english_advanced_explanations">
-        <item>A metaphor directly compares two things without using "like" or "as".</item>
-        <item>Personification gives human qualities to non-human things — wind cannot truly whisper.</item>
-        <item>A thesis statement presents the main argument of an essay.</item>
-        <item>Dramatic irony is when the audience knows something the characters do not.</item>
-        <item>Short sentences create urgency, tension, and impact in writing.</item>
-        <item>An inference is a logical conclusion drawn from evidence in the text.</item>
-        <item>An omniscient narrator knows the thoughts and feelings of all characters.</item>
-        <item>Alliteration is the repetition of the same consonant sound at the start of nearby words.</item>
-        <item>"He ran like a cheetah" uses "like" — that makes it a simile.</item>
-        <item>A topic sentence introduces what the whole paragraph will be about.</item>
+
+
+    <!-- French Advanced Answer's Explanations -->
+    <string-array name="french_advanced_explanations">
+
+        <!-- Explanation_1 -->
+        <item>\'j\'ai mangé\' uses the auxiliary \'avoir\' and the past participle \'mangé\', which is the passé composé.</item>
+
+        <!-- Explanation_2 -->
+        <item>\'que\' is used as a direct object relative pronoun.</item>
+
+        <!-- Explanation_3 -->
+        <item>\'bien que\' is a conjunction that always requires the subjunctive mood.</item>
+
+        <!-- Explanation_4 -->
+        <item>\'Je serais allé\' is the conditionnel passé.</item>
+
+        <!-- Explanation_5 -->
+        <item>Both \'néanmoins\' and \'cependant\' mean \'nevertheless\' or \'however\'.</item>
+
+        <!-- Explanation_6 -->
+        <item>Adjectives ending in -eux usually change to -euse in the feminine.</item>
+
+        <!-- Explanation_7 -->
+        <item>\'les arbres\' is the plural of \'l\'arbre\'.</item>
+
+        <!-- Explanation_8 -->
+        <item>\'venir\' is one of the DR MRS VANDERTRAMP verbs that take \'être\'.</item>
+
+        <!-- Explanation_9 -->
+        <item>The imparfait stem is found by taking the \'nous\' form of the present tense (finissons) and removing -ons.</item>
+
+        <!-- Explanation_10 -->
+        <item>After verbs of belief in the affirmative, the indicative is used.</item>
+
     </string-array>
-
-
-
-
-
-
-
-
 
 
 
     <!-- History Foundation Questions -->
     <string-array name="history_foundation_questions">
+
+        <!-- Question_1 -->
         <item>In which year did World War II end?</item>
+
+        <!-- Question_2 -->
         <item>Who was the first person to walk on the Moon?</item>
+
+        <!-- Question_3 -->
         <item>What was the Berlin Wall?</item>
+
+        <!-- Question_4 -->
         <item>In which year did World War I begin?</item>
+
+        <!-- Question_5 -->
         <item>Who was Martin Luther King Jr.?</item>
-        <item>What does "empire" mean?</item>
+
+        <!-- Question_6 -->
+        <item>What does \'empire\' mean?</item>
+
+        <!-- Question_7 -->
         <item>What was the Titanic?</item>
+
+        <!-- Question_8 -->
         <item>Which country was Adolf Hitler leader of?</item>
+
+        <!-- Question_9 -->
         <item>What was the Cold War?</item>
+
+        <!-- Question_10 -->
         <item>When did the French Revolution begin?</item>
+
     </string-array>
+
+
+    <!-- History Foundation Choice A Array -->
     <string-array name="history_foundation_a">
-        <item>1945</item><item>Neil Armstrong</item><item>A wall dividing East and West Berlin</item><item>1914</item><item>A civil rights leader in the USA</item>
-        <item>A large territory under one ruler</item><item>A famous ship that sank in 1912</item><item>Germany</item><item>A political tension between the USA and USSR</item><item>1789</item>
+
+        <!-- Choice 1_a -->
+        <item>1945</item>
+
+        <!-- Choice 2_a -->
+        <item>Neil Armstrong</item>
+
+        <!-- Choice 3_a -->
+        <item>A wall dividing East and West Berlin</item>
+
+        <!-- Choice 4_a -->
+        <item>1914</item>
+
+        <!-- Choice 5_a -->
+        <item>A civil rights leader in the USA</item>
+
+        <!-- Choice 6_a -->
+        <item>A large territory under one ruler</item>
+
+        <!-- Choice 7_a -->
+        <item>A famous ship that sank in 1912</item>
+
+        <!-- Choice 8_a -->
+        <item>Germany</item>
+
+        <!-- Choice 9_a -->
+        <item>A political tension between the USA and USSR</item>
+
+        <!-- Choice 10_a -->
+        <item>1789</item>
+
     </string-array>
+
+
+    <!-- History Foundation Choice B Array -->
     <string-array name="history_foundation_b">
-        <item>1940</item><item>Buzz Aldrin</item><item>A wall around all of Germany</item><item>1918</item><item>A US president</item>
-        <item>A trade agreement between countries</item><item>A warship used in WWI</item><item>Italy</item><item>A trade war between two countries</item><item>1799</item>
+
+        <!-- Choice 1_b -->
+        <item>1940</item>
+
+        <!-- Choice 2_b -->
+        <item>Buzz Aldrin</item>
+
+        <!-- Choice 3_b -->
+        <item>A wall around all of Germany</item>
+
+        <!-- Choice 4_b -->
+        <item>1918</item>
+
+        <!-- Choice 5_b -->
+        <item>A US president</item>
+
+        <!-- Choice 6_b -->
+        <item>A trade agreement between countries</item>
+
+        <!-- Choice 7_b -->
+        <item>A warship used in WWI</item>
+
+        <!-- Choice 8_b -->
+        <item>Italy</item>
+
+        <!-- Choice 9_b -->
+        <item>A trade war between two countries</item>
+
+        <!-- Choice 10_b -->
+        <item>1799</item>
+
     </string-array>
+
+
+    <!-- History Foundation Choice C Array -->
     <string-array name="history_foundation_c">
-        <item>1942</item><item>Yuri Gagarin</item><item>A wall between France and Germany</item><item>1910</item><item>A famous scientist</item>
-        <item>A type of government</item><item>A navy submarine</item><item>France</item><item>A military alliance</item><item>1750</item>
+
+        <!-- Choice 1_c -->
+        <item>1942</item>
+
+        <!-- Choice 2_c -->
+        <item>Yuri Gagarin</item>
+
+        <!-- Choice 3_c -->
+        <item>A wall between France and Germany</item>
+
+        <!-- Choice 4_c -->
+        <item>1910</item>
+
+        <!-- Choice 5_c -->
+        <item>A famous scientist</item>
+
+        <!-- Choice 6_c -->
+        <item>A type of government</item>
+
+        <!-- Choice 7_c -->
+        <item>A navy submarine</item>
+
+        <!-- Choice 8_c -->
+        <item>France</item>
+
+        <!-- Choice 9_c -->
+        <item>A military alliance</item>
+
+        <!-- Choice 10_c -->
+        <item>1750</item>
+
     </string-array>
+
+
+    <!-- History Foundation Choice D Array -->
     <string-array name="history_foundation_d">
-        <item>1950</item><item>John Glenn</item><item>A wall around Moscow</item><item>1920</item><item>A music artist</item>
-        <item>A set of laws</item><item>A space rocket</item><item>Japan</item><item>An economic agreement</item><item>1815</item>
+
+        <!-- Choice 1_d -->
+        <item>1950</item>
+
+        <!-- Choice 2_d -->
+        <item>John Glenn</item>
+
+        <!-- Choice 3_d -->
+        <item>A wall around Moscow</item>
+
+        <!-- Choice 4_d -->
+        <item>1920</item>
+
+        <!-- Choice 5_d -->
+        <item>A music artist</item>
+
+        <!-- Choice 6_d -->
+        <item>A set of laws</item>
+
+        <!-- Choice 7_d -->
+        <item>A space rocket</item>
+
+        <!-- Choice 8_d -->
+        <item>Japan</item>
+
+        <!-- Choice 9_d -->
+        <item>An economic agreement</item>
+
+        <!-- Choice 10_d -->
+        <item>1815</item>
+
     </string-array>
+
+
+    <!-- History Foundation Answers -->
     <integer-array name="history_foundation_answers">
-        <item>0</item><item>0</item><item>0</item><item>0</item><item>0</item>
-        <item>0</item><item>0</item><item>0</item><item>0</item><item>0</item>
+
+        <!-- Answers 1 -->
+        <item>0</item>
+
+        <!-- Answers 2 -->
+        <item>0</item>
+
+        <!-- Answers 3 -->
+        <item>0</item>
+
+        <!-- Answers 4 -->
+        <item>0</item>
+
+        <!-- Answers 5 -->
+        <item>0</item>
+
+        <!-- Answers 6 -->
+        <item>0</item>
+
+        <!-- Answers 7 -->
+        <item>0</item>
+
+        <!-- Answers 8 -->
+        <item>0</item>
+
+        <!-- Answers 9 -->
+        <item>0</item>
+
+        <!-- Answers 10 -->
+        <item>0</item>
+
     </integer-array>
+
+
+    <!-- History Foundation Answer's Explanations -->
     <string-array name="history_foundation_explanations">
+
+        <!-- Explanation_1 -->
         <item>World War II ended in 1945 with Germany\'s surrender in May and Japan\'s in September.</item>
+
+        <!-- Explanation_2 -->
         <item>Neil Armstrong became the first human to walk on the Moon on July 20, 1969.</item>
+
+        <!-- Explanation_3 -->
         <item>The Berlin Wall was built in 1961 to divide communist East Berlin from West Berlin.</item>
+
+        <!-- Explanation_4 -->
         <item>World War I began in 1914 following the assassination of Archduke Franz Ferdinand.</item>
+
+        <!-- Explanation_5 -->
         <item>Martin Luther King Jr. was a leading figure in the American civil rights movement.</item>
+
+        <!-- Explanation_6 -->
         <item>An empire is a large territory or group of nations ruled by a single power.</item>
+
+        <!-- Explanation_7 -->
         <item>The Titanic was a British ocean liner that sank on its maiden voyage in April 1912.</item>
+
+        <!-- Explanation_8 -->
         <item>Adolf Hitler was the dictator of Nazi Germany from 1933 to 1945.</item>
+
+        <!-- Explanation_9 -->
         <item>The Cold War was a period of geopolitical tension between the USA and the Soviet Union.</item>
+
+        <!-- Explanation_10 -->
         <item>The French Revolution began in 1789 with the storming of the Bastille.</item>
+
     </string-array>
-
-
-
-
-
-
-
-
-
-
 
 
 
     <!-- History Advanced Questions -->
     <string-array name="history_advanced_questions">
+
+        <!-- Question_1 -->
         <item>What was the main cause of World War I?</item>
+
+        <!-- Question_2 -->
         <item>What was the significance of the Magna Carta (1215)?</item>
+
+        <!-- Question_3 -->
         <item>Who was Nelson Mandela?</item>
+
+        <!-- Question_4 -->
         <item>What caused the Great Depression?</item>
+
+        <!-- Question_5 -->
         <item>What was the impact of the Industrial Revolution?</item>
+
+        <!-- Question_6 -->
         <item>Which event triggered the start of World War II?</item>
+
+        <!-- Question_7 -->
         <item>What was apartheid?</item>
+
+        <!-- Question_8 -->
         <item>What was the significance of the Treaty of Versailles?</item>
+
+        <!-- Question_9 -->
         <item>Who led the Russian Revolution of 1917?</item>
+
+        <!-- Question_10 -->
         <item>What was the Holocaust?</item>
+
     </string-array>
+
+
+    <!-- History Advanced Choice A Array -->
     <string-array name="history_advanced_a">
-        <item>Assassination of Archduke Franz Ferdinand</item><item>It limited the power of the king</item><item>First Black president of South Africa</item><item>Stock market crash of 1929</item><item>Shift from farming to industry</item>
-        <item>Germany\'s invasion of Poland</item><item>Racial segregation in South Africa</item><item>Ended WWI and punished Germany</item><item>Vladimir Lenin</item><item>Genocide of 6 million Jews by Nazis</item>
+
+        <!-- Choice 1_a -->
+        <item>Assassination of Archduke Franz Ferdinand</item>
+
+        <!-- Choice 2_a -->
+        <item>It limited the power of the king</item>
+
+        <!-- Choice 3_a -->
+        <item>First Black president of South Africa</item>
+
+        <!-- Choice 4_a -->
+        <item>Stock market crash of 1929</item>
+
+        <!-- Choice 5_a -->
+        <item>Shift from farming to industry</item>
+
+        <!-- Choice 6_a -->
+        <item>Germany\'s invasion of Poland</item>
+
+        <!-- Choice 7_a -->
+        <item>Racial segregation in South Africa</item>
+
+        <!-- Choice 8_a -->
+        <item>Ended WWI and punished Germany</item>
+
+        <!-- Choice 9_a -->
+        <item>Vladimir Lenin</item>
+
+        <!-- Choice 10_a -->
+        <item>Genocide of 6 million Jews by Nazis</item>
+
     </string-array>
+
+
+    <!-- History Advanced Choice B Array -->
     <string-array name="history_advanced_b">
-        <item>Sinking of the Titanic</item><item>It gave all citizens the right to vote</item><item>First Black president of the USA</item><item>A drought across America</item><item>Shift from monarchy to democracy</item>
-        <item>Bombing of Pearl Harbor</item><item>A political party in Germany</item><item>Ended the Cold War</item><item>Joseph Stalin</item><item>A war in eastern Europe</item>
+
+        <!-- Choice 1_b -->
+        <item>Sinking of the Titanic</item>
+
+        <!-- Choice 2_b -->
+        <item>It gave all citizens the right to vote</item>
+
+        <!-- Choice 3_b -->
+        <item>First Black president of the USA</item>
+
+        <!-- Choice 4_b -->
+        <item>A drought across America</item>
+
+        <!-- Choice 5_b -->
+        <item>Shift from monarchy to democracy</item>
+
+        <!-- Choice 6_b -->
+        <item>Bombing of Pearl Harbor</item>
+
+        <!-- Choice 7_b -->
+        <item>A political party in Germany</item>
+
+        <!-- Choice 8_b -->
+        <item>Ended the Cold War</item>
+
+        <!-- Choice 9_b -->
+        <item>Joseph Stalin</item>
+
+        <!-- Choice 10_b -->
+        <item>A war in eastern Europe</item>
+
     </string-array>
+
+
+    <!-- History Advanced Choice C Array -->
     <string-array name="history_advanced_c">
-        <item>A trade dispute between France and Germany</item><item>It established the right to free speech</item><item>Leader of the ANC in exile</item><item>A world famine</item><item>Rise of communism in Europe</item>
-        <item>Fall of the Berlin Wall</item><item>A form of slavery in the USA</item><item>Created the United Nations</item><item>Leon Trotsky</item><item>A religious conflict in the Middle East</item>
+
+        <!-- Choice 1_c -->
+        <item>A trade dispute between France and Germany</item>
+
+        <!-- Choice 2_c -->
+        <item>It established the right to free speech</item>
+
+        <!-- Choice 3_c -->
+        <item>Leader of the ANC in exile</item>
+
+        <!-- Choice 4_c -->
+        <item>A world famine</item>
+
+        <!-- Choice 5_c -->
+        <item>Rise of communism in Europe</item>
+
+        <!-- Choice 6_c -->
+        <item>Fall of the Berlin Wall</item>
+
+        <!-- Choice 7_c -->
+        <item>A form of slavery in the USA</item>
+
+        <!-- Choice 8_c -->
+        <item>Created the United Nations</item>
+
+        <!-- Choice 9_c -->
+        <item>Leon Trotsky</item>
+
+        <!-- Choice 10_c -->
+        <item>A religious conflict in the Middle East</item>
+
     </string-array>
+
+
+    <!-- History Advanced Choice D Array -->
     <string-array name="history_advanced_d">
-        <item>A border dispute between Russia and Austria</item><item>It abolished slavery in Britain</item><item>A South African athlete</item><item>A collapse in international trade</item><item>Growth of global trade routes</item>
-        <item>Declaration of war by France</item><item>A resistance movement in France</item><item>Redistributed land across Europe</item><item>Karl Marx</item><item>A famine across Europe</item>
+
+        <!-- Choice 1_d -->
+        <item>A border dispute between Russia and Austria</item>
+
+        <!-- Choice 2_d -->
+        <item>It abolished slavery in Britain</item>
+
+        <!-- Choice 3_d -->
+        <item>A South African athlete</item>
+
+        <!-- Choice 4_d -->
+        <item>A collapse in international trade</item>
+
+        <!-- Choice 5_d -->
+        <item>Growth of global trade routes</item>
+
+        <!-- Choice 6_d -->
+        <item>Declaration of war by France</item>
+
+        <!-- Choice 7_d -->
+        <item>A resistance movement in France</item>
+
+        <!-- Choice 8_d -->
+        <item>Redistributed land across Europe</item>
+
+        <!-- Choice 9_d -->
+        <item>Karl Marx</item>
+
+        <!-- Choice 10_d -->
+        <item>A famine across Europe</item>
+
     </string-array>
+
+
+    <!-- History Advanced Answers -->
     <integer-array name="history_advanced_answers">
-        <item>0</item><item>0</item><item>0</item><item>0</item><item>0</item>
-        <item>0</item><item>0</item><item>0</item><item>0</item><item>0</item>
+
+        <!-- Answer 1 -->
+        <item>0</item>
+
+        <!-- Answer 2 -->
+        <item>0</item>
+
+        <!-- Answer 3 -->
+        <item>0</item>
+
+        <!-- Answer 4 -->
+        <item>0</item>
+
+        <!-- Answer 5 -->
+        <item>0</item>
+
+        <!-- Answer 6 -->
+        <item>0</item>
+
+        <!-- Answer 7 -->
+        <item>0</item>
+
+        <!-- Answer 8 -->
+        <item>0</item>
+
+        <!-- Answer 9 -->
+        <item>0</item>
+
+        <!-- Answer 10 -->
+        <item>0</item>
+
     </integer-array>
+
+
+    <!-- History Advanced Answer's Explanations-->
     <string-array name="history_advanced_explanations">
+
+        <!-- Explanation_1 -->
         <item>The assassination of Archduke Franz Ferdinand in Sarajevo triggered a chain of alliances leading to WWI.</item>
+
+        <!-- Explanation_2 -->
         <item>Magna Carta was a landmark document limiting royal power and establishing rule of law.</item>
+
+        <!-- Explanation_3 -->
         <item>Nelson Mandela was an anti-apartheid activist who became South Africa\'s first Black president in 1994.</item>
+
+        <!-- Explanation_4 -->
         <item>The 1929 Wall Street Crash led to bank failures, unemployment, and the Great Depression.</item>
+
+        <!-- Explanation_5 -->
         <item>The Industrial Revolution transformed societies from agricultural to industrial economies.</item>
+
+        <!-- Explanation_6 -->
         <item>Germany invaded Poland on 1 September 1939, prompting Britain and France to declare war.</item>
+
+        <!-- Explanation_7 -->
         <item>Apartheid was a system of institutionalised racial segregation in South Africa (1948–1994).</item>
+
+        <!-- Explanation_8 -->
         <item>The Treaty of Versailles (1919) formally ended WWI and imposed heavy penalties on Germany.</item>
+
+        <!-- Explanation_9 -->
         <item>Vladimir Lenin led the Bolshevik Revolution that overthrew the Russian Tsar in 1917.</item>
+
+        <!-- Explanation_10 -->
         <item>The Holocaust was the systematic genocide of approximately 6 million Jewish people by Nazi Germany.</item>
+
     </string-array>
 </resources>

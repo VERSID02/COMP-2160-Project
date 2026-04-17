@@ -29,7 +29,7 @@ public class SubjectActivity extends AppCompatActivity {
         String desc = "";
         if (subject.equals(getString(R.string.mathematics))) desc = getString(R.string.math_desc);
         else if (subject.equals(getString(R.string.science))) desc = getString(R.string.science_desc);
-        else if (subject.equals(getString(R.string.english))) desc = getString(R.string.english_desc);
+        else if (subject.equals(getString(R.string.french))) desc = getString(R.string.french_desc);
         else if (subject.equals(getString(R.string.history))) desc = getString(R.string.history_desc);
         tvSubjectDesc.setText(desc);
 

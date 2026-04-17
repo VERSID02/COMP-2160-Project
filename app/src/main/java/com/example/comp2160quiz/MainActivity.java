@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         List<String> subjects = Arrays.asList(
                 getString(R.string.mathematics),
                 getString(R.string.science),
-                getString(R.string.english),
+                getString(R.string.french),
                 getString(R.string.history)
         );
         List<String> colors = Arrays.asList("#2196F3", "#4CAF50", "#FF9800", "#F44336");

@@ -22,23 +22,23 @@ public class ProgressActivity extends AppCompatActivity {
         TextView tvMathAdvanced = findViewById(R.id.tvMathAdvanced);
         TextView tvScienceFoundation = findViewById(R.id.tvScienceFoundation);
         TextView tvScienceAdvanced = findViewById(R.id.tvScienceAdvanced);
-        TextView tvEnglishFoundation = findViewById(R.id.tvEnglishFoundation);
-        TextView tvEnglishAdvanced = findViewById(R.id.tvEnglishAdvanced);
+        TextView tvFrenchFoundation = findViewById(R.id.tvFrenchFoundation);
+        TextView tvFrenchAdvanced = findViewById(R.id.tvFrenchAdvanced);
         TextView tvHistoryFoundation = findViewById(R.id.tvHistoryFoundation);
         TextView tvHistoryAdvanced = findViewById(R.id.tvHistoryAdvanced);
         Button btnResetProgress = findViewById(R.id.btnResetProgress);
 
         String math = getString(R.string.mathematics);
         String science = getString(R.string.science);
-        String english = getString(R.string.english);
+        String french = getString(R.string.french);
         String history = getString(R.string.history);
 
         int mF = prefs.getInt("best_" + math + "_foundation", 0);
         int mA = prefs.getInt("best_" + math + "_advanced", 0);
         int sF = prefs.getInt("best_" + science + "_foundation", 0);
         int sA = prefs.getInt("best_" + science + "_advanced", 0);
-        int eF = prefs.getInt("best_" + english + "_foundation", 0);
-        int eA = prefs.getInt("best_" + english + "_advanced", 0);
+        int eF = prefs.getInt("best_" + french + "_foundation", 0);
+        int eA = prefs.getInt("best_" + french + "_advanced", 0);
         int hF = prefs.getInt("best_" + history + "_foundation", 0);
         int hA = prefs.getInt("best_" + history + "_advanced", 0);
 
@@ -60,8 +60,8 @@ public class ProgressActivity extends AppCompatActivity {
         tvMathAdvanced.setText("Advanced: " + mA + (mA >= 80 ? " ★" : ""));
         tvScienceFoundation.setText("Foundation: " + sF + (sF >= 80 ? " ★" : ""));
         tvScienceAdvanced.setText("Advanced: " + sA + (sA >= 80 ? " ★" : ""));
-        tvEnglishFoundation.setText("Foundation: " + eF + (eF >= 80 ? " ★" : ""));
-        tvEnglishAdvanced.setText("Advanced: " + eA + (eA >= 80 ? " ★" : ""));
+        tvFrenchFoundation.setText("Foundation: " + eF + (eF >= 80 ? " ★" : ""));
+        tvFrenchAdvanced.setText("Advanced: " + eA + (eA >= 80 ? " ★" : ""));
         tvHistoryFoundation.setText("Foundation: " + hF + (hF >= 80 ? " ★" : ""));
         tvHistoryAdvanced.setText("Advanced: " + hA + (hA >= 80 ? " ★" : ""));
 
@@ -74,8 +74,8 @@ public class ProgressActivity extends AppCompatActivity {
                         editor.remove("best_" + math + "_advanced");
                         editor.remove("best_" + science + "_foundation");
                         editor.remove("best_" + science + "_advanced");
-                        editor.remove("best_" + english + "_foundation");
-                        editor.remove("best_" + english + "_advanced");
+                        editor.remove("best_" + french + "_foundation");
+                        editor.remove("best_" + french + "_advanced");
                         editor.remove("best_" + history + "_foundation");
                         editor.remove("best_" + history + "_advanced");
                         editor.apply();

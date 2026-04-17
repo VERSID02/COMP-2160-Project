@@ -54,23 +54,23 @@ public class QuestionBank {
                 answers = context.getResources().getIntArray(R.array.science_advanced_answers);
                 explanations = context.getResources().getStringArray(R.array.science_advanced_explanations);
             }
-        } else if (subject.equals(context.getString(R.string.english))) {
+        } else if (subject.equals(context.getString(R.string.french))) {
             if (tier.equals(context.getString(R.string.foundation))) {
-                questionTexts = context.getResources().getStringArray(R.array.english_foundation_questions);
-                optionsA = context.getResources().getStringArray(R.array.english_foundation_a);
-                optionsB = context.getResources().getStringArray(R.array.english_foundation_b);
-                optionsC = context.getResources().getStringArray(R.array.english_foundation_c);
-                optionsD = context.getResources().getStringArray(R.array.english_foundation_d);
-                answers = context.getResources().getIntArray(R.array.english_foundation_answers);
-                explanations = context.getResources().getStringArray(R.array.english_foundation_explanations);
+                questionTexts = context.getResources().getStringArray(R.array.french_foundation_questions);
+                optionsA = context.getResources().getStringArray(R.array.french_foundation_a);
+                optionsB = context.getResources().getStringArray(R.array.french_foundation_b);
+                optionsC = context.getResources().getStringArray(R.array.french_foundation_c);
+                optionsD = context.getResources().getStringArray(R.array.french_foundation_d);
+                answers = context.getResources().getIntArray(R.array.french_foundation_answers);
+                explanations = context.getResources().getStringArray(R.array.french_foundation_explanations);
             } else {
-                questionTexts = context.getResources().getStringArray(R.array.english_advanced_questions);
-                optionsA = context.getResources().getStringArray(R.array.english_advanced_a);
-                optionsB = context.getResources().getStringArray(R.array.english_advanced_b);
-                optionsC = context.getResources().getStringArray(R.array.english_advanced_c);
-                optionsD = context.getResources().getStringArray(R.array.english_advanced_d);
-                answers = context.getResources().getIntArray(R.array.english_advanced_answers);
-                explanations = context.getResources().getStringArray(R.array.english_advanced_explanations);
+                questionTexts = context.getResources().getStringArray(R.array.french_advanced_questions);
+                optionsA = context.getResources().getStringArray(R.array.french_advanced_a);
+                optionsB = context.getResources().getStringArray(R.array.french_advanced_b);
+                optionsC = context.getResources().getStringArray(R.array.french_advanced_c);
+                optionsD = context.getResources().getStringArray(R.array.french_advanced_d);
+                answers = context.getResources().getIntArray(R.array.french_advanced_answers);
+                explanations = context.getResources().getStringArray(R.array.french_advanced_explanations);
             }
         } else {
             if (tier.equals(context.getString(R.string.foundation))) {

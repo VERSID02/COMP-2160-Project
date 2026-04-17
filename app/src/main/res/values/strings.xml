@@ -1,689 +1,505 @@
 <resources>
-    <string name= "app_name">EduQuiz Application </string>
 
-    <!-- Texts inside activity_main.xml and activity_setting.xml -->
-    <string name = "app_reset_progress"> Reset Progress </string>
-    <string name = "app_progress"> Progress </string>
-    <string name = "app_settings"> Settings </string>
-
-    <!-- Texts inside activity_result.xml -->
-    <string name = "app_try_again"> Try Again </string>
-    <string name = "app_change_subject"> Change Subject </string>
-    <string name = "app_share_result"> Share Result </string>
-    <string name = "app_go_home"> Go Home </string>
-
-    <!-- Texts inside activity_setting.xml -->
-    <string name = "app_edit_name"> Edit Name </string>
-    <string name = "app_junior"> Junior </string>
-    <string name = "app_senior"> Senior </string>
-    <string name = "app_sound_effect"> Sound Effect </string>
-    <string name = "app_show_explanation"> Show Explanation </string>
-    <string name = "app_question_count"> Question Count </string>
-    <string name = "app_save"> Save </string>
-
-
-
-    <!-- Use for multiple time show the result each time  -->
-    <string name="userScore"> Your score </string>
-
-
-    <!-- Header of Subjects use in activity_progress.xml -->
-    <string name="Math"> Mathematics </string>
-    <string name="Science"> Science </string>
-    <string name="French"> French </string>
-    <string name="History"> History </string>
-
-    <!-- Math Questions for Beginner -->
-
-    <string name="MQB1"> What\'s 7 + 5? </string>
-    <string name="MQB2"> What\'s 15 - 8? </string>
-    <string name="MQB3"> What\'s 12 × 2? </string>
-    <string name="MQB4"> What\'s 18 ÷ 3? </string>
-    <string name="MQB5"> Which fraction is equal to one-half? </string>
-    <string name="MQB6"> A bottle of milk costs $4 and a loaf of bread costs $3. How much do they cost together? </string>
-    <string name="MQB7"> What\'s 1/4 + 1/4? </string>
-    <string name="MQB8"> What\'s 50% of 100? </string>
-    <string name="MQB9"> A shirt costs $40. What\'s 10% of $40? </string>
-    <string name="MQB10"> A pizza is cut into 8 equal slices. If you eat 2 slices, what fraction of the pizza did you eat? </string>
-
-
-    <!-- Math choices for Beginner -->
-
-    <!-- Math Choices for question 1 Beginner, Answer: 12 -->
-    <string name="MCB1_1"> 10 </string>
-    <string name="MCB1_2"> 11 </string>
-    <string name="MCB1_3"> 12 </string>
-    <string name="MCB1_4"> 14 </string>
-
-    <!-- Math Choices for question 2 Beginner, Answer: 7 -->
-    <string name="MCB2_1"> 7 </string>
-    <string name="MCB2_2"> 8 </string>
-    <string name="MCB2_3"> 9 </string>
-    <string name="MCB2_4"> 12 </string>
-
-    <!-- Math Choice for question 3 Beginner, Answer: 24 -->
-    <string name="MCB3_1"> 28 </string>
-    <string name="MCB3_2"> 24 </string>
-    <string name="MCB3_3"> 32 </string>
-    <string name="MCB3_4"> 46 </string>
-
-    <!-- Math Choice for question 4 Beginner, Answer: 6 -->
-    <string name="MCB4_1"> 7 </string>
-    <string name="MCB4_2"> 6 </string>
-    <string name="MCB4_3"> 4 </string>
-    <string name="MCB4_4"> 12 </string>
-
-    <!-- Math Choice for question 5 Beginner, Answer: 2/4 -->
-    <string name="MCB5_1"> 1/3 </string>
-    <string name="MCB5_2"> 2/5 </string>
-    <string name="MCB5_3"> 2/4 </string>
-    <string name="MCB5_4"> 3/5 </string>
-
-    <!-- Math Choice for question 6 Beginner, Answer: $7  -->
-    <string name="MCB6_1"> $5 </string>
-    <string name="MCB6_2"> $8 </string>
-    <string name="MCB6_3"> $6 </string>
-    <string name="MCB6_4"> $7 </string>
-
-    <!-- Math Choice for question 7 Beginner, Answer: 1/2 -->
-    <string name="MCB7_1"> 2/2 </string>
-    <string name="MCB7_2"> 3/2 </string>
-    <string name="MCB7_3"> 1/2 </string>
-    <string name="MCB7_4"> 2/8 </string>
-
-    <!-- Math Choice for question 8 Beginner, Answer: 50% -->
-    <string name="MCB8_1"> 50% </string>
-    <string name="MCB8_2"> 25%</string>
-    <string name="MCB8_3"> 80% </string>
-    <string name="MCB8_4"> 10% </string>
-
-    <!-- Math Choice for question 9 Beginner, Answer: $4 -->
-    <string name="MCB9_1"> $2 </string>
-    <string name="MCB9_2"> $3 </string>
-    <string name="MCB9_3"> $4 </string>
-    <string name="MCB9_4"> $5 </string>
-
-    <!-- Math Choice for question 10 Beginner, Answer: 1/4 -->
-    <string name="MCB10_1"> 1/2 </string>
-    <string name="MCB10_2"> 1/3 </string>
-    <string name="MCB10_3"> 1/4 </string>
-    <string name="MCB10_4"> 2/3 </string>
-
-
-    <!-- Math Questions for Advanced -->
-    <string name="MQA1"> Solve for 𝑥: 3𝑥 - 7 = 2𝑥 + 9 </string>
-    <string name="MQA2"> What is the value of 𝑥 in the equation 𝑥² - 9 = 0 </string>
-    <string name="MQA3"> Simplify 2(𝑥 + 5) - 3𝑥 </string>
-    <string name="MQA4"> If 𝑓(𝑥) = 2𝑥², what is 𝑓(3)? </string>
-    <string name="MQA5"> What is the area of a triangle with base 10 cm and height 6 cm? </string>
-    <string name="MQA6"> A rectangle has length 12 cm and width 5 cm. What is its perimeter? </string>
-    <string name="MQA7"> What is the sum of the interior angles of a triangle? </string>
-    <string name="MQA8"> A circle has radius 4 cm. What is its area? </string>
-    <string name="MQA9"> Find the mean of the numbers: 4, 8, 10, 14, 14 </string>
-    <string name="MQA10"> Find the median of the numbers: 3, 7, 9, 12, 15 </string>
-
-
-
-
-    <!-- Math choices for Advanced -->
-
-    <!-- Math Choice for question 1 Advanced, Answer: 16 -->
-    <string name="MCA1_1"> 14 </string>
-    <string name="MCA1_2"> 15 </string>
-    <string name="MCA1_3"> 16 </string>
-    <string name="MCA1_4"> -15 </string>
-
-    <!-- Math Choice for question 2 Advanced, Answer: 3 and -3 -->
-    <string name="MCA2_1"> 3 only </string>
-    <string name="MCA2_2"> -3 only </string>
-    <string name="MCA2_3"> 3 and -3 </string>
-    <string name="MCA2_4"> 9 and -9 </string>
-
-    <!-- Math Choice for question 3 Advanced, Answer: -𝑥 + 10 -->
-    <string name="MCA3_1"> -𝑥 + 10 </string>
-    <string name="MCA3_2"> 𝑥 + 10 </string>
-    <string name="MCA3_3"> -𝑥 + 5 </string>
-    <string name="MCA3_4"> 5𝑥 + 3 </string>
-
-    <!-- Math Choice for question 4 Advanced, Answer: 18 -->
-    <string name="MCA4_1"> 6 </string>
-    <string name="MCA4_2"> 8 </string>
-    <string name="MCA4_3"> 12 </string>
-    <string name="MCA4_4"> 18 </string>
-
-    <!-- Math Choice for question 5 Advanced, Answer: 30 cm² -->
-    <string name="MCA5_1"> 30 cm² </string>
-    <string name="MCA5_2"> 40 cm² </string>
-    <string name="MCA5_3"> 20 cm² </string>
-    <string name="MCA5_4"> 60 cm² </string>
-
-    <!-- Math Choice for question 6 Advanced, Answer: 34 cm -->
-    <string name="MCA6_1"> 17 cm </string>
-    <string name="MCA6_2"> 34 cm </string>
-    <string name="MCA6_3"> 60 cm </string>
-    <string name="MCA6_4"> 24 cm </string>
-
-    <!-- Math Choice for question 7 Advanced, Answer: 180°  -->
-    <string name="MCA7_1"> 270° </string>
-    <string name="MCA7_2"> 360° </string>
-    <string name="MCA7_3"> 90° </string>
-    <string name="MCA7_4"> 180° </string>
-
-    <!-- Math Choice for question 8 Advanced, Answer: 16π cm²  -->
-    <string name="MCA8_1"> 16π cm² </string>
-    <string name="MCA8_2"> 24π cm² </string>
-    <string name="MCA8_3"> 8π cm² </string>
-    <string name="MCA8_4"> 12π cm² </string>
-
-    <!-- Math Choice for question 9 Advanced, Answer: 10 -->
-    <string name="MCA9_1"> 9 </string>
-    <string name="MCA9_2"> 10 </string>
-    <string name="MCA9_3"> 11 </string>
-    <string name="MCA9_4"> 12 </string>
-
-    <!-- Math Choice for question 10 Advanced, Answer: 9 -->
-    <string name="MCA10_1"> 7 </string>
-    <string name="MCA10_2"> 8 </string>
-    <string name="MCA10_3"> 9 </string>
-    <string name="MCA10_4"> 12 </string>
-
-    <!--/////////////////////////////////////////////////////////////////////////////////////////// -->
-
-
-
-    <!-- Science Questions for Beginner -->
-    <string name="SQB1"> Which organ pumps blood through the human body? </string>
-    <string name="SQB2"> What\'s the chemical formula of water? </string>
-    <string name="SQB3"> Why does a metal spoon feel hotter than a wooden spoon in hot soup? </string>
-    <string name="SQB4"> What\'s the main job of chlorophyll in plants? </string>
-    <string name="SQB5"> Why does lemon juice taste sour? </string>
-    <string name="SQB6"> Which pH value is considered neutral? </string>
-    <string name="SQB7"> Which material is a good conductor of electricity? </string>
-    <string name="SQB8"> Which layer of the atmosphere protects Earth from most harmful ultraviolet (UV) radiation? </string>
-    <string name="SQB9"> What\'s the main function of the lungs? </string>
-    <string name="SQB10"> Why does salt help preserve food? </string>
-
-
-
-
-    <!-- Science choices for Beginner -->
-
-    <!-- Science Choice for question 1 Beginner, Answer: Heart -->
-    <string name="SCB1_1"> Lungs </string>
-    <string name="SCB1_2"> Brain </string>
-    <string name="SCB1_3"> Heart </string>
-    <string name="SCB1_4"> Liver </string>
-
-    <!-- Science Choice for question 2 Beginner, Answer: H2O -->
-    <string name="SCB2_1"> CO₂ </string>
-    <string name="SCB2_2"> H₂O </string>
-    <string name="SCB2_3"> O₂ </string>
-    <string name="SCB2_4"> NaCl </string>
-
-    <!-- Science Choice for question 3 Beginner, Answer: Metal is a better conductor of heat than wood -->
-    <string name="SCB3_1"> Metal is heavier than wood </string>
-    <string name="SCB3_2"> Wood makes the soup colder </string>
-    <string name="SCB3_3"> Metal is a better conductor of heat than wood </string>
-    <string name="SCB3_4"> Metal has no temperature </string>
-
-    <!-- Science Choice for question 4 Beginner, Answer: To absorb light energy  -->
-    <string name="SCB4_1"> To absorb light energy </string>
-    <string name="SCB4_2"> To absorb soil </string>
-    <string name="SCB4_3"> To make roots longer </string>
-    <string name="SCB4_4"> To store only water </string>
-
-    <!-- Science Choice for question 5 Beginner, Answer: It contains acid -->
-    <string name="SCB5_1"> It contains oxygen only </string>
-    <string name="SCB5_2"> It contains metal </string>
-    <string name="SCB5_3"> It contains acid </string>
-    <string name="SCB5_4"> It contains protein </string>
-
-    <!-- Science Choice for question 6 Beginner, Answer: 7 -->
-    <string name="SCB6_1"> 0 </string>
-    <string name="SCB6_2"> 7 </string>
-    <string name="SCB6_3"> 10 </string>
-    <string name="SCB6_4"> 14 </string>
-
-    <!-- Science Choice for question 7 Beginner, Answer: Copper -->
-    <string name="SCB7_1"> Plastic </string>
-    <string name="SCB7_2"> Rubber </string>
-    <string name="SCB7_3"> Wood </string>
-    <string name="SCB7_4"> Copper </string>
-
-    <!-- Science Choice for question 8 Beginner, Answer: Ozone layer -->
-    <string name="SCB8_1"> Ozone layer </string>
-    <string name="SCB8_2"> Troposphere </string>
-    <string name="SCB8_3"> Core </string>
-    <string name="SCB8_4"> Mantle </string>
-
-    <!-- Science Choice for question 9 Beginner, Answer: To extract oxygen and carbon dioxide -->
-    <string name="SCB9_1"> To digest food </string>
-    <string name="SCB9_2"> To pump blood </string>
-    <string name="SCB9_3"> To exchange oxygen and carbon dioxide </string>
-    <string name="SCB9_4"> To control body movement </string>
-
-    <!-- Science Choice for question 10 Beginner, Answer: It removes water that many microbes need to grow -->
-    <string name="SCB10_1"> It adds more oxygen </string>
-    <string name="SCB10_2"> It removes water that many microbes need to grow </string>
-    <string name="SCB10_3"> It makes food colder </string>
-    <string name="SCB10_4"> It turns food into protein </string>
-
-
-    <!-- Science Questions for Advanced -->
-    <string name="SQA1"> Why can antibiotics kill bacteria but not viruses? </string>
-    <string name="SQA2"> Why does increasing temperature usually speed up a chemical reaction? </string>
-    <string name="SQA3"> Why is black clothing usually hotter than white clothing in sunlight? </string>
-    <string name="SQA4"> During heavy exercise, why does the breathing rate increase? </string>
-    <string name="SQA5"> Why does soap clean oily surfaces better than water alone? </string>
-    <string name="SQA6"> Why can coastal areas have milder temperatures than inland areas? </string>
-    <string name="SQA7"> Why does a pressure cooker cook food faster? </string>
-    <string name="SQA8"> Why can dehydration reduce physical and mental performance? </string>
-    <string name="SQA9"> Why should bleach never be mixed with ammonia-based cleaners? </string>
-    <string name="SQA10"> Why are airbags used together with seatbelts instead of alone? </string>
-
-
-
-    <!-- Science choices for Advanced -->
-
-    <!-- Science Choice for question 1 Advanced, Answer: Viruses do not have the cellular structures that antibiotics target -->
-    <string name="SCA1_1"> Viruses are larger than bacteria </string>
-    <string name="SCA1_2"> Viruses do not have the cellular structures that antibiotics target </string>
-    <string name="SCA1_3"> Antibiotics only work in cold temperatures </string>
-    <string name="SCA1_4"> Bacteria are not living things </string>
-
-    <!-- Science Choice for question 2 Advanced, Answer: Molecules move faster and collide more often with enough energy -->
-    <string name="SCA2_1"> Molecules move faster and collide more often with enough energy </string>
-    <string name="SCA2_2"> Heat turns all reactants into catalysts </string>
-    <string name="SCA2_3"> Temperature removes the activation energy completely </string>
-    <string name="SCA2_4"> Molecules stop moving in hot conditions </string>
-
-    <!-- Science Choice for question 3 Advanced, Answer: Black surfaces absorb more electromagnetic radiation -->
-    <string name="SCA3_1"> Black clothing creates heat by itself </string>
-    <string name="SCA3_2"> Black surfaces absorb more electromagnetic radiation </string>
-    <string name="SCA3_3"> White clothing has a higher mass </string>
-    <string name="SCA3_4"> White surfaces reflect sound waves </string>
-
-    <!-- Science Choice for question 4 Advanced, Answer: To deliver more oxygen and remove more carbon dioxide -->
-    <string name="SCA4_1"> To cool the bones </string>
-    <string name="SCA4_2"> To deliver more oxygen and remove more carbon dioxide </string>
-    <string name="SCA4_3"> To slow down the heartbeat </string>
-    <string name="SCA4_4"> To stop muscle contraction </string>
-
-    <!-- Science Choice for question 5 Advanced, Answer: Soap molecules have both hydrophilic and hydrophobic ends -->
-    <string name="SCA5_1"> Soap increases the temperature of the oil </string>
-    <string name="SCA5_2"> Soap molecules have both hydrophilic and hydrophobic ends </string>
-    <string name="SCA5_3"> Soap destroys all bacteria instantly </string>
-    <string name="SCA5_4"> Soap changes oil into salt </string>
-
-    <!-- Science Choice for question 6 Advanced, Answer: Ocean water heats and cools more slowly than land -->
-    <string name="SCA6_1"> The Moon protects coastal cities  </string>
-    <string name="SCA6_2"> Land reflects more sunlight than water </string>
-    <string name="SCA6_3"> Wind does not move near oceans </string>
-    <string name="SCA6_4"> Ocean water heats and cools more slowly than land </string>
-
-    <!-- Science Choice for question 7 Advanced, Answer: It raises the boiling point of water by increasing pressure -->
-    <string name="SCA7_1"> It lowers the boiling point of water </string>
-    <string name="SCA7_2"> It raises the boiling point of water by increasing pressure </string>
-    <string name="SCA7_3"> It removes all heat loss completely </string>
-    <string name="SCA7_4"> It changes water into a different liquid </string>
-
-    <!-- Science Choice for question 8 Advanced, Answer: It reduces the body’s ability to regulate temperature and transport nutrients -->
-    <string name="SCA8_1"> It increases muscle mass too quickly </string>
-    <string name="SCA8_2"> It reduces the body’s ability to regulate temperature and transport nutrients </string>
-    <string name="SCA8_3"> It makes the body produce more oxygen </string>
-    <string name="SCA8_4"> It permanently stops digestion </string>
-
-    <!-- Science Choice for question 9 Advanced, Answer: The reaction can produce toxic chloramine gases -->
-    <string name="SCA9_1"> The mixture freezes quickly </string>
-    <string name="SCA9_2"> The chemicals become useless immediately </string>
-    <string name="SCA9_3"> The reaction can produce toxic chloramine gases </string>
-    <string name="SCA9_4"> The mixture only changes color </string>
-
-    <!-- Science Choice for question 10 Advanced, Answer: Seatbelts reduce motion first, airbags spread force over a larger area -->
-    <string name="SCA10_1"> Airbags replace the need for any restraint </string>
-    <string name="SCA10_2"> Seatbelts reduce motion first, and airbags spread force over a larger area </string>
-    <string name="SCA10_3"> Airbags make the car lighter </string>
-    <string name="SCA10_4"> Seatbelts increase the speed of impact </string>
-
-
-
-
-    <!--/////////////////////////////////////////////////////////////////////////////////////////// -->
-
-
-
-    <!-- French Questions for Beginner -->
-    <string name="FQB1"> What does bonjour mean in English? </string>
-    <string name="FQB2"> Which word means cat in French? </string>
-    <string name="FQB3"> What is the correct translation of I am a student? </string>
-    <string name="FQB4"> Which sentence correctly says She is my friend? </string>
-    <string name="FQB5"> What is the plural of un enfant? </string>
-    <string name="FQB6"> Which verb means to eat? </string>
-    <string name="FQB7"> Which French word means black? </string>
-    <string name="FQB8"> Which article correctly matches livre (book)? </string>
-    <string name="FQB9"> Which is the correct French word for house? </string>
-    <string name="FQB10"> Which sentence is correct for We have a dog? </string>
-
-
-
-
-    <!-- French choices for Beginner -->
-
-    <!-- French Choice for question 1 Beginner, Answer: Hello -->
-    <string name="FCB1_1"> Goodbye </string>
-    <string name="FCB1_2"> Thanks </string>
-    <string name="FCB1_3"> Hello </string>
-    <string name="FCB1_4"> Please </string>
-
-    <!-- French Choice for question 2 Beginner, Answer: chat -->
-    <string name="FCB2_1"> chat </string>
-    <string name="FCB2_2"> cheval </string>
-    <string name="FCB2_3"> oiseau </string>
-    <string name="FCB2_4"> chien </string>
-
-    <!-- French Choice for question 3 Beginner, Answer: Je suis étudiant -->
-    <string name="FCB3_1"> Tu es étudiant. </string>
-    <string name="FCB3_2"> Nous sommes étudiant. </string>
-    <string name="FCB3_3"> Je suis étudiant. </string>
-    <string name="FCB3_4"> Il est étudiant. </string>
-
-    <!-- French Choice for question 4 Beginner, Answer: Elle est mon amie. -->
-    <string name="FCB4_1"> Elle est mon ami. </string>
-    <string name="FCB4_2"> Elle est mon amie. </string>
-    <string name="FCB4_3"> Elle est ma amie. </string>
-    <string name="FCB4_4"> Elle est mes amie. </string>
-
-    <!-- French Choice for question 5 Beginner, Answer: des enfants -->
-    <string name="FCB5_1"> des enfants </string>
-    <string name="FCB5_2"> des enfantes </string>
-    <string name="FCB5_3"> les enfantes </string>
-    <string name="FCB5_4"> des enfant </string>
-
-    <!-- French Choice for question 6 Beginner, Answer: manger -->
-    <string name="FCB6_1"> boire </string>
-    <string name="FCB6_2"> lire </string>
-    <string name="FCB6_3"> parler </string>
-    <string name="FCB6_4"> manger </string>
-
-    <!-- French Choice for question 7 Beginner, Answer: noir -->
-    <string name="FCB7_1"> blanc </string>
-    <string name="FCB7_2"> rouge </string>
-    <string name="FCB7_3"> noir </string>
-    <string name="FCB7_4"> vert </string>
-
-    <!-- French Choice for question 8 Beginner, Answer: le -->
-    <string name="FCB8_1"> la </string>
-    <string name="FCB8_2"> les </string>
-    <string name="FCB8_3"> une </string>
-    <string name="FCB8_4"> le </string>
-
-    <!-- French Choice for question 9 Beginner, Answer: maison -->
-    <string name="FCB9_1"> pomme </string>
-    <string name="FCB9_2"> maison </string>
-    <string name="FCB9_3"> école </string>
-    <string name="FCB9_4"> voiture </string>
-
-    <!-- French Choice for question 10 Beginner, Answer: Nous avons un chien. -->
-    <string name="FCB10_1"> Nous avons un chien. </string>
-    <string name="FCB10_2"> Nous sommes un chien. </string>
-    <string name="FCB10_3"> Nous êtes un chien. </string>
-    <string name="FCB10_4"> Nous a un chien. </string>
-
-
-
-
-    <!-- French Questions for Advanced -->
-    <string name="FQA1"> Choose the correct sentence: "It is necessary that you come tomorrow." </string>
-    <string name="FQA2"> Which sentence "It is the book that I need." correctly uses dont? </string>
-    <string name="FQA3"> Choose the correct form of the past participle for "The letters that I wrote yesterday are on the table", Les lettres que j’ai _____ hier sont sur la table.  </string>
-    <string name="FQA4"> Which sentence correctly uses si + imparfait?, "If I had time, I would travel." </string>
-    <string name="FQA5"> Choose the correct meaning of cependant. </string>
-    <string name="FQA6"> Which sentence for "Although he is tired, he continues to work." is grammatically correct? </string>
-    <string name="FQA7"> Choose the correct sentence with y for "I think about my exams. I think about them often."? </string>
-    <string name="FQA8"> Which word best completes the sentence "He spoke with a lot of conviction during the debate.", Il a parlé avec beaucoup de _____ pendant le débat. </string>
-    <string name="FQA9"> Choose the correct relative pronoun,"That is exactly what I wanted to say.", C’est exactement ce _____ je voulais dire. </string>
-    <string name="FQA10"> Which sentence is correct for "She realized her mistake."? </string>
-
-
-
-    <!-- French choices for Advanced -->
-
-    <!-- French Choice for question 1 Advanced, Answer: Il faut que tu viennes demain. -->
-    <string name="FCA1_1"> Il faut que tu viendras demain. </string>
-    <string name="FCA1_2"> Il faut que tu venu demain. </string>
-    <string name="FCA1_3"> Il faut que tu viennes demain. </string>
-    <string name="FCA1_4"> Il faut que tu viens demain. </string>
-
-    <!-- French Choice for question 2 Advanced, Answer: C’est le livre dont j’ai besoin. -->
-    <string name="FCA2_1"> C’est le livre dont je vois. </string>
-    <string name="FCA2_2"> C’est le livre dont j’ai besoin. </string>
-    <string name="FCA2_3"> C’est le livre dont je regarde. </string>
-    <string name="FCA2_4"> C’est le livre dont j’achète. </string>
-
-    <!-- French Choice for question 3 Advanced, Answer: écrites -->
-    <string name="FCA3_1"> écrites </string>
-    <string name="FCA3_2"> écrits </string>
-    <string name="FCA3_3"> écrire </string>
-    <string name="FCA3_4"> écrit </string>
-
-    <!-- French Choice for question 4 Advanced, Answer: Si j’aurais le temps, je voyagerais. -->
-    <string name="FCA4_1"> Si j’avais le temps, je voyagerais. </string>
-    <string name="FCA4_2"> Si j’ai le temps, je voyagerais. </string>
-    <string name="FCA4_3"> Si j’aurais le temps, je voyagerais. </string>
-    <string name="FCA4_4"> Si j’aurai le temps, je voyagerais. </string>
-
-    <!-- French Choice for question 5 Advanced, Answer: however -->
-    <string name="FCA5_1"> suddenly </string>
-    <string name="FCA5_2"> because </string>
-    <string name="FCA5_3"> therefore </string>
-    <string name="FCA5_4"> however </string>
-
-    <!-- French Choice for question 6 Advanced, Answer: Bien qu’il soit fatigué, il continue à travailler. -->
-    <string name="FCA6_1"> Bien qu’il sera fatigué, il continue à travailler. </string>
-    <string name="FCA6_2"> Bien qu’il soit fatigué, il continue à travailler. </string>
-    <string name="FCA6_3"> Bien qu’il est fatigué, il continue à travailler. </string>
-    <string name="FCA6_4"> Bien qu’il était fatigué, il continue à travailler. </string>
-
-    <!-- French Choice for question 7 Advanced, Answer: Je pense à mes examens. J’y pense souvent.  -->
-    <string name="FCA7_1"> Je pense à mes examens. J’en pense souvent. </string>
-    <string name="FCA7_2"> Je pense à mes examens. Je les pense souvent. </string>
-    <string name="FCA7_3"> Je pense à mes examens. Je pense y souvent. </string>
-    <string name="FCA7_4"> Je pense à mes examens. J’y pense souvent. </string>
-
-    <!-- French Choice for question 8 Advanced, Answer: conviction -->
-    <string name="FCA8_1"> convaincant </string>
-    <string name="FCA8_2"> conviction </string>
-    <string name="FCA8_3"> convaincre </string>
-    <string name="FCA8_4"> convaincu </string>
-
-    <!-- French Choice for question 9 Advanced, Answer: que -->
-    <string name="FCA9_1"> dont </string>
-    <string name="FCA9_2"> tu </string>
-    <string name="FCA9_3"> où </string>
-    <string name="FCA9_4"> que </string>
-
-    <!-- French Choice for question 10 Advanced, Answer: Elle s’est rendu compte de son erreur.  -->
-    <string name="FCA10_1"> Elle s’est rendre compte de son erreur. </string>
-    <string name="FCA10_2"> Elle s’est rendus compte de son erreur. </string>
-    <string name="FCA10_3"> Elle s’est rendue compte de son erreur. </string>
-    <string name="FCA10_4"> Elle s’est rendu compte de son erreur. </string>
-
-
-
-
-    <!--/////////////////////////////////////////////////////////////////////////////////////////// -->
-
-
-
-    <!-- History Questions for Beginner -->
-    <string name="HQB1"> In what year did Canada become a country through Confederation? </string>
-    <string name="HQB2"> Which ancient civilization built the pyramids? </string>
-    <string name="HQB3"> Which province joined Confederation first with Ontario, Quebec, and Nova Scotia? </string>
-    <string name="HQB4"> Who was the leader of Germany during World War II? </string>
-    <string name="HQB5"> Which two groups were the main European settlers in early Canada </string>
-    <string name="HQB6"> Which wall divided a city in Germany during the Cold War? </string>
-    <string name="HQB7"> What war was fought between Britain and the United States partly on Canadian land from 1812 to 1814? </string>
-    <string name="HQB8"> What was the name of the event in Europe where people overthrew the monarchy in 1789? </string>
-    <string name="HQB9"> Who was the first Prime Minister of Canada? </string>
-    <string name="HQB10"> What was the global conflict from 1914 to 1918 called? </string>
-
-
-
-    <!-- History choices for Beginner -->
-
-    <!-- History Choice for question 1 Beginner, Answer: 1867 -->
-    <string name="HCB1_1"> 1776 </string>
-    <string name="HCB1_2"> 1867 </string>
-    <string name="HCB1_3"> 1914 </string>
-    <string name="HCB1_4"> 1982 </string>
-
-    <!-- History Choice for question 2 Beginner, Answer: Egyptians -->
-    <string name="HCB2_1"> Romans </string>
-    <string name="HCB2_2"> Chinese  </string>
-    <string name="HCB2_3"> Egyptians </string>
-    <string name="HCB2_4"> Greeks </string>
-
-    <!-- History Choice for question 3 Beginner, Answer: New Brunswick  -->
-    <string name="HCB3_1"> Prince Edward Island </string>
-    <string name="HCB3_2"> Manitoba </string>
-    <string name="HCB3_3"> New Brunswick </string>
-    <string name="HCB3_4"> Alberta </string>
-
-    <!-- History Choice for question 4 Beginner, Answer: Adolf Hitler -->
-    <string name="HCB4_1"> Adolf Hitler </string>
-    <string name="HCB4_2"> Joseph Stalin </string>
-    <string name="HCB4_3"> Winston Churchill </string>
-    <string name="HCB4_4"> Napoleon Bonaparte </string>
-
-    <!-- History Choice for question 5 Beginner, Answer: French and British -->
-    <string name="HCB5_1"> German and Italian </string>
-    <string name="HCB5_2"> Spanish and Portuguese </string>
-    <string name="HCB5_3"> Russian and Dutch </string>
-    <string name="HCB5_4"> French and British </string>
-
-    <!-- History Choice for question 6 Beginner, Answer: Berlin Wall  -->
-    <string name="HCB6_1"> Roman Wall </string>
-    <string name="HCB6_2"> Iron Wall </string>
-    <string name="HCB6_3"> Great Wall </string>
-    <string name="HCB6_4"> Berlin Wall </string>
-
-    <!-- History Choice for question 7 Beginner, Answer: The War of 1812 -->
-    <string name="HCB7_1"> The War of 1812 </string>
-    <string name="HCB7_2"> The Seven Years’ War </string>
-    <string name="HCB7_3"> World War I </string>
-    <string name="HCB7_4"> The Boer War </string>
-
-    <!-- History Choice for question 8 Beginner, Answer: French Revolution -->
-    <string name="HCB8_1"> Industrial Revolution </string>
-    <string name="HCB8_2"> French Revolution </string>
-    <string name="HCB8_3"> Glorious Revolution </string>
-    <string name="HCB8_4"> American Revolution </string>
-
-    <!-- History Choice for question 9 Beginner, Answer: John A. Macdonald -->
-    <string name="HCB9_1"> Lester B. Pearson </string>
-    <string name="HCB9_2"> Pierre Trudeau </string>
-    <string name="HCB9_3"> John A. Macdonald </string>
-    <string name="HCB9_4"> George Washington </string>
-
-    <!-- History Choice for question 10 Beginner, Answer: World War I -->
-    <string name="HCB10_1"> World War II </string>
-    <string name="HCB10_2"> Crimean War </string>
-    <string name="HCB10_3"> Cold War </string>
-    <string name="HCB10_4"> World War I </string>
-
-
-    <!-- History Questions for Advanced -->
-    <string name="HQA1"> Which British law officially created the Dominion of Canada in 1867? </string>
-    <string name="HQA2"> Who was the civil rights leader famous for the “I Have a Dream” speech? </string>
-    <string name="HQA3"> Which document gave Canada more independence from Britain in 1931? </string>
-    <string name="HQA4"> Which treaty ended World War I in 1919? </string>
-    <string name="HQA5"> What was the main purpose of the National Policy introduced by John A. Macdonald in 1879? </string>
-    <string name="HQA6"> Which empire fell after the capture of Constantinople in 1453? </string>
-    <string name="HQA7"> When was the force that later became the RCMP first established? </string>
-    <string name="HQA8"> What was the main goal of the Marshall Plan after World War II </string>
-    <string name="HQA9"> What was the main cause of the Oka Crisis in 1990? </string>
-    <string name="HQA10"> Which Japanese cities was hit by atomic bombs? </string>
-
-
-
-
-
-    <!-- History choices for Advanced -->
-
-    <!-- History Choice for question 1 Advanced, Answer: The British North America Act -->
-    <string name="HCA1_1"> The British North America Act </string>
-    <string name="HCA1_2"> The Constitution Act </string>
-    <string name="HCA1_3"> The Quebec Act </string>
-    <string name="HCA1_4"> The Statute of Westminster </string>
-
-    <!-- History Choice for question 2 Advanced, Answer: Martin Luther King Jr. -->
-    <string name="HCA2_1"> Abraham Lincoln </string>
-    <string name="HCA2_2"> Mahatma Gandhi </string>
-    <string name="HCA2_3"> Martin Luther King Jr. </string>
-    <string name="HCA2_4"> Nelson Mandela </string>
-
-    <!-- History Choice for question 3 Advanced, Answer: The Statute of Westminster  -->
-    <string name="HCA3_1"> The Royal Proclamation </string>
-    <string name="HCA3_2"> The Statute of Westminster </string>
-    <string name="HCA3_3"> The Charter of Rights and Freedoms </string>
-    <string name="HCA3_4"> The Meech Lake Accord </string>
-
-    <!-- History Choice for question 4 Advanced, Answer: Treaty of Versailles  -->
-    <string name="HCA4_1"> Treaty of Utrecht </string>
-    <string name="HCA4_2"> Treaty of Versailles </string>
-    <string name="HCA4_3"> Treaty of Paris </string>
-    <string name="HCA4_4"> Treaty of Vienna </string>
-
-    <!-- History Choice for question 5 Advanced, Answer: To protect Canadian industries with tariffs and build the economy -->
-    <string name="HCA5_1"> To give independence to the provinces </string>
-    <string name="HCA5_2"> To protect Canadian industries with tariffs and build the economy </string>
-    <string name="HCA5_3"> To reduce immigration to Canada </string>
-    <string name="HCA5_4"> To make French the only official language in Canada </string>
-
-    <!-- History Choice for question 6 Advanced, Answer: Byzantine Empire  -->
-    <string name="HCA6_1"> Roman Empire </string>
-    <string name="HCA6_2"> Persian Empire </string>
-    <string name="HCA6_3"> Ottoman Empire </string>
-    <string name="HCA6_4"> Byzantine Empire </string>
-
-    <!-- History Choice for question 7 Advanced, Answer: 1873 -->
-    <string name="HCA7_1"> 1812 </string>
-    <string name="HCA7_2"> 1867 </string>
-    <string name="HCA7_3"> 1873 </string>
-    <string name="HCA7_4"> 1920 </string>
-
-    <!-- History Choice for question 8 Advanced, Answer: To rebuild European economies and stop the spread of communism  -->
-    <string name="HCA8_1"> To rebuild European economies and stop the spread of communism </string>
-    <string name="HCA8_2"> To create the United Nations </string>
-    <string name="HCA8_3"> To punish Japan economically </string>
-    <string name="HCA8_4"> To divide Germany into four zones </string>
-
-    <!-- History Choice for question 9 Advanced, Answer: A conflict over expanding a golf course onto disputed Mohawk land and a burial area  -->
-    <string name="HCA9_1"> A protest against joining NAFTA </string>
-    <string name="HCA9_2"> A conflict over expanding a golf course onto disputed Mohawk land and a burial area </string>
-    <string name="HCA9_3"> A dispute over election results in Quebec </string>
-    <string name="HCA9_4"> A disagreement about bilingual education laws </string>
-
-    <!-- History Choice for question 10 Advanced , Answer: Hiroshima, Nagasaki -->
-    <string name="HCA10_1"> Tokyo, Osaka </string>
-    <string name="HCA10_2"> Yokohama, Sapporo </string>
-    <string name="HCA10_3"> Hiroshima, Nagasaki </string>
-    <string name="HCA10_4"> Fukuoka, Sendai</string>
-<!-- Arrays to group your existing strings -->
-    <string-array name="math_junior_questions">
-        <item>@string/MQB1</item>
-        <item>@string/MQB2</item>
-        <item>@string/MQB3</item>
-        <!-- ... add all 10 ... -->
+    <string name="app_name">COMP 2160 Quiz</string>
+    <string name="tagline">Learn. Test. Improve.</string>
+    <string name="enter_name">Enter your name</string>
+    <string name="select_grade">Select your grade level</string>
+    <string name="junior">Junior</string>
+    <string name="senior">Senior</string>
+    <string name="save">Save</string>
+    <string name="welcome_back">Welcome back, %1$s!</string>
+    <string name="grade_label">Grade: %1$s</string>
+    <string name="foundation">Foundation</string>
+    <string name="advanced">Advanced</string>
+    <string name="best_score">Best: %1$d</string>
+    <string name="question_counter">Q%1$d of %2$d</string>
+    <string name="score_label">Score: %1$d</string>
+    <string name="time_left">Time: %1$d</string>
+    <string name="correct">Correct!</string>
+    <string name="wrong">Wrong!</string>
+    <string name="results">Results</string>
+    <string name="try_again">Try Again</string>
+    <string name="change_subject">Change Subject</string>
+    <string name="go_home">Go Home</string>
+    <string name="share_result">Share Result</string>
+    <string name="progress">Progress</string>
+    <string name="settings">Settings</string>
+    <string name="edit_name">Edit Name</string>
+    <string name="sound_effects">Sound Effects</string>
+    <string name="show_explanations">Show Explanations</string>
+    <string name="question_count">Questions per Quiz</string>
+    <string name="reset_progress">Reset All Progress</string>
+    <string name="reset_confirm">Are you sure? All progress will be lost.</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="new_best">New Personal Best!</string>
+    <string name="quit_quiz">Are you sure? Your progress will be lost.</string>
+    <string name="completion">Overall Completion: %1$d%%</string>
+    <string name="still_there">Still there? Your session will end in 10 seconds.</string>
+    <string name="low_battery">Low battery detected. Your progress has been saved.</string>
+    <string name="mathematics">Mathematics</string>
+    <string name="science">Science</string>
+    <string name="english">English</string>
+    <string name="history">History</string>
+    <string name="math_desc">Test your maths skills from basic arithmetic to algebra and geometry.</string>
+    <string name="science_desc">Explore science from states of matter to chemical reactions and physics.</string>
+    <string name="english_desc">Practise grammar, vocabulary, comprehension and literary devices.</string>
+    <string name="history_desc">Revisit key historical events, figures, causes and effects.</string>
+
+
+
+
+
+
+
+
+
+    <!-- Mathematics Foundation Questions -->
+    <string-array name="math_foundation_questions">
+        <item>What is 12 + 7?</item>
+        <item>What is 25 - 9?</item>
+        <item>What is 6 × 8?</item>
+        <item>What is 48 ÷ 6?</item>
+        <item>What is 1/2 + 1/4?</item>
+        <item>What is 3/4 as a percentage?</item>
+        <item>What is 20% of 80?</item>
+        <item>Round 4.67 to the nearest whole number.</item>
+        <item>What is the value of 2³?</item>
+        <item>What is the LCM of 4 and 6?</item>
+    </string-array>
+    <string-array name="math_foundation_a">
+        <item>19</item><item>16</item><item>48</item><item>8</item><item>3/4</item>
+        <item>75%</item><item>16</item><item>5</item><item>8</item><item>12</item>
+    </string-array>
+    <string-array name="math_foundation_b">
+        <item>18</item><item>14</item><item>42</item><item>6</item><item>2/3</item>
+        <item>70%</item><item>14</item><item>4</item><item>6</item><item>10</item>
+    </string-array>
+    <string-array name="math_foundation_c">
+        <item>21</item><item>17</item><item>56</item><item>9</item><item>1/3</item>
+        <item>80%</item><item>18</item><item>6</item><item>9</item><item>8</item>
+    </string-array>
+    <string-array name="math_foundation_d">
+        <item>17</item><item>15</item><item>40</item><item>7</item><item>1/4</item>
+        <item>65%</item><item>12</item><item>3</item><item>4</item><item>6</item>
+    </string-array>
+    <integer-array name="math_foundation_answers">
+        <item>0</item><item>0</item><item>0</item><item>0</item><item>0</item>
+        <item>0</item><item>0</item><item>0</item><item>0</item><item>0</item>
+    </integer-array>
+    <string-array name="math_foundation_explanations">
+        <item>12 + 7 = 19. Simple addition.</item>
+        <item>25 - 9 = 16. Simple subtraction.</item>
+        <item>6 × 8 = 48. Multiplication table.</item>
+        <item>48 ÷ 6 = 8. Division.</item>
+        <item>1/2 + 1/4 = 2/4 + 1/4 = 3/4. Common denominator.</item>
+        <item>3/4 = 75%. Multiply numerator by 100 divided by denominator.</item>
+        <item>20% of 80 = (20/100) × 80 = 16.</item>
+        <item>4.67 rounds up to 5 since .67 is above .5.</item>
+        <item>2³ = 2 × 2 × 2 = 8.</item>
+        <item>Multiples of 4: 4,8,12. Multiples of 6: 6,12. LCM = 12.</item>
     </string-array>
 
-    <integer-array name="math_junior_answers">
-        <item>2</item> <!-- Index for 12 -->
-        <item>0</item> <!-- Index for 7 -->
-        <item>1</item> <!-- Index for 24 -->
-        <!-- ... add all 10 ... -->
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Mathematics Advanced Questions -->
+    <string-array name="math_advanced_questions">
+        <item>Solve: 2x + 5 = 13</item>
+        <item>What is the area of a circle with radius 7? (use π ≈ 3.14)</item>
+        <item>Factorise: x² + 5x + 6</item>
+        <item>What is the gradient of the line y = 3x - 2?</item>
+        <item>What is the mean of: 4, 7, 9, 12, 8?</item>
+        <item>What is the Pythagorean theorem?</item>
+        <item>Simplify: (3x²)(2x³)</item>
+        <item>What is the median of: 3, 7, 5, 1, 9?</item>
+        <item>What is the interior angle sum of a hexagon?</item>
+        <item>Solve: x² - 9 = 0</item>
+    </string-array>
+    <string-array name="math_advanced_a">
+        <item>x = 4</item><item>153.86</item><item>(x+2)(x+3)</item><item>3</item><item>8</item>
+        <item>a² + b² = c²</item><item>6x⁵</item><item>5</item><item>720°</item><item>x = 3 or x = -3</item>
+    </string-array>
+    <string-array name="math_advanced_b">
+        <item>x = 3</item><item>140.00</item><item>(x+1)(x+6)</item><item>-2</item><item>9</item>
+        <item>a + b = c</item><item>5x⁵</item><item>7</item><item>540°</item><item>x = 9 or x = -9</item>
+    </string-array>
+    <string-array name="math_advanced_c">
+        <item>x = 6</item><item>163.54</item><item>(x+4)(x+2)</item><item>5</item><item>7</item>
+        <item>a² - b² = c²</item><item>6x⁶</item><item>3</item><item>900°</item><item>x = 4 or x = -4</item>
+    </string-array>
+    <string-array name="math_advanced_d">
+        <item>x = 5</item><item>176.00</item><item>(x+3)(x+3)</item><item>-3</item><item>10</item>
+        <item>a³ + b³ = c³</item><item>5x⁶</item><item>9</item><item>1080°</item><item>x = 6 or x = -6</item>
+    </string-array>
+    <integer-array name="math_advanced_answers">
+        <item>0</item><item>0</item><item>0</item><item>0</item><item>0</item>
+        <item>0</item><item>0</item><item>0</item><item>0</item><item>0</item>
     </integer-array>
-    <!--/////////////////////////////////////////////////////////////////////////////////////////// -->
+    <string-array name="math_advanced_explanations">
+        <item>2x + 5 = 13 → 2x = 8 → x = 4.</item>
+        <item>Area = π r² = 3.14 × 49 = 153.86.</item>
+        <item>Find two numbers that multiply to 6 and add to 5: 2 and 3. So (x+2)(x+3).</item>
+        <item>In y = mx + b, m is the gradient. Here m = 3.</item>
+        <item>(4+7+9+12+8) / 5 = 40/5 = 8.</item>
+        <item>Pythagorean theorem: a² + b² = c² for right-angled triangles.</item>
+        <item>Multiply coefficients: 3×2=6. Add exponents: 2+3=5. Result: 6x⁵.</item>
+        <item>Sorted: 1,3,5,7,9. Middle value = 5.</item>
+        <item>Interior angle sum = (n-2)×180 = 4×180 = 720°.</item>
+        <item>x² = 9 → x = ±3.</item>
+    </string-array>
 
 
+
+
+
+
+
+
+
+
+
+
+    <!-- Science Foundation Questions -->
+    <string-array name="science_foundation_questions">
+        <item>What are the three states of matter?</item>
+        <item>What force pulls objects towards Earth?</item>
+        <item>What is the unit of force?</item>
+        <item>Which gas do plants absorb during photosynthesis?</item>
+        <item>What is the boiling point of water in Celsius?</item>
+        <item>What organelle controls the cell?</item>
+        <item>What is the freezing point of water?</item>
+        <item>What type of energy does a moving object have?</item>
+        <item>Which planet is closest to the Sun?</item>
+        <item>What is the process plants use to make food?</item>
+    </string-array>
+    <string-array name="science_foundation_a">
+        <item>Solid, liquid, gas</item><item>Gravity</item><item>Newton</item><item>Carbon dioxide</item><item>100°C</item>
+        <item>Nucleus</item><item>0°C</item><item>Kinetic energy</item><item>Mercury</item><item>Photosynthesis</item>
+    </string-array>
+    <string-array name="science_foundation_b">
+        <item>Solid, liquid, plasma</item><item>Magnetism</item><item>Joule</item><item>Oxygen</item><item>90°C</item>
+        <item>Mitochondria</item><item>4°C</item><item>Potential energy</item><item>Venus</item><item>Respiration</item>
+    </string-array>
+    <string-array name="science_foundation_c">
+        <item>Solid, gas, plasma</item><item>Friction</item><item>Watt</item><item>Nitrogen</item><item>110°C</item>
+        <item>Cell membrane</item><item>-10°C</item><item>Thermal energy</item><item>Mars</item><item>Digestion</item>
+    </string-array>
+    <string-array name="science_foundation_d">
+        <item>Liquid, gas, plasma</item><item>Tension</item><item>Pascal</item><item>Hydrogen</item><item>80°C</item>
+        <item>Vacuole</item><item>10°C</item><item>Chemical energy</item><item>Jupiter</item><item>Transpiration</item>
+    </string-array>
+    <integer-array name="science_foundation_answers">
+        <item>0</item><item>0</item><item>0</item><item>0</item><item>0</item>
+        <item>0</item><item>0</item><item>0</item><item>0</item><item>0</item>
+    </integer-array>
+    <string-array name="science_foundation_explanations">
+        <item>The three states of matter are solid, liquid, and gas.</item>
+        <item>Gravity is the force that pulls objects toward Earth.</item>
+        <item>Force is measured in Newtons (N).</item>
+        <item>Plants absorb CO₂ (carbon dioxide) during photosynthesis.</item>
+        <item>Water boils at 100°C at standard pressure.</item>
+        <item>The nucleus controls cell activities and contains DNA.</item>
+        <item>Water freezes at 0°C.</item>
+        <item>Moving objects have kinetic energy.</item>
+        <item>Mercury is the closest planet to the Sun.</item>
+        <item>Photosynthesis is the process plants use to make food using sunlight.</item>
+    </string-array>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Science Advanced Questions -->
+    <string-array name="science_advanced_questions">
+        <item>What type of reaction is combustion?</item>
+        <item>What is Newton\'s second law of motion?</item>
+        <item>What is the role of decomposers in an ecosystem?</item>
+        <item>What is the chemical formula for water?</item>
+        <item>What is Ohm\'s Law?</item>
+        <item>What happens to particles when a substance is heated?</item>
+        <item>What is a food chain?</item>
+        <item>What is the difference between speed and velocity?</item>
+        <item>What subatomic particle has a negative charge?</item>
+        <item>What is the law of conservation of energy?</item>
+    </string-array>
+    <string-array name="science_advanced_a">
+        <item>Exothermic</item><item>F = ma</item><item>Break down dead matter</item><item>H₂O</item><item>V = IR</item>
+        <item>Move faster and further apart</item><item>A sequence showing feeding relationships</item><item>Velocity has direction</item><item>Electron</item><item>Energy cannot be created or destroyed</item>
+    </string-array>
+    <string-array name="science_advanced_b">
+        <item>Endothermic</item><item>F = mv</item><item>Produce oxygen</item><item>H₂O₂</item><item>V = I/R</item>
+        <item>Slow down and bond together</item><item>A diagram of an ecosystem</item><item>Speed is faster</item><item>Proton</item><item>Energy is always lost as heat</item>
+    </string-array>
+    <string-array name="science_advanced_c">
+        <item>Neutralisation</item><item>F = m/a</item><item>Produce sunlight</item><item>CO₂</item><item>I = VR</item>
+        <item>Stay the same</item><item>A list of all animals</item><item>Speed has direction</item><item>Neutron</item><item>Energy can be created from matter</item>
+    </string-array>
+    <string-array name="science_advanced_d">
+        <item>Oxidation</item><item>F = v/m</item><item>Absorb carbon dioxide</item><item>O₂</item><item>R = VI</item>
+        <item>Vibrate less</item><item>A group of similar organisms</item><item>They are the same</item><item>Nucleus</item><item>Energy equals mass times speed</item>
+    </string-array>
+    <integer-array name="science_advanced_answers">
+        <item>0</item><item>0</item><item>0</item><item>0</item><item>0</item>
+        <item>0</item><item>0</item><item>0</item><item>0</item><item>0</item>
+    </integer-array>
+    <string-array name="science_advanced_explanations">
+        <item>Combustion releases heat energy — it is an exothermic reaction.</item>
+        <item>Newton\'s 2nd law: Force = mass × acceleration (F = ma).</item>
+        <item>Decomposers break down dead organisms returning nutrients to the soil.</item>
+        <item>Water is H₂O — two hydrogen atoms bonded to one oxygen atom.</item>
+        <item>Ohm\'s Law: Voltage = Current × Resistance (V = IR).</item>
+        <item>Heating causes particles to gain energy, move faster and spread apart.</item>
+        <item>A food chain shows the transfer of energy through feeding relationships.</item>
+        <item>Velocity includes direction; speed does not.</item>
+        <item>Electrons are negatively charged subatomic particles.</item>
+        <item>The law of conservation of energy states energy cannot be created or destroyed.</item>
+    </string-array>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- English Foundation Questions -->
+    <string-array name="english_foundation_questions">
+        <item>Which sentence uses correct punctuation?</item>
+        <item>What is a noun?</item>
+        <item>What does the word "benevolent" mean?</item>
+        <item>Which is the correct spelling?</item>
+        <item>What is an adjective?</item>
+        <item>What punctuation ends a question?</item>
+        <item>Which word is a verb?</item>
+        <item>What is a synonym of "happy"?</item>
+        <item>What is an antonym of "cold"?</item>
+        <item>How many syllables in "elephant"?</item>
+    </string-array>
+    <string-array name="english_foundation_a">
+        <item>She went to the shop.</item><item>A person, place or thing</item><item>Kind and generous</item><item>Receive</item><item>A word that describes a noun</item>
+        <item>\?</item><item>Run</item><item>Joyful</item><item>Hot</item><item>3</item>
+    </string-array>
+    <string-array name="english_foundation_b">
+        <item>She went to the shop</item><item>An action word</item><item>Cruel and mean</item><item>Recieve</item><item>A word that describes a verb</item>
+        <item>.</item><item>Fast</item><item>Sad</item><item>Icy</item><item>2</item>
+    </string-array>
+    <string-array name="english_foundation_c">
+        <item>she went to the shop.</item><item>A describing word</item><item>Very intelligent</item><item>Receve</item><item>A naming word</item>
+        <item>!</item><item>Quickly</item><item>Angry</item><item>Freezing</item><item>4</item>
+    </string-array>
+    <string-array name="english_foundation_d">
+        <item>She went to the shop?</item><item>A connecting word</item><item>Feeling tired</item><item>Receeve</item><item>An action word</item>
+        <item>,</item><item>Blue</item><item>Tired</item><item>Warm</item><item>1</item>
+    </string-array>
+    <integer-array name="english_foundation_answers">
+        <item>0</item><item>0</item><item>0</item><item>0</item><item>0</item>
+        <item>0</item><item>0</item><item>0</item><item>0</item><item>0</item>
+    </integer-array>
+    <string-array name="english_foundation_explanations">
+        <item>A proper sentence starts with a capital and ends with a full stop.</item>
+        <item>A noun is a person, place, or thing.</item>
+        <item>Benevolent means kind and generous.</item>
+        <item>The correct spelling is "receive" — i before e except after c.</item>
+        <item>An adjective is a word that describes a noun.</item>
+        <item>Questions end with a question mark (?).</item>
+        <item>Run is a verb — it describes an action.</item>
+        <item>Joyful is a synonym of happy — it means the same thing.</item>
+        <item>Hot is the antonym (opposite) of cold.</item>
+        <item>El-e-phant has 3 syllables.</item>
+    </string-array>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- English Advanced Questions -->
+    <string-array name="english_advanced_questions">
+        <item>What is a metaphor?</item>
+        <item>Identify the literary device: "The wind whispered through the trees."</item>
+        <item>What is the main purpose of a thesis statement?</item>
+        <item>What is dramatic irony?</item>
+        <item>What is the effect of short sentences in writing?</item>
+        <item>What is an inference?</item>
+        <item>What does "omniscient narrator" mean?</item>
+        <item>What is alliteration?</item>
+        <item>Which is an example of a simile?</item>
+        <item>What is the purpose of a topic sentence in a paragraph?</item>
+    </string-array>
+    <string-array name="english_advanced_a">
+        <item>A direct comparison without using "like" or "as"</item><item>Personification</item><item>To state the main argument of an essay</item><item>When audience knows more than characters</item><item>Creates urgency and tension</item>
+        <item>A conclusion drawn from evidence</item><item>A narrator who knows all characters\' thoughts</item><item>Repetition of consonant sounds at word starts</item><item>He ran like a cheetah</item><item>Introduces the main idea of the paragraph</item>
+    </string-array>
+    <string-array name="english_advanced_b">
+        <item>A comparison using "like" or "as"</item><item>Metaphor</item><item>To summarise the conclusion</item><item>When a character says the opposite of what they mean</item><item>Makes writing boring</item>
+        <item>A direct quote from the text</item><item>A narrator who is a character in the story</item><item>Repetition of vowel sounds</item><item>She is a shining star</item><item>Ends the paragraph with evidence</item>
+    </string-array>
+    <string-array name="english_advanced_c">
+        <item>A figure of speech using exaggeration</item><item>Simile</item><item>To introduce characters</item><item>When events turn out opposite to expectations</item><item>Makes writing easier to read</item>
+        <item>A guess with no evidence</item><item>A narrator who is unreliable</item><item>Repetition of a word for emphasis</item><item>The night was a dark blanket</item><item>Provides the concluding sentence</item>
+    </string-array>
+    <string-array name="english_advanced_d">
+        <item>A word that sounds like what it describes</item><item>Onomatopoeia</item><item>To hook the reader\'s attention</item><item>When a character lies to another</item><item>Confuses the reader</item>
+        <item>A prediction about the future</item><item>A narrator who hides information</item><item>Use of rhyme in prose</item><item>Time flew by quickly</item><item>Restates the thesis</item>
+    </string-array>
+    <integer-array name="english_advanced_answers">
+        <item>0</item><item>0</item><item>0</item><item>0</item><item>0</item>
+        <item>0</item><item>0</item><item>0</item><item>0</item><item>0</item>
+    </integer-array>
+    <string-array name="english_advanced_explanations">
+        <item>A metaphor directly compares two things without using "like" or "as".</item>
+        <item>Personification gives human qualities to non-human things — wind cannot truly whisper.</item>
+        <item>A thesis statement presents the main argument of an essay.</item>
+        <item>Dramatic irony is when the audience knows something the characters do not.</item>
+        <item>Short sentences create urgency, tension, and impact in writing.</item>
+        <item>An inference is a logical conclusion drawn from evidence in the text.</item>
+        <item>An omniscient narrator knows the thoughts and feelings of all characters.</item>
+        <item>Alliteration is the repetition of the same consonant sound at the start of nearby words.</item>
+        <item>"He ran like a cheetah" uses "like" — that makes it a simile.</item>
+        <item>A topic sentence introduces what the whole paragraph will be about.</item>
+    </string-array>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- History Foundation Questions -->
+    <string-array name="history_foundation_questions">
+        <item>In which year did World War II end?</item>
+        <item>Who was the first person to walk on the Moon?</item>
+        <item>What was the Berlin Wall?</item>
+        <item>In which year did World War I begin?</item>
+        <item>Who was Martin Luther King Jr.?</item>
+        <item>What does "empire" mean?</item>
+        <item>What was the Titanic?</item>
+        <item>Which country was Adolf Hitler leader of?</item>
+        <item>What was the Cold War?</item>
+        <item>When did the French Revolution begin?</item>
+    </string-array>
+    <string-array name="history_foundation_a">
+        <item>1945</item><item>Neil Armstrong</item><item>A wall dividing East and West Berlin</item><item>1914</item><item>A civil rights leader in the USA</item>
+        <item>A large territory under one ruler</item><item>A famous ship that sank in 1912</item><item>Germany</item><item>A political tension between the USA and USSR</item><item>1789</item>
+    </string-array>
+    <string-array name="history_foundation_b">
+        <item>1940</item><item>Buzz Aldrin</item><item>A wall around all of Germany</item><item>1918</item><item>A US president</item>
+        <item>A trade agreement between countries</item><item>A warship used in WWI</item><item>Italy</item><item>A trade war between two countries</item><item>1799</item>
+    </string-array>
+    <string-array name="history_foundation_c">
+        <item>1942</item><item>Yuri Gagarin</item><item>A wall between France and Germany</item><item>1910</item><item>A famous scientist</item>
+        <item>A type of government</item><item>A navy submarine</item><item>France</item><item>A military alliance</item><item>1750</item>
+    </string-array>
+    <string-array name="history_foundation_d">
+        <item>1950</item><item>John Glenn</item><item>A wall around Moscow</item><item>1920</item><item>A music artist</item>
+        <item>A set of laws</item><item>A space rocket</item><item>Japan</item><item>An economic agreement</item><item>1815</item>
+    </string-array>
+    <integer-array name="history_foundation_answers">
+        <item>0</item><item>0</item><item>0</item><item>0</item><item>0</item>
+        <item>0</item><item>0</item><item>0</item><item>0</item><item>0</item>
+    </integer-array>
+    <string-array name="history_foundation_explanations">
+        <item>World War II ended in 1945 with Germany\'s surrender in May and Japan\'s in September.</item>
+        <item>Neil Armstrong became the first human to walk on the Moon on July 20, 1969.</item>
+        <item>The Berlin Wall was built in 1961 to divide communist East Berlin from West Berlin.</item>
+        <item>World War I began in 1914 following the assassination of Archduke Franz Ferdinand.</item>
+        <item>Martin Luther King Jr. was a leading figure in the American civil rights movement.</item>
+        <item>An empire is a large territory or group of nations ruled by a single power.</item>
+        <item>The Titanic was a British ocean liner that sank on its maiden voyage in April 1912.</item>
+        <item>Adolf Hitler was the dictator of Nazi Germany from 1933 to 1945.</item>
+        <item>The Cold War was a period of geopolitical tension between the USA and the Soviet Union.</item>
+        <item>The French Revolution began in 1789 with the storming of the Bastille.</item>
+    </string-array>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- History Advanced Questions -->
+    <string-array name="history_advanced_questions">
+        <item>What was the main cause of World War I?</item>
+        <item>What was the significance of the Magna Carta (1215)?</item>
+        <item>Who was Nelson Mandela?</item>
+        <item>What caused the Great Depression?</item>
+        <item>What was the impact of the Industrial Revolution?</item>
+        <item>Which event triggered the start of World War II?</item>
+        <item>What was apartheid?</item>
+        <item>What was the significance of the Treaty of Versailles?</item>
+        <item>Who led the Russian Revolution of 1917?</item>
+        <item>What was the Holocaust?</item>
+    </string-array>
+    <string-array name="history_advanced_a">
+        <item>Assassination of Archduke Franz Ferdinand</item><item>It limited the power of the king</item><item>First Black president of South Africa</item><item>Stock market crash of 1929</item><item>Shift from farming to industry</item>
+        <item>Germany\'s invasion of Poland</item><item>Racial segregation in South Africa</item><item>Ended WWI and punished Germany</item><item>Vladimir Lenin</item><item>Genocide of 6 million Jews by Nazis</item>
+    </string-array>
+    <string-array name="history_advanced_b">
+        <item>Sinking of the Titanic</item><item>It gave all citizens the right to vote</item><item>First Black president of the USA</item><item>A drought across America</item><item>Shift from monarchy to democracy</item>
+        <item>Bombing of Pearl Harbor</item><item>A political party in Germany</item><item>Ended the Cold War</item><item>Joseph Stalin</item><item>A war in eastern Europe</item>
+    </string-array>
+    <string-array name="history_advanced_c">
+        <item>A trade dispute between France and Germany</item><item>It established the right to free speech</item><item>Leader of the ANC in exile</item><item>A world famine</item><item>Rise of communism in Europe</item>
+        <item>Fall of the Berlin Wall</item><item>A form of slavery in the USA</item><item>Created the United Nations</item><item>Leon Trotsky</item><item>A religious conflict in the Middle East</item>
+    </string-array>
+    <string-array name="history_advanced_d">
+        <item>A border dispute between Russia and Austria</item><item>It abolished slavery in Britain</item><item>A South African athlete</item><item>A collapse in international trade</item><item>Growth of global trade routes</item>
+        <item>Declaration of war by France</item><item>A resistance movement in France</item><item>Redistributed land across Europe</item><item>Karl Marx</item><item>A famine across Europe</item>
+    </string-array>
+    <integer-array name="history_advanced_answers">
+        <item>0</item><item>0</item><item>0</item><item>0</item><item>0</item>
+        <item>0</item><item>0</item><item>0</item><item>0</item><item>0</item>
+    </integer-array>
+    <string-array name="history_advanced_explanations">
+        <item>The assassination of Archduke Franz Ferdinand in Sarajevo triggered a chain of alliances leading to WWI.</item>
+        <item>Magna Carta was a landmark document limiting royal power and establishing rule of law.</item>
+        <item>Nelson Mandela was an anti-apartheid activist who became South Africa\'s first Black president in 1994.</item>
+        <item>The 1929 Wall Street Crash led to bank failures, unemployment, and the Great Depression.</item>
+        <item>The Industrial Revolution transformed societies from agricultural to industrial economies.</item>
+        <item>Germany invaded Poland on 1 September 1939, prompting Britain and France to declare war.</item>
+        <item>Apartheid was a system of institutionalised racial segregation in South Africa (1948–1994).</item>
+        <item>The Treaty of Versailles (1919) formally ended WWI and imposed heavy penalties on Germany.</item>
+        <item>Vladimir Lenin led the Bolshevik Revolution that overthrew the Russian Tsar in 1917.</item>
+        <item>The Holocaust was the systematic genocide of approximately 6 million Jewish people by Nazi Germany.</item>
+    </string-array>
 </resources>

@@ -1,5 +1,5 @@
 <resources>
-    <string name= "app_name">Education Quiz Application </string>
+    <string name= "app_name">EduQuiz Application </string>
 
     <!-- Texts inside activity_main.xml and activity_setting.xml -->
     <string name = "app_reset_progress"> Reset Progress </string>

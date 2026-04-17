@@ -1,5 +1,5 @@
 <resources>
-    <string name= "app_name">Education Quiz Application</string>
+    <string name= "app_name">Education Quiz Application </string>
 
     <!-- Texts inside activity_main.xml and activity_setting.xml -->
     <string name = "app_reset_progress"> Reset Progress </string>
@@ -208,64 +208,64 @@
     <!-- Science choices for Beginner -->
 
     <!-- Science Choice for question 1 Beginner, Answer: Heart -->
-    <string name="SBC1_1"> Lungs </string>
-    <string name="SBC1_2"> Brain </string>
-    <string name="SBC1_3"> Heart </string>
-    <string name="SBC1_4"> Liver </string>
+    <string name="SCB1_1"> Lungs </string>
+    <string name="SCB1_2"> Brain </string>
+    <string name="SCB1_3"> Heart </string>
+    <string name="SCB1_4"> Liver </string>
 
     <!-- Science Choice for question 2 Beginner, Answer: H2O -->
-    <string name="SBC2_1"> CO₂ </string>
-    <string name="SBC2_2"> H₂O </string>
-    <string name="SBC2_3"> O₂ </string>
-    <string name="SBC2_4"> NaCl </string>
+    <string name="SCB2_1"> CO₂ </string>
+    <string name="SCB2_2"> H₂O </string>
+    <string name="SCB2_3"> O₂ </string>
+    <string name="SCB2_4"> NaCl </string>
 
     <!-- Science Choice for question 3 Beginner, Answer: Metal is a better conductor of heat than wood -->
-    <string name="SBC3_1"> Metal is heavier than wood </string>
-    <string name="SBC3_2"> Wood makes the soup colder </string>
-    <string name="SBC3_3"> Metal is a better conductor of heat than wood </string>
-    <string name="SBC3_4"> Metal has no temperature </string>
+    <string name="SCB3_1"> Metal is heavier than wood </string>
+    <string name="SCB3_2"> Wood makes the soup colder </string>
+    <string name="SCB3_3"> Metal is a better conductor of heat than wood </string>
+    <string name="SCB3_4"> Metal has no temperature </string>
 
     <!-- Science Choice for question 4 Beginner, Answer: To absorb light energy  -->
-    <string name="SBC4_1"> To absorb light energy </string>
-    <string name="SBC4_2"> To absorb soil </string>
-    <string name="SBC4_3"> To make roots longer </string>
-    <string name="SBC4_4"> To store only water </string>
+    <string name="SCB4_1"> To absorb light energy </string>
+    <string name="SCB4_2"> To absorb soil </string>
+    <string name="SCB4_3"> To make roots longer </string>
+    <string name="SCB4_4"> To store only water </string>
 
     <!-- Science Choice for question 5 Beginner, Answer: It contains acid -->
-    <string name="SBC5_1"> It contains oxygen only </string>
-    <string name="SBC5_2"> It contains metal </string>
-    <string name="SBC5_3"> It contains acid </string>
-    <string name="SBC5_4"> It contains protein </string>
+    <string name="SCB5_1"> It contains oxygen only </string>
+    <string name="SCB5_2"> It contains metal </string>
+    <string name="SCB5_3"> It contains acid </string>
+    <string name="SCB5_4"> It contains protein </string>
 
     <!-- Science Choice for question 6 Beginner, Answer: 7 -->
-    <string name="SBC6_1"> 0 </string>
-    <string name="SBC6_2"> 7 </string>
-    <string name="SBC6_3"> 10 </string>
-    <string name="SBC6_4"> 14 </string>
+    <string name="SCB6_1"> 0 </string>
+    <string name="SCB6_2"> 7 </string>
+    <string name="SCB6_3"> 10 </string>
+    <string name="SCB6_4"> 14 </string>
 
     <!-- Science Choice for question 7 Beginner, Answer: Copper -->
-    <string name="SBC7_1"> Plastic </string>
-    <string name="SBC7_2"> Rubber </string>
-    <string name="SBC7_3"> Wood </string>
-    <string name="SBC7_4"> Copper </string>
+    <string name="SCB7_1"> Plastic </string>
+    <string name="SCB7_2"> Rubber </string>
+    <string name="SCB7_3"> Wood </string>
+    <string name="SCB7_4"> Copper </string>
 
     <!-- Science Choice for question 8 Beginner, Answer: Ozone layer -->
-    <string name="SBC8_1"> Ozone layer </string>
-    <string name="SBC8_2"> Troposphere </string>
-    <string name="SBC8_3"> Core </string>
-    <string name="SBC8_4"> Mantle </string>
+    <string name="SCB8_1"> Ozone layer </string>
+    <string name="SCB8_2"> Troposphere </string>
+    <string name="SCB8_3"> Core </string>
+    <string name="SCB8_4"> Mantle </string>
 
     <!-- Science Choice for question 9 Beginner, Answer: To extract oxygen and carbon dioxide -->
-    <string name="SBC9_1"> To digest food </string>
-    <string name="SBC9_2"> To pump blood </string>
-    <string name="SBC9_3"> To exchange oxygen and carbon dioxide </string>
-    <string name="SBC9_4"> To control body movement </string>
+    <string name="SCB9_1"> To digest food </string>
+    <string name="SCB9_2"> To pump blood </string>
+    <string name="SCB9_3"> To exchange oxygen and carbon dioxide </string>
+    <string name="SCB9_4"> To control body movement </string>
 
     <!-- Science Choice for question 10 Beginner, Answer: It removes water that many microbes need to grow -->
-    <string name="SBC10_1"> It adds more oxygen </string>
-    <string name="SBC10_2"> It removes water that many microbes need to grow </string>
-    <string name="SBC10_3"> It makes food colder </string>
-    <string name="SBC10_4"> It turns food into protein </string>
+    <string name="SCB10_1"> It adds more oxygen </string>
+    <string name="SCB10_2"> It removes water that many microbes need to grow </string>
+    <string name="SCB10_3"> It makes food colder </string>
+    <string name="SCB10_4"> It turns food into protein </string>
 
 
     <!-- Science Questions for Advanced -->
